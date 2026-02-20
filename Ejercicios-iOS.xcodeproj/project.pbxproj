@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80323772F0898F9009EA6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BCB0332EE399BA009DC709 /* Assets.xcassets */; };
+		E80E03332F352529002ADCCD /* RepasoAdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */; };
+		E80E03342F352529002ADCCD /* RepasoBasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */; };
+		E80E03352F352529002ADCCD /* RepasoIntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */; };
+		E80E03362F352529002ADCCD /* RepasoAdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */; };
+		E80E03372F352529002ADCCD /* RepasoBasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */; };
+		E80E03382F352529002ADCCD /* RepasoIntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */; };
+		E80E033C2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E033A2F355C89002ADCCD /* BasicosBasicExercises.swift */; };
+		E80E033D2F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03392F355C89002ADCCD /* BasicosAdvancedExercises.swift */; };
+		E80E033E2F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E033B2F355C89002ADCCD /* BasicosIntermediateExercises.swift */; };
+		E80E033F2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E033A2F355C89002ADCCD /* BasicosBasicExercises.swift */; };
+		E80E03402F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03392F355C89002ADCCD /* BasicosAdvancedExercises.swift */; };
+		E80E03412F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E033B2F355C89002ADCCD /* BasicosIntermediateExercises.swift */; };
+		E8205D772EF4EB5D00BE7966 /* ExerciseBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D762EF4EB5D00BE7966 /* ExerciseBlock.swift */; };
+		E8205D792EF4EB8500BE7966 /* BlockSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D782EF4EB8500BE7966 /* BlockSelectionView.swift */; };
+		E8205D7B2EF4F48900BE7966 /* intro1.json in Resources */ = {isa = PBXBuildFile; fileRef = E8205D7A2EF4F48900BE7966 /* intro1.json */; };
+		E8205D7F2EF4F4D100BE7966 /* Intro1Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D7C2EF4F4D100BE7966 /* Intro1Exercises.swift */; };
+		E8241B322EF9BBC800AA9B63 /* Intro2Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8241B312EF9BBC800AA9B63 /* Intro2Exercises.swift */; };
+		E8241B342EF9BC5D00AA9B63 /* intro2.json in Resources */ = {isa = PBXBuildFile; fileRef = E8241B332EF9BC5D00AA9B63 /* intro2.json */; };
+		E8241B682EF9C40700AA9B63 /* ExercisesApp.icon in Resources */ = {isa = PBXBuildFile; fileRef = E8241B672EF9C40700AA9B63 /* ExercisesApp.icon */; };
+		E83D02D62EF9C96F0091E178 /* Ejercicios_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D02D52EF9C96F0091E178 /* Ejercicios_iOSApp.swift */; };
+		E83D02E62EF9CAAB0091E178 /* ExercisesApp.icon in Resources */ = {isa = PBXBuildFile; fileRef = E8241B672EF9C40700AA9B63 /* ExercisesApp.icon */; };
+		E83D02E72EF9CAB30091E178 /* BlockSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D782EF4EB8500BE7966 /* BlockSelectionView.swift */; };
+		E83D02E82EF9CAB30091E178 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0522EE3A30F009DC709 /* ExerciseDetailView.swift */; };
+		E83D02E92EF9CAB30091E178 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0532EE3A30F009DC709 /* ExerciseListView.swift */; };
+		E83D02EB2EF9CABD0091E178 /* ExerciseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0592EE3A458009DC709 /* ExerciseListViewModel.swift */; };
+		E83D02EC2EF9CABD0091E178 /* ExerciseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0582EE3A458009DC709 /* ExerciseDetailViewModel.swift */; };
+		E83D02ED2EF9CAC20091E178 /* ExerciseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB05C2EE3A63E009DC709 /* ExerciseRepository.swift */; };
+		E83D02EE2EF9CAC20091E178 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0682EE3BD32009DC709 /* JSONLoader.swift */; };
+		E83D02EF2EF9CAC20091E178 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0672EE3BD32009DC709 /* DataRepository.swift */; };
+		E83D02F02EF9CAC70091E178 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0462EE3A28B009DC709 /* Category.swift */; };
+		E83D02F12EF9CAC70091E178 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0472EE3A28B009DC709 /* Difficulty.swift */; };
+		E83D02F22EF9CAC70091E178 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0482EE3A28B009DC709 /* Exercise.swift */; };
+		E83D02F42EF9CAC70091E178 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0492EE3A28B009DC709 /* InputType.swift */; };
+		E83D02F72EF9CAC70091E178 /* ExerciseBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D762EF4EB5D00BE7966 /* ExerciseBlock.swift */; };
+		E83D02F82EF9CACD0091E178 /* algoritmia.json in Resources */ = {isa = PBXBuildFile; fileRef = E8BCB0652EE3B986009DC709 /* algoritmia.json */; };
+		E83D02F92EF9CACD0091E178 /* intro1.json in Resources */ = {isa = PBXBuildFile; fileRef = E8205D7A2EF4F48900BE7966 /* intro1.json */; };
+		E83D02FA2EF9CACD0091E178 /* intro2.json in Resources */ = {isa = PBXBuildFile; fileRef = E8241B332EF9BC5D00AA9B63 /* intro2.json */; };
+		E83D03012EF9CAD10091E178 /* Ejercicios_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D02FD2EF9CAD10091E178 /* Ejercicios_MacApp.swift */; };
+		E83D03032EF9CBE00091E178 /* Intro2Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8241B312EF9BBC800AA9B63 /* Intro2Exercises.swift */; };
+		E83D03042EF9CBE00091E178 /* Intro1Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8205D7C2EF4F4D100BE7966 /* Intro1Exercises.swift */; };
+		E83D03072EF9CDD00091E178 /* basicos.json in Resources */ = {isa = PBXBuildFile; fileRef = E83D03062EF9CDD00091E178 /* basicos.json */; };
+		E83D03082EF9CDD00091E178 /* basicos.json in Resources */ = {isa = PBXBuildFile; fileRef = E83D03062EF9CDD00091E178 /* basicos.json */; };
+		E83D03112EF9CFCA0091E178 /* repaso.json in Resources */ = {isa = PBXBuildFile; fileRef = E83D03102EF9CFCA0091E178 /* repaso.json */; };
+		E83D03122EF9CFCA0091E178 /* repaso.json in Resources */ = {isa = PBXBuildFile; fileRef = E83D03102EF9CFCA0091E178 /* repaso.json */; };
+		E83D03182EF9D2490091E178 /* IntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03162EF9D2490091E178 /* IntermediateExercises.swift */; };
+		E83D03192EF9D2490091E178 /* BasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03152EF9D2490091E178 /* BasicExercises.swift */; };
+		E83D031A2EF9D2490091E178 /* AdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03142EF9D2490091E178 /* AdvancedExercises.swift */; };
+		E83D031B2EF9D2490091E178 /* IntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03162EF9D2490091E178 /* IntermediateExercises.swift */; };
+		E83D031C2EF9D2490091E178 /* BasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03152EF9D2490091E178 /* BasicExercises.swift */; };
+		E83D031D2EF9D2490091E178 /* AdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D03142EF9D2490091E178 /* AdvancedExercises.swift */; };
+		E83D031F2EF9D9120091E178 /* AllExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D031E2EF9D9120091E178 /* AllExercisesListView.swift */; };
+		E83D03202EF9D9120091E178 /* AllExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D031E2EF9D9120091E178 /* AllExercisesListView.swift */; };
+		E8BCB0392EE399BA009DC709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BCB0332EE399BA009DC709 /* Assets.xcassets */; };
+		E8BCB04B2EE3A28B009DC709 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0462EE3A28B009DC709 /* Category.swift */; };
+		E8BCB04C2EE3A28B009DC709 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0472EE3A28B009DC709 /* Difficulty.swift */; };
+		E8BCB04D2EE3A28B009DC709 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0482EE3A28B009DC709 /* Exercise.swift */; };
+		E8BCB04E2EE3A28B009DC709 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0492EE3A28B009DC709 /* InputType.swift */; };
+		E8BCB0542EE3A30F009DC709 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0532EE3A30F009DC709 /* ExerciseListView.swift */; };
+		E8BCB0552EE3A30F009DC709 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0522EE3A30F009DC709 /* ExerciseDetailView.swift */; };
+		E8BCB05A2EE3A458009DC709 /* ExerciseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0592EE3A458009DC709 /* ExerciseListViewModel.swift */; };
+		E8BCB05B2EE3A458009DC709 /* ExerciseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0582EE3A458009DC709 /* ExerciseDetailViewModel.swift */; };
+		E8BCB05D2EE3A63E009DC709 /* ExerciseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB05C2EE3A63E009DC709 /* ExerciseRepository.swift */; };
+		E8BCB0662EE3B986009DC709 /* algoritmia.json in Resources */ = {isa = PBXBuildFile; fileRef = E8BCB0652EE3B986009DC709 /* algoritmia.json */; };
+		E8BCB0692EE3BD32009DC709 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0672EE3BD32009DC709 /* DataRepository.swift */; };
+		E8BCB06A2EE3BD32009DC709 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCB0682EE3BD32009DC709 /* JSONLoader.swift */; };
+		E8D6AD5B2F48E52900ADC0AB /* BlockBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD4F2F48E52900ADC0AB /* BlockBadge.swift */; };
+		E8D6AD5C2F48E52900ADC0AB /* DescriptionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD552F48E52900ADC0AB /* DescriptionSection.swift */; };
+		E8D6AD5D2F48E52900ADC0AB /* ErrorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD562F48E52900ADC0AB /* ErrorSection.swift */; };
+		E8D6AD5E2F48E52900ADC0AB /* ExplanationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD572F48E52900ADC0AB /* ExplanationSection.swift */; };
+		E8D6AD5F2F48E52900ADC0AB /* InputSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD582F48E52900ADC0AB /* InputSection.swift */; };
+		E8D6AD602F48E52900ADC0AB /* ResultSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD592F48E52900ADC0AB /* ResultSection.swift */; };
+		E8D6AD612F48E52900ADC0AB /* DifficultyBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD502F48E52900ADC0AB /* DifficultyBadge.swift */; };
+		E8D6AD622F48E52900ADC0AB /* ExerciseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD532F48E52900ADC0AB /* ExerciseHeader.swift */; };
+		E8D6AD632F48E52900ADC0AB /* ExerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD522F48E52900ADC0AB /* ExerciseCard.swift */; };
+		E8D6AD642F48E52900ADC0AB /* BlockBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD4F2F48E52900ADC0AB /* BlockBadge.swift */; };
+		E8D6AD652F48E52900ADC0AB /* DescriptionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD552F48E52900ADC0AB /* DescriptionSection.swift */; };
+		E8D6AD662F48E52900ADC0AB /* ErrorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD562F48E52900ADC0AB /* ErrorSection.swift */; };
+		E8D6AD672F48E52900ADC0AB /* ExplanationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD572F48E52900ADC0AB /* ExplanationSection.swift */; };
+		E8D6AD682F48E52900ADC0AB /* InputSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD582F48E52900ADC0AB /* InputSection.swift */; };
+		E8D6AD692F48E52900ADC0AB /* ResultSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD592F48E52900ADC0AB /* ResultSection.swift */; };
+		E8D6AD6A2F48E52900ADC0AB /* DifficultyBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD502F48E52900ADC0AB /* DifficultyBadge.swift */; };
+		E8D6AD6B2F48E52900ADC0AB /* ExerciseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD532F48E52900ADC0AB /* ExerciseHeader.swift */; };
+		E8D6AD6C2F48E52900ADC0AB /* ExerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6AD522F48E52900ADC0AB /* ExerciseCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoAdvancedExercises.swift; sourceTree = "<group>"; };
+		E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoBasicExercises.swift; sourceTree = "<group>"; };
+		E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoIntermediateExercises.swift; sourceTree = "<group>"; };
+		E80E03392F355C89002ADCCD /* BasicosAdvancedExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicosAdvancedExercises.swift; sourceTree = "<group>"; };
+		E80E033A2F355C89002ADCCD /* BasicosBasicExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicosBasicExercises.swift; sourceTree = "<group>"; };
+		E80E033B2F355C89002ADCCD /* BasicosIntermediateExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicosIntermediateExercises.swift; sourceTree = "<group>"; };
+		E8205D762EF4EB5D00BE7966 /* ExerciseBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseBlock.swift; sourceTree = "<group>"; };
+		E8205D782EF4EB8500BE7966 /* BlockSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSelectionView.swift; sourceTree = "<group>"; };
+		E8205D7A2EF4F48900BE7966 /* intro1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = intro1.json; sourceTree = "<group>"; };
+		E8205D7C2EF4F4D100BE7966 /* Intro1Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro1Exercises.swift; sourceTree = "<group>"; };
+		E8241B312EF9BBC800AA9B63 /* Intro2Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2Exercises.swift; sourceTree = "<group>"; };
+		E8241B332EF9BC5D00AA9B63 /* intro2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = intro2.json; sourceTree = "<group>"; };
+		E8241B672EF9C40700AA9B63 /* ExercisesApp.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = ExercisesApp.icon; sourceTree = "<group>"; };
+		E83D02D52EF9C96F0091E178 /* Ejercicios_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicios_iOSApp.swift; sourceTree = "<group>"; };
+		E83D02DB2EF9CA8F0091E178 /* Ejercicios-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83D02FD2EF9CAD10091E178 /* Ejercicios_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicios_MacApp.swift; sourceTree = "<group>"; };
+		E83D03062EF9CDD00091E178 /* basicos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = basicos.json; sourceTree = "<group>"; };
+		E83D03102EF9CFCA0091E178 /* repaso.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repaso.json; sourceTree = "<group>"; };
+		E83D03142EF9D2490091E178 /* AdvancedExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedExercises.swift; sourceTree = "<group>"; };
+		E83D03152EF9D2490091E178 /* BasicExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicExercises.swift; sourceTree = "<group>"; };
+		E83D03162EF9D2490091E178 /* IntermediateExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateExercises.swift; sourceTree = "<group>"; };
+		E83D031E2EF9D9120091E178 /* AllExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesListView.swift; sourceTree = "<group>"; };
+		E8BCB0252EE39983009DC709 /* Ejercicios-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicios-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCB0332EE399BA009DC709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8BCB0462EE3A28B009DC709 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E8BCB0472EE3A28B009DC709 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		E8BCB0482EE3A28B009DC709 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		E8BCB0492EE3A28B009DC709 /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
+		E8BCB0522EE3A30F009DC709 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		E8BCB0532EE3A30F009DC709 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
+		E8BCB0582EE3A458009DC709 /* ExerciseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewModel.swift; sourceTree = "<group>"; };
+		E8BCB0592EE3A458009DC709 /* ExerciseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewModel.swift; sourceTree = "<group>"; };
+		E8BCB05C2EE3A63E009DC709 /* ExerciseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRepository.swift; sourceTree = "<group>"; };
+		E8BCB0652EE3B986009DC709 /* algoritmia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = algoritmia.json; sourceTree = "<group>"; };
+		E8BCB0672EE3BD32009DC709 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		E8BCB0682EE3BD32009DC709 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		E8D6AD4F2F48E52900ADC0AB /* BlockBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockBadge.swift; sourceTree = "<group>"; };
+		E8D6AD502F48E52900ADC0AB /* DifficultyBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyBadge.swift; sourceTree = "<group>"; };
+		E8D6AD522F48E52900ADC0AB /* ExerciseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCard.swift; sourceTree = "<group>"; };
+		E8D6AD532F48E52900ADC0AB /* ExerciseHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseHeader.swift; sourceTree = "<group>"; };
+		E8D6AD552F48E52900ADC0AB /* DescriptionSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionSection.swift; sourceTree = "<group>"; };
+		E8D6AD562F48E52900ADC0AB /* ErrorSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSection.swift; sourceTree = "<group>"; };
+		E8D6AD572F48E52900ADC0AB /* ExplanationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationSection.swift; sourceTree = "<group>"; };
+		E8D6AD582F48E52900ADC0AB /* InputSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSection.swift; sourceTree = "<group>"; };
+		E8D6AD592F48E52900ADC0AB /* ResultSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83D02D82EF9CA8F0091E178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCB0222EE39983009DC709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8205D7D2EF4F4D100BE7966 /* Introduccion */ = {
+			isa = PBXGroup;
+			children = (
+				E8205D7C2EF4F4D100BE7966 /* Intro1Exercises.swift */,
+				E8241B312EF9BBC800AA9B63 /* Intro2Exercises.swift */,
+			);
+			path = Introduccion;
+			sourceTree = "<group>";
+		};
+		E8205D7E2EF4F4D100BE7966 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				E83D03172EF9D2490091E178 /* Algoritmia */,
+				E83D03052EF9CD450091E178 /* Basicos */,
+				E83D030C2EF9CEE50091E178 /* Repaso */,
+				E8205D7D2EF4F4D100BE7966 /* Introduccion */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		E83D02FE2EF9CAD10091E178 /* Ejercicios-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				E83D03022EF9CAD90091E178 /* System */,
+			);
+			path = "Ejercicios-Mac";
+			sourceTree = "<group>";
+		};
+		E83D03022EF9CAD90091E178 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E83D02FD2EF9CAD10091E178 /* Ejercicios_MacApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		E83D03052EF9CD450091E178 /* Basicos */ = {
+			isa = PBXGroup;
+			children = (
+				E80E033A2F355C89002ADCCD /* BasicosBasicExercises.swift */,
+				E80E033B2F355C89002ADCCD /* BasicosIntermediateExercises.swift */,
+				E80E03392F355C89002ADCCD /* BasicosAdvancedExercises.swift */,
+			);
+			path = Basicos;
+			sourceTree = "<group>";
+		};
+		E83D030C2EF9CEE50091E178 /* Repaso */ = {
+			isa = PBXGroup;
+			children = (
+				E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */,
+				E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */,
+				E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */,
+			);
+			path = Repaso;
+			sourceTree = "<group>";
+		};
+		E83D03172EF9D2490091E178 /* Algoritmia */ = {
+			isa = PBXGroup;
+			children = (
+				E83D03152EF9D2490091E178 /* BasicExercises.swift */,
+				E83D03162EF9D2490091E178 /* IntermediateExercises.swift */,
+				E83D03142EF9D2490091E178 /* AdvancedExercises.swift */,
+			);
+			path = Algoritmia;
+			sourceTree = "<group>";
+		};
+		E8BCB01C2EE39983009DC709 = {
+			isa = PBXGroup;
+			children = (
+				E8BCB0362EE399BA009DC709 /* Ejercicios-iOS */,
+				E83D02FE2EF9CAD10091E178 /* Ejercicios-Mac */,
+				E8BCB0262EE39983009DC709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8BCB0262EE39983009DC709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCB0252EE39983009DC709 /* Ejercicios-iOS.app */,
+				E83D02DB2EF9CA8F0091E178 /* Ejercicios-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8BCB0362EE399BA009DC709 /* Ejercicios-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8241B672EF9C40700AA9B63 /* ExercisesApp.icon */,
+				E8BCB0442EE39FEE009DC709 /* Views */,
+				E8BCB05F2EE3A6D3009DC709 /* Components */,
+				E8BCB0422EE39FEE009DC709 /* ViewModels */,
+				E8BCB0412EE39FEE009DC709 /* Repository */,
+				E8BCB0402EE39FEE009DC709 /* Models */,
+				E8BCB03B2EE399E2009DC709 /* Resources */,
+				E8BCB03A2EE399C3009DC709 /* System */,
+				E8BCB0332EE399BA009DC709 /* Assets.xcassets */,
+			);
+			path = "Ejercicios-iOS";
+			sourceTree = "<group>";
+		};
+		E8BCB03A2EE399C3009DC709 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E83D02D52EF9C96F0091E178 /* Ejercicios_iOSApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		E8BCB03B2EE399E2009DC709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCB0652EE3B986009DC709 /* algoritmia.json */,
+				E83D03062EF9CDD00091E178 /* basicos.json */,
+				E83D03102EF9CFCA0091E178 /* repaso.json */,
+				E8205D7A2EF4F48900BE7966 /* intro1.json */,
+				E8241B332EF9BC5D00AA9B63 /* intro2.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8BCB0402EE39FEE009DC709 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8205D7E2EF4F4D100BE7966 /* Exercises */,
+				E8205D762EF4EB5D00BE7966 /* ExerciseBlock.swift */,
+				E8BCB0462EE3A28B009DC709 /* Category.swift */,
+				E8BCB0472EE3A28B009DC709 /* Difficulty.swift */,
+				E8BCB0482EE3A28B009DC709 /* Exercise.swift */,
+				E8BCB0492EE3A28B009DC709 /* InputType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8BCB0412EE39FEE009DC709 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCB05C2EE3A63E009DC709 /* ExerciseRepository.swift */,
+				E8BCB0672EE3BD32009DC709 /* DataRepository.swift */,
+				E8BCB0682EE3BD32009DC709 /* JSONLoader.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E8BCB0422EE39FEE009DC709 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCB0582EE3A458009DC709 /* ExerciseDetailViewModel.swift */,
+				E8BCB0592EE3A458009DC709 /* ExerciseListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E8BCB0442EE39FEE009DC709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E83D031E2EF9D9120091E178 /* AllExercisesListView.swift */,
+				E8205D782EF4EB8500BE7966 /* BlockSelectionView.swift */,
+				E8BCB0522EE3A30F009DC709 /* ExerciseDetailView.swift */,
+				E8BCB0532EE3A30F009DC709 /* ExerciseListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8BCB05F2EE3A6D3009DC709 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6AD512F48E52900ADC0AB /* Badges */,
+				E8D6AD542F48E52900ADC0AB /* Cards */,
+				E8D6AD5A2F48E52900ADC0AB /* Sections */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E8D6AD512F48E52900ADC0AB /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6AD4F2F48E52900ADC0AB /* BlockBadge.swift */,
+				E8D6AD502F48E52900ADC0AB /* DifficultyBadge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		E8D6AD542F48E52900ADC0AB /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6AD522F48E52900ADC0AB /* ExerciseCard.swift */,
+				E8D6AD532F48E52900ADC0AB /* ExerciseHeader.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E8D6AD5A2F48E52900ADC0AB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6AD552F48E52900ADC0AB /* DescriptionSection.swift */,
+				E8D6AD562F48E52900ADC0AB /* ErrorSection.swift */,
+				E8D6AD572F48E52900ADC0AB /* ExplanationSection.swift */,
+				E8D6AD582F48E52900ADC0AB /* InputSection.swift */,
+				E8D6AD592F48E52900ADC0AB /* ResultSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83D02DA2EF9CA8F0091E178 /* Ejercicios-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83D02E32EF9CA900091E178 /* Build configuration list for PBXNativeTarget "Ejercicios-Mac" */;
+			buildPhases = (
+				E83D02D72EF9CA8F0091E178 /* Sources */,
+				E83D02D82EF9CA8F0091E178 /* Frameworks */,
+				E83D02D92EF9CA8F0091E178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ejercicios-Mac";
+			packageProductDependencies = (
+			);
+			productName = "Ejercicios-Mac";
+			productReference = E83D02DB2EF9CA8F0091E178 /* Ejercicios-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8BCB0242EE39983009DC709 /* Ejercicios-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BCB0302EE39985009DC709 /* Build configuration list for PBXNativeTarget "Ejercicios-iOS" */;
+			buildPhases = (
+				E8BCB0212EE39983009DC709 /* Sources */,
+				E8BCB0222EE39983009DC709 /* Frameworks */,
+				E8BCB0232EE39983009DC709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ejercicios-iOS";
+			packageProductDependencies = (
+			);
+			productName = EjerciciosAlgoritmia;
+			productReference = E8BCB0252EE39983009DC709 /* Ejercicios-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8BCB01D2EE39983009DC709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					E83D02DA2EF9CA8F0091E178 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					E8BCB0242EE39983009DC709 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+				};
+			};
+			buildConfigurationList = E8BCB0202EE39983009DC709 /* Build configuration list for PBXProject "Ejercicios-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8BCB01C2EE39983009DC709;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E8BCB0262EE39983009DC709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8BCB0242EE39983009DC709 /* Ejercicios-iOS */,
+				E83D02DA2EF9CA8F0091E178 /* Ejercicios-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83D02D92EF9CA8F0091E178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83D02E62EF9CAAB0091E178 /* ExercisesApp.icon in Resources */,
+				E83D02F82EF9CACD0091E178 /* algoritmia.json in Resources */,
+				E83D03122EF9CFCA0091E178 /* repaso.json in Resources */,
+				E83D03072EF9CDD00091E178 /* basicos.json in Resources */,
+				E83D02F92EF9CACD0091E178 /* intro1.json in Resources */,
+				E83D02FA2EF9CACD0091E178 /* intro2.json in Resources */,
+				E80323772F0898F9009EA6D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCB0232EE39983009DC709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCB0392EE399BA009DC709 /* Assets.xcassets in Resources */,
+				E8241B342EF9BC5D00AA9B63 /* intro2.json in Resources */,
+				E83D03112EF9CFCA0091E178 /* repaso.json in Resources */,
+				E83D03082EF9CDD00091E178 /* basicos.json in Resources */,
+				E8BCB0662EE3B986009DC709 /* algoritmia.json in Resources */,
+				E8241B682EF9C40700AA9B63 /* ExercisesApp.icon in Resources */,
+				E8205D7B2EF4F48900BE7966 /* intro1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83D02D72EF9CA8F0091E178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83D02ED2EF9CAC20091E178 /* ExerciseRepository.swift in Sources */,
+				E83D03012EF9CAD10091E178 /* Ejercicios_MacApp.swift in Sources */,
+				E83D02EE2EF9CAC20091E178 /* JSONLoader.swift in Sources */,
+				E80E03332F352529002ADCCD /* RepasoAdvancedExercises.swift in Sources */,
+				E80E03342F352529002ADCCD /* RepasoBasicExercises.swift in Sources */,
+				E8D6AD642F48E52900ADC0AB /* BlockBadge.swift in Sources */,
+				E8D6AD652F48E52900ADC0AB /* DescriptionSection.swift in Sources */,
+				E8D6AD662F48E52900ADC0AB /* ErrorSection.swift in Sources */,
+				E8D6AD672F48E52900ADC0AB /* ExplanationSection.swift in Sources */,
+				E8D6AD682F48E52900ADC0AB /* InputSection.swift in Sources */,
+				E8D6AD692F48E52900ADC0AB /* ResultSection.swift in Sources */,
+				E8D6AD6A2F48E52900ADC0AB /* DifficultyBadge.swift in Sources */,
+				E8D6AD6B2F48E52900ADC0AB /* ExerciseHeader.swift in Sources */,
+				E8D6AD6C2F48E52900ADC0AB /* ExerciseCard.swift in Sources */,
+				E80E03352F352529002ADCCD /* RepasoIntermediateExercises.swift in Sources */,
+				E83D02F02EF9CAC70091E178 /* Category.swift in Sources */,
+				E83D02F12EF9CAC70091E178 /* Difficulty.swift in Sources */,
+				E83D02F22EF9CAC70091E178 /* Exercise.swift in Sources */,
+				E83D02F42EF9CAC70091E178 /* InputType.swift in Sources */,
+				E83D03182EF9D2490091E178 /* IntermediateExercises.swift in Sources */,
+				E83D03192EF9D2490091E178 /* BasicExercises.swift in Sources */,
+				E83D03202EF9D9120091E178 /* AllExercisesListView.swift in Sources */,
+				E83D031A2EF9D2490091E178 /* AdvancedExercises.swift in Sources */,
+				E83D03032EF9CBE00091E178 /* Intro2Exercises.swift in Sources */,
+				E83D03042EF9CBE00091E178 /* Intro1Exercises.swift in Sources */,
+				E83D02F72EF9CAC70091E178 /* ExerciseBlock.swift in Sources */,
+				E83D02EF2EF9CAC20091E178 /* DataRepository.swift in Sources */,
+				E83D02E72EF9CAB30091E178 /* BlockSelectionView.swift in Sources */,
+				E80E033C2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */,
+				E80E033D2F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */,
+				E80E033E2F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */,
+				E83D02EB2EF9CABD0091E178 /* ExerciseListViewModel.swift in Sources */,
+				E83D02EC2EF9CABD0091E178 /* ExerciseDetailViewModel.swift in Sources */,
+				E83D02E82EF9CAB30091E178 /* ExerciseDetailView.swift in Sources */,
+				E83D02E92EF9CAB30091E178 /* ExerciseListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCB0212EE39983009DC709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCB04B2EE3A28B009DC709 /* Category.swift in Sources */,
+				E8BCB0542EE3A30F009DC709 /* ExerciseListView.swift in Sources */,
+				E8BCB0552EE3A30F009DC709 /* ExerciseDetailView.swift in Sources */,
+				E80E03362F352529002ADCCD /* RepasoAdvancedExercises.swift in Sources */,
+				E80E03372F352529002ADCCD /* RepasoBasicExercises.swift in Sources */,
+				E8D6AD5B2F48E52900ADC0AB /* BlockBadge.swift in Sources */,
+				E8D6AD5C2F48E52900ADC0AB /* DescriptionSection.swift in Sources */,
+				E8D6AD5D2F48E52900ADC0AB /* ErrorSection.swift in Sources */,
+				E8D6AD5E2F48E52900ADC0AB /* ExplanationSection.swift in Sources */,
+				E8D6AD5F2F48E52900ADC0AB /* InputSection.swift in Sources */,
+				E8D6AD602F48E52900ADC0AB /* ResultSection.swift in Sources */,
+				E8D6AD612F48E52900ADC0AB /* DifficultyBadge.swift in Sources */,
+				E8D6AD622F48E52900ADC0AB /* ExerciseHeader.swift in Sources */,
+				E8D6AD632F48E52900ADC0AB /* ExerciseCard.swift in Sources */,
+				E80E03382F352529002ADCCD /* RepasoIntermediateExercises.swift in Sources */,
+				E8BCB04C2EE3A28B009DC709 /* Difficulty.swift in Sources */,
+				E8BCB0692EE3BD32009DC709 /* DataRepository.swift in Sources */,
+				E8BCB06A2EE3BD32009DC709 /* JSONLoader.swift in Sources */,
+				E8BCB04D2EE3A28B009DC709 /* Exercise.swift in Sources */,
+				E83D031B2EF9D2490091E178 /* IntermediateExercises.swift in Sources */,
+				E83D031C2EF9D2490091E178 /* BasicExercises.swift in Sources */,
+				E83D031F2EF9D9120091E178 /* AllExercisesListView.swift in Sources */,
+				E83D031D2EF9D2490091E178 /* AdvancedExercises.swift in Sources */,
+				E8BCB04E2EE3A28B009DC709 /* InputType.swift in Sources */,
+				E8BCB05A2EE3A458009DC709 /* ExerciseListViewModel.swift in Sources */,
+				E8205D7F2EF4F4D100BE7966 /* Intro1Exercises.swift in Sources */,
+				E8BCB05B2EE3A458009DC709 /* ExerciseDetailViewModel.swift in Sources */,
+				E80E033F2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */,
+				E80E03402F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */,
+				E80E03412F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */,
+				E8205D772EF4EB5D00BE7966 /* ExerciseBlock.swift in Sources */,
+				E8205D792EF4EB8500BE7966 /* BlockSelectionView.swift in Sources */,
+				E8241B322EF9BBC800AA9B63 /* Intro2Exercises.swift in Sources */,
+				E83D02D62EF9C96F0091E178 /* Ejercicios_iOSApp.swift in Sources */,
+				E8BCB05D2EE3A63E009DC709 /* ExerciseRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E83D02E42EF9CA900091E178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExercisesApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murtidev.Ejercicios-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E83D02E52EF9CA900091E178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExercisesApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murtidev.Ejercicios-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E8BCB02E2EE39985009DC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8BCB02F2EE39985009DC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BCB0312EE39985009DC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExercisesApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murtidev.Ejercicios-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8BCB0322EE39985009DC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExercisesApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFCGDXK94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murtidev.Ejercicios-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83D02E32EF9CA900091E178 /* Build configuration list for PBXNativeTarget "Ejercicios-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83D02E42EF9CA900091E178 /* Debug */,
+				E83D02E52EF9CA900091E178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BCB0202EE39983009DC709 /* Build configuration list for PBXProject "Ejercicios-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCB02E2EE39985009DC709 /* Debug */,
+				E8BCB02F2EE39985009DC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BCB0302EE39985009DC709 /* Build configuration list for PBXNativeTarget "Ejercicios-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCB0312EE39985009DC709 /* Debug */,
+				E8BCB0322EE39985009DC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8BCB01D2EE39983009DC709 /* Project object */;
+}

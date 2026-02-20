@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Clasificación de Triángulo",
+    "description": "Determina la categoría de un triángulo según el tamaño de sus lados.\n\nTipos:\n- Equilátero: Los tres lados son iguales\n- Isósceles: Dos lados son iguales\n- Escaleno: Los tres lados son diferentes\n\nEntrada: lado1, lado2, lado3 (separados por comas)\nEjemplo:\nEntrada: 5, 5, 5\nSalida: \"Equilátero\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "multipleNumbers",
+    "explanation": "1. INICIO\n2. PREGUNTAR \"¿Cuál es lado1?\"\n3. Variable lado1 = Respuesta Paso 2\n4. Si (lado1 > 0 y lado1 <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es lado2?\"\n6. Variable lado2 = Respuesta Paso 5\n7. Si (lado2 > 0 y lado2 <= 100)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. PREGUNTAR \"¿Cuál es lado3?\"\n9. Variable lado3 = Respuesta Paso 8\n10. Si (lado3 > 0 y lado3 <= 100)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 8\n11. Si (lado1 == lado2 y lado2 == lado3)\n    ○ Si es SÍ voy a 12\n    ○ Si es NO voy a 13\n12. MOSTRAR \"Equilátero\"\n    Voy a 16\n13. Si (lado1 == lado2 o lado2 == lado3 o lado1 == lado3)\n    ○ Si es SÍ voy a 14\n    ○ Si es NO voy a 15\n14. MOSTRAR \"Isósceles\"\n    Voy a 16\n15. MOSTRAR \"Escaleno\"\n16. FIN",
+    "diagramImage": "B2_Ex01"
+  },
+  {
+    "id": 2,
+    "title": "Rangos de Calificación (A-F)",
+    "description": "Clasifica una calificación escolar en rangos: A, B, C, D, F.\n\nRangos:\n- A: 90-100\n- B: 80-89\n- C: 70-79\n- D: 60-69\n- F: 0-59\n\nEntrada: calificación (0-100)\nEjemplo:\nEntrada: 85\nSalida: \"B\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "1. INICIO\n2. PREGUNTAR \"¿Cuál es la calificación?\"\n3. Variable nota = Respuesta Paso 2\n4. Si (nota >= 0 y nota <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (nota >= 90)\n   ○ Si es SÍ voy a 6\n   ○ Si es NO voy a 7\n6. MOSTRAR \"A\"\n   Voy a 14\n7. Si (nota >= 80)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 9\n8. MOSTRAR \"B\"\n   Voy a 14\n9. Si (nota >= 70)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 11\n10. MOSTRAR \"C\"\n    Voy a 14\n11. Si (nota >= 60)\n    ○ Si es SÍ voy a 12\n    ○ Si es NO voy a 13\n12. MOSTRAR \"D\"\n    Voy a 14\n13. MOSTRAR \"F\"\n14. FIN",
+    "diagramImage": "B2_Ex02"
+  },
+  {
+    "id": 3,
+    "title": "Días del Mes",
+    "description": "Dado un mes del año (1-12), indica cuántos días tiene.\n\nMeses de 31 días: Ene, Mar, May, Jul, Ago, Oct, Dic\nMeses de 30 días: Abr, Jun, Sep, Nov\nFebrero: 28 o 29 días\n\nEntrada: mes (1-12)\nEjemplo:\nEntrada: 2\nSalida: \"28 o 29 días\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "1. INICIO\n2. PREGUNTAR \"¿Cuál es el mes (1-12)?\"\n3. Variable mes = Respuesta Paso 2\n4. Si (mes >= 1 y mes <= 12)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (mes == 1 o mes == 3 o mes == 5 o mes == 7 o mes == 8 o mes == 10 o mes == 12)\n   ○ Si es SÍ voy a 6\n   ○ Si es NO voy a 7\n6. MOSTRAR \"31 días\"\n   Voy a 10\n7. Si (mes == 4 o mes == 6 o mes == 9 o mes == 11)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 9\n8. MOSTRAR \"30 días\"\n   Voy a 10\n9. MOSTRAR \"28 o 29 días\"\n10. FIN",
+    "diagramImage": "B2_Ex03"
+  },
+  {
+    "id": 4,
+    "title": "Tablero de Ajedrez",
+    "description": "Imprime un tablero de ajedrez de 8x8 usando * (asteriscos) y espacios.\n\nEl tablero alterna entre * (casilla oscura) y espacio (casilla clara).\n\nNo requiere entrada, presiona Ejecutar.",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "none",
+    "explanation": "1. INICIO\n2. Variable fila = 0\n3. Mientras (fila < 8) {\n   4. Variable columna = 0\n   5. Mientras (columna < 8) {\n      6. Si ((fila + columna) % 2 == 0) entonces {\n            MOSTRAR \"*\"\n         } si no {\n            MOSTRAR \" \"\n         }\n      7. columna = columna + 1\n   }\n   8. MOSTRAR \"\\n\"\n   9. fila = fila + 1\n}\n10. FIN",
+    "diagramImage": "B2_Ex04"
+  },
+  {
+    "id": 5,
+    "title": "Rombo de Asteriscos",
+    "description": "Dibuja un rombo hecho de asteriscos. La altura (número de filas) será un número impar que el usuario elija.\n\nEjemplo para altura=5:\n  *\n ***\n*****\n ***\n  *",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "singleNumber",
+    "explanation": "1. INICIO\n2. PREGUNTAR \"¿Cuál es altura?\"\n3. Variable altura = Respuesta Paso 2\n4. Si (altura >= 1 y altura <= 21 y altura % 2 == 1)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable mitad = (altura + 1) / 2\n6. Variable filaActual = 1\n7. Mientras (filaActual <= mitad) {\n   8. Variable numEspacios = mitad - filaActual\n   9. Variable cantidadAsteriscos = (filaActual × 2) - 1\n   10. MOSTRAR RepetirCaracter(\" \", numEspacios) + RepetirCaracter(\"*\", cantidadAsteriscos) + ImprimirNuevaLinea()\n   11. filaActual = filaActual + 1\n}\n12. filaActual = mitad - 1\n13. Mientras (filaActual >= 1) {\n   14. numEspacios = mitad - filaActual\n   15. cantidadAsteriscos = (filaActual × 2) - 1\n   16. MOSTRAR RepetirCaracter(\" \", numEspacios) + RepetirCaracter(\"*\", cantidadAsteriscos) + ImprimirNuevaLinea()\n   17. filaActual = filaActual - 1\n}\n18. FIN",
+    "diagramImage": "B2_Ex05"
+  },
+  {
+    "id": 6,
+    "title": "Tablas de Multiplicar",
+    "description": "Genera las tablas de multiplicar del 1 al 10.\n\nMuestra cada tabla completa (del 1 al 10).\n\nNo requiere entrada, presiona Ejecutar.",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "none",
+    "explanation": "1. INICIO\n2. Variable tabla = 1\n3. Mientras (tabla <= 10) {\n   4. MOSTRAR \"Tabla del \\(tabla):\"\n   5. Variable multipli = 1\n   6. Mientras (multipli <= 10) {\n      7. Variable resultado = tabla * multipli\n      8. MOSTRAR \"\\(tabla) x \\(multipli) = \\(resultado)\"\n      9. multipli = multipli + 1\n   }\n   10. tabla = tabla + 1\n}\n11. FIN",
+    "diagramImage": "B2_Ex06"
+  },
+  {
+    "id": 7,
+    "title": "Contar Pares e Impares",
+    "description": "Calcula cuántos números pares e impares hay en una serie del 1 al N.\n\nEjemplo:\nEntrada: 10\nSalida: \"Pares: 5, Impares: 5\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 7: Contar Pares e Impares\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es N?\"\n3. Variable n = Respuesta Paso 2\n4. Si (n >= 1 y n <= 1000)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable contadorPares = 0\n6. Variable contadorImpares = 0\n7. Variable numeroActual = 1\n8. Si (numeroActual <= n)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 14\n9. Si (numeroActual % 2 == 0)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 11\n10. CÁLCULO contadorPares = contadorPares + 1\n    Voy a 12\n11. CÁLCULO contadorImpares = contadorImpares + 1\n12. CÁLCULO numeroActual = numeroActual + 1\n13. Volver a 8\n14. MOSTRAR \"Pares: contadorPares, Impares: contadorImpares\"\n15. FIN",
+    "diagramImage": "B2_Ex07"
+  },
+  {
+    "id": 8,
+    "title": "Divisibles por 3",
+    "description": "Encuentra el total de números divisibles por 3 en una serie del 1 al N.\n\nEjemplo:\nEntrada: 15\nSalida: \"Divisibles por 3: 5 (3, 6, 9, 12, 15)\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 8: Divisibles por 3\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es N?\"\n3. Variable n = Respuesta Paso 2\n4. Si (n >= 1 y n <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable contadorDivisibles = 0\n6. Variable numeroActual = 1\n7. Si (numeroActual <= n)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 12\n8. Si (numeroActual % 3 == 0)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 10\n9. CÁLCULO contadorDivisibles = contadorDivisibles + 1\n10. CÁLCULO numeroActual = numeroActual + 1\n11. Volver a 7\n12. MOSTRAR \"Divisibles por 3: contadorDivisibles\"\n13. FIN",
+    "diagramImage": "B2_Ex08"
+  },
+  {
+    "id": 9,
+    "title": "Suma de Cuadrados",
+    "description": "Calcula la suma de los cuadrados de los primeros N números naturales.\n\nFórmula: Σ(i²) para i = 1 hasta N\n\nEjemplo:\nEntrada: 4\nSalida: 30 (1² + 2² + 3² + 4² = 1 + 4 + 9 + 16)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 9: Suma de Cuadrados\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es N?\"\n3. Variable n = Respuesta Paso 2\n4. Si (n >= 1 y n <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable sumaCuadrados = 0\n6. Variable numeroActual = 1\n7. Si (numeroActual <= n)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 11\n8. CÁLCULO sumaCuadrados = sumaCuadrados + (numeroActual × numeroActual)\n9. CÁLCULO numeroActual = numeroActual + 1\n10. Volver a 7\n11. MOSTRAR \"Suma de cuadrados: sumaCuadrados\"\n12. FIN",
+    "diagramImage": "B2_Ex09"
+  },
+  {
+    "id": 10,
+    "title": "Raíz Cuadrada (Newton-Raphson)",
+    "description": "Calcula la raíz cuadrada de un número sin usar la función predefinida, usando el método Newton-Raphson.\n\nFórmula: x₁ = (1/2) × (x₀ + a/x₀)\n\nEjemplo:\nEntrada: 25\nSalida: 5.0",
+    "difficulty": "advanced",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 10: Raíz Cuadrada (Newton-Raphson)\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable a = Respuesta Paso 2\n4. Si (a > 0 y a <= 1000000)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable x₀ = a\n6. Variable x₁ = (x₀ + a / x₀) / 2\n7. Si (|x₁ - x₀| > 0.001)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 10\n8. CÁLCULO x₀ = x₁\n9. Volver a 6\n10. MOSTRAR \"Raíz cuadrada: x₁\"\n11. FIN",
+    "diagramImage": "B2_Ex10"
+  },
+  {
+    "id": 11,
+    "title": "Encontrar el Mínimo",
+    "description": "Dado un listado de 10 números separados por comas, encuentra el número más pequeño.\n\nEjemplo:\nEntrada: 45, 12, 67, 3, 89, 23, 56, 8, 91, 15\nSalida: \"El mínimo es: 3\"",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "multipleNumbers",
+    "explanation": "Pseudocódigo - Ejercicio 11: Encontrar el Mínimo\n\n1. INICIO\n2. PREGUNTAR \"¿Cuáles son los 10 números?\"\n3. Variable listaNumeros = Respuesta Paso 2\n4. Variable minimo = listaNumeros[0]\n5. Variable indice = 1\n6. Si (indice < 10)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 11\n7. Si (listaNumeros[indice] < minimo)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 9\n8. minimo = listaNumeros[indice]\n9. CÁLCULO indice = indice + 1\n10. Volver a 6\n11. MOSTRAR \"El mínimo es: minimo\"\n12. FIN",
+    "diagramImage": "B2_Ex11"
+  },
+  {
+    "id": 12,
+    "title": "Año Bisiesto",
+    "description": "Dado un año, determina si es bisiesto o no.\n\nReglas:\n- Divisible por 4 → Candidato\n- EXCEPTO si divisible por 100 → No bisiesto\n- A MENOS QUE divisible por 400 → Bisiesto\n\nEjemplo:\nEntrada: 2000\nSalida: \"2000 es bisiesto\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 12: Año Bisiesto\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el año?\"\n3. Variable año = Respuesta Paso 2\n4. Si (año >= 1 y año <= 9999)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (año % 400 == 0)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 6\n6. Si (año % 100 == 0)\n   ○ Si es SÍ voy a 11\n   ○ Si es NO voy a 7\n7. Si (año % 4 == 0)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 11\n10. MOSTRAR \"año es bisiesto\"\n    Voy a 12\n11. MOSTRAR \"año no es bisiesto\"\n12. FIN",
+    "diagramImage": "B2_Ex12"
+  },
+  {
+    "id": 13,
+    "title": "Valor Absoluto",
+    "description": "Calcula el valor absoluto de un número sin usar funciones predefinidas.\n\nEl valor absoluto es el valor numérico sin signo.\n\nEjemplo:\nEntrada: -5\nSalida: 5",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 13: Valor Absoluto\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable num = Respuesta Paso 2\n4. Si (num < 0)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 6\n5. CÁLCULO num = num * (-1)\n6. MOSTRAR \"Valor absoluto: num\"\n7. FIN",
+    "diagramImage": "B2_Ex13"
+  },
+  {
+    "id": 14,
+    "title": "Cuadrado Perfecto",
+    "description": "Determina si un número es un cuadrado perfecto.\n\nUn cuadrado perfecto es un número entero que es el cuadrado de otro entero.\n\nEjemplo:\nEntrada: 36\nSalida: \"36 es cuadrado perfecto (6²)\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 14: Cuadrado Perfecto\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable num = Respuesta Paso 2\n4. Si (num >= 0)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable i = 0\n6. Si (i * i <= num)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 10\n7. Si (i * i == num)\n   ○ Si es SÍ voy a 11\n   ○ Si es NO voy a 8\n8. CÁLCULO i = i + 1\n9. Volver a 6\n10. MOSTRAR \"num no es cuadrado perfecto\"\n    Voy a 12\n11. MOSTRAR \"num es cuadrado perfecto (i²)\"\n12. FIN",
+    "diagramImage": "B2_Ex14"
+  },
+  {
+    "id": 15,
+    "title": "Ecuación de Segundo Grado",
+    "description": "Resuelve una ecuación de segundo grado ax² + bx + c = 0.\n\nFórmula: x = (-b ± √(b² - 4ac)) / (2a)\n\nEntrada: a, b, c (separados por comas)\nEjemplo:\nEntrada: 2, -4, -6\nSalida: \"x₁ = 3, x₂ = -1\"",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "multipleNumbers",
+    "explanation": "Pseudocódigo - Ejercicio 15: Ecuación de Segundo Grado\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es a?\"\n3. Variable a = Respuesta Paso 2\n4. Si (a >= -1000 y a <= 1000 y a != 0)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es b?\"\n6. Variable b = Respuesta Paso 5\n7. Si (b >= -1000 y b <= 1000)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. PREGUNTAR \"¿Cuál es c?\"\n9. Variable c = Respuesta Paso 8\n10. Si (c >= -1000 y c <= 1000)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 8\n11. Variable discriminante = (b * b) - (4 * a * c)\n12. Si (discriminante > 0)\n    ○ Si es SÍ voy a 13\n    ○ Si es NO voy a 16\n13. Variable x1 = (-b + sqrt(discriminante)) / (2 * a)\n14. Variable x2 = (-b - sqrt(discriminante)) / (2 * a)\n15. MOSTRAR \"x1 = x1, x2 = x2\"\n    Voy a 20\n16. Si (discriminante == 0)\n    ○ Si es SÍ voy a 17\n    ○ Si es NO voy a 19\n17. Variable x = -b / (2 * a)\n18. MOSTRAR \"Solución única: x\"\n    Voy a 20\n19. MOSTRAR \"No hay soluciones reales\"\n20. FIN",
+    "diagramImage": "B2_Ex15"
+  },
+  {
+    "id": 16,
+    "title": "Potencia",
+    "description": "Calcula el resultado de elevar un número x a una potencia y, sin usar funciones predefinidas.\n\nEntrada: base, exponente (separados por coma)\nEjemplo:\nEntrada: 2, 10\nSalida: 1024",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "twoNumbers",
+    "explanation": "Pseudocódigo - Ejercicio 16: Potencia\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es la base?\"\n3. Variable base = Respuesta Paso 2\n4. Si (base >= -100 y base <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es el exponente?\"\n6. Variable exponente = Respuesta Paso 5\n7. Si (exponente >= 0 y exponente <= 20)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. Variable resultado = 1\n9. Variable contador = 0\n10. Si (contador < exponente)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 14\n11. CÁLCULO resultado = resultado × base\n12. CÁLCULO contador = contador + 1\n13. Volver a 10\n14. MOSTRAR \"base ^ exponente = resultado\"\n15. FIN",
+    "diagramImage": "B2_Ex16"
+  },
+  {
+    "id": 17,
+    "title": "Adivina el Número",
+    "description": "Simula el juego 'adivina el número'. El sistema genera un número aleatorio del 1 al 100.\n\nIngresa tu intento y el sistema te dirá si es mayor, menor o correcto.\n\nEntrada: tu número (1-100)\nEjemplo:\nEntrada: 50\nSalida: \"El número secreto es MAYOR que 50\"",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 17: Adivina el Número\n\n1. INICIO\n2. Variable numeroSecreto = NumeroAleatorio(1, 100)\n3. Variable intentos = 0\n4. PREGUNTAR \"¿Cuál es tu intento?\"\n5. Variable intento = Respuesta Paso 4\n6. Si (intento >= 1 y intento <= 100)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 4\n7. CÁLCULO intentos = intentos + 1\n8. Si (intento == numeroSecreto)\n   ○ Si es SÍ voy a 12\n   ○ Si es NO voy a 9\n9. Si (intento < numeroSecreto)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 11\n10. MOSTRAR \"El número secreto es MAYOR\"\n    Voy a 4\n11. MOSTRAR \"El número secreto es MENOR\"\n    Voy a 4\n12. MOSTRAR \"¡Correcto! Lo lograste en [intentos] intentos\"\n13. FIN",
+    "diagramImage": "B2_Ex17"
+  },
+  {
+    "id": 18,
+    "title": "Suma de Dígitos Recursiva",
+    "description": "Calcula la suma de los dígitos de un número hasta que el resultado tenga un solo dígito.\n\nEjemplo:\nEntrada: 942\nSalida: \"9+4+2=15 → 1+5=6\"\nResultado final: 6",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "Pseudocódigo - Ejercicio 18: Suma de Dígitos Recursiva\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable num = Respuesta Paso 2\n4. Si (num >= 0 y num <= 999999999)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (num >= 10)\n   ○ Si es SÍ voy a 6\n   ○ Si es NO voy a 11\n6. Variable suma = 0\n7. Si (num > 0)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 10\n8. CÁLCULO suma = suma + (num % 10)\n9. CÁLCULO num = num / 10\n   Volver a 7\n10. CÁLCULO num = suma\n    Volver a 5\n11. MOSTRAR \"Resultado: num\"\n12. FIN",
+    "diagramImage": "B2_Ex18"
+  },
+  {
+    "id": 19,
+    "title": "Día de la Semana (Zeller)",
+    "description": "Calcula el día de la semana para una fecha dada usando la fórmula de Zeller.\n\nEntrada: día, mes, año (separados por comas)\nEjemplo:\nEntrada: 15, 8, 2023\nSalida: \"Martes\"",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "multipleNumbers",
+    "explanation": "Pseudocódigo - Ejercicio 19: Día de la Semana (Zeller)\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el día?\"\n3. Variable q = Respuesta Paso 2\n4. Si (q >= 1 y q <= 31)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es el mes?\"\n6. Variable mes = Respuesta Paso 5\n7. Si (mes >= 1 y mes <= 12)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. PREGUNTAR \"¿Cuál es el año?\"\n9. Variable año = Respuesta Paso 8\n10. Si (año >= 1 y año <= 9999)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 8\n11. Si (mes <= 2)\n    ○ Si es SÍ voy a 12\n    ○ Si es NO voy a 14\n12. Variable m = mes + 12\n13. CÁLCULO año = año - 1\n    Voy a 15\n14. Variable m = mes\n15. Variable K = año % 100\n16. Variable J = año / 100\n17. Variable h = (q + ((13 × (m + 1)) / 5) + K + (K / 4) + (J / 4) - (2 × J)) % 7\n18. Si (h < 0)\n    ○ Si es SÍ voy a 19\n    ○ Si es NO voy a 20\n19. CÁLCULO h = h + 7\n20. MOSTRAR \"Día de la semana: h\"\n21. FIN",
+    "diagramImage": "B2_Ex19"
+  },
+  {
+    "id": 20,
+    "title": "Calcular Edad",
+    "description": "Calcula la edad de una persona dada su fecha de nacimiento.\n\nEntrada: día, mes, año de nacimiento (separados por comas)\nEjemplo:\nEntrada: 15, 6, 1990\nSalida: \"Tienes 34 años\"",
+    "difficulty": "intermediate",
+    "category": "algorithms",
+    "inputType": "multipleNumbers",
+    "explanation": "Pseudocódigo - Ejercicio 20: Calcular Edad\n\n1. INICIO\n2. Variable diaHoy = DiaActual()\n3. Variable mesHoy = MesActual()\n4. Variable añoHoy = AñoActual()\n5. PREGUNTAR \"¿Mes de nacimiento?\"\n6. Variable mesNac = Respuesta Paso 5\n7. Si (mesNac >= 1 y mesNac <= 12)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. PREGUNTAR \"¿Año de nacimiento?\"\n9. Variable añoNac = Respuesta Paso 8\n10. Si (añoNac >= 1900 y añoNac <= añoHoy)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 8\n11. Variable diasDelMes = DiasMes(mesNac, añoNac)\n12. PREGUNTAR \"¿Día de nacimiento?\"\n13. Variable diaNac = Respuesta Paso 12\n14. Si (diaNac >= 1 y diaNac <= diasDelMes)\n    ○ Si es SÍ voy a 16\n    ○ Si es NO voy a 15\n15. MOSTRAR \"Error: El mes mesNac solo tiene diasDelMes días\"\n    Voy a 12\n16. Variable diasVida = 0\n17. Variable i = añoNac\n18. Si (i < añoHoy)\n    ○ Si es SÍ voy a 19\n    ○ Si es NO voy a 25\n19. Variable bisiesto = EsBisiesto(i)\n20. Si (bisiesto == true)\n    ○ Si es SÍ voy a 21\n    ○ Si es NO voy a 22\n21. CÁLCULO diasVida = diasVida + 366\n    Voy a 23\n22. CÁLCULO diasVida = diasVida + 365\n23. CÁLCULO i = i + 1\n24. Volver a 18\n25. CÁLCULO diasVida = diasVida - DiaDelAño(diaNac, mesNac, añoNac)\n26. CÁLCULO diasVida = diasVida + DiaDelAño(diaHoy, mesHoy, añoHoy)\n27. CÁLCULO edad = diasVida / 365.25\n28. MOSTRAR \"Tienes edad años\"\n29. FIN",
+    "diagramImage": "B2_Ex20"
+  }
+]

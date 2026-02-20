@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Tipos Primitivos",
+    "description": "Muestra ejemplos de los tipos primitivos en Swift: Int, Double, String, Bool y Character.\n\nCada tipo incluye una variable (var) y una constante (let) con ejemplos de cuándo usar cada uno.",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "none"
+  },
+  {
+    "id": 2,
+    "title": "Operaciones Aritméticas",
+    "description": "Declara cuatro variables numéricas de distintos tipos (Int, Double, Float, UInt) y realiza 10 operaciones aritméticas.\n\nIncluye suma, resta, multiplicación, división, módulo, uso de paréntesis para precedencia y conversiones de tipo.",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "none"
+  },
+  {
+    "id": 3,
+    "title": "Verificar Múltiplo",
+    "description": "Determina si el primer número es múltiplo del segundo. Acepta enteros y decimales, explicando la diferencia conceptual en cada caso.",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "twoNumbers"
+  },
+  {
+    "id": 4,
+    "title": "Números Pares (Bucles)",
+    "description": "Implementa dos bucles (for-in y repeat-while) que muestran los números pares entre 2 y 40, explicando las diferencias en sintaxis y flujo de ejecución.",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "none"
+  },
+  {
+    "id": 5,
+    "title": "Suma Impares y Producto Pares",
+    "description": "Genera 15 números aleatorios y mediante bucles tradicionales calcula la suma de los impares y el producto de los pares.",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "none"
+  },
+  {
+    "id": 6,
+    "title": "Persona Más Alta y Baja",
+    "description": "Construye un diccionario con 8 nombres y alturas (en centímetros). Recorre el diccionario para identificar la persona más alta y la más baja, e imprime sus datos.",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "none"
+  },
+  {
+    "id": 7,
+    "title": "Clasificar Mes por Estación",
+    "description": "Define una enumeración para los meses del año y usa switch para clasificar cada mes como inicio, medio o final de estación.\n\nEjemplo:\nEntrada: marzo\nSalida: \"Marzo está en el inicio de Primavera\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 8,
+    "title": "Descripción Vehículo",
+    "description": "Crea una clase Vehiculo con propiedades marca, modelo y año. Instancia 5 objetos y muestra su descripción completa.",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "none"
+  },
+  {
+    "id": 9,
+    "title": "Área y Circunferencia Círculo",
+    "description": "Define un struct Circulo con una propiedad radio y dos propiedades calculadas: área (π×r²) y circunferencia (2×π×r).\n\nInstancia 5 círculos con radios aleatorios y determina cuál tiene mayor y menor área.",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "none"
+  },
+  {
+    "id": 10,
+    "title": "Información Película",
+    "description": "Diseña una clase Pelicula con propiedades título, director y estreno. Implementa 3 métodos: descripcion(), mismoDirector(que:) y mismaDecada(que:).\n\nFormato: título1,director1,año1 | título2,director2,año2\n\nEjemplo:\nEntrada: Inception,Nolan,2010 | Tenet,Nolan,2020\nSalida: Mismo director: Sí, Misma década: No",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 11,
+    "title": "Subclases de Película",
+    "description": "Crea dos subclases de Pelicula: PeliculaDigital (añade URL de transmisión) y PeliculaEnDVD (añade duración del disco en minutos). Instancia 3 objetos de cada subclase y comprueba su comportamiento.",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "none"
+  },
+  {
+    "id": 12,
+    "title": "Desplazar Vector",
+    "description": "Define un struct Vector con propiedades x e y. Agrega un método que desplace el vector sumándole valores delta.\n\nRango válido: -100 a 100\nFormato: x,y | deltaX,deltaY\n\nEjemplo:\nEntrada: 3,4 | 2,1\nSalida: Vector desplazado: (5, 5)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "text"
+  },
+  {
+    "id": 13,
+    "title": "Carrito de Compras",
+    "description": "Diseña una clase CarritoDeCompras con un array de items y un total. Implementa métodos para añadir un item (con su precio) y eliminarlo, asegurando que el total nunca sea negativo.\n\nMáximo 20 items diferentes, 10 unidades por item, precio > 0\nFormato: item1:precio1, item2:precio2, ...\n\nEjemplo:\nEntrada: Manzanas:2.50, Leche:1.20, Manzanas:2.50\nSalida: Manzanas x2: 5.00€, Leche x1: 1.20€, TOTAL: 6.20€",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 14,
+    "title": "Arrancar Vehículo",
+    "description": "En la clase Vehiculo del ejercicio 8, añade un método arrancar que imprima un mensaje indicando que el vehículo (mostrando marca y modelo) ha iniciado su marcha. Prueba el método con una instancia.\n\nVehículos disponibles:\n1. Tesla Model S Plaid (2024)\n2. Tesla Model 3 Performance (2024)\n3. Tesla Model X Plaid (2023)\n4. Tesla Model Y Long Range (2024)\n5. Tesla Cybertruck (2024)\n\nIngresa un número del 1 al 5",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 15,
+    "title": "Reproducir Película",
+    "description": "Añade un método reproducir a la clase Pelicula que reciba un Usuario y muestre un mensaje de reproducción.\n\nFormato: título,director,año | nombre,edad\n\nEjemplo:\nEntrada: Inception,Nolan,2010 | Juan,25\nSalida: El usuario Juan (25 años) está reproduciendo 'Inception (2010) - Dirigida por Nolan'",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 16,
+    "title": "Magnitud y Distancia Vectores",
+    "description": "A la estructura Vector del ejercicio 12, agrega un método que calcule la magnitud (norma) y otro que, recibiendo otro vector, determine la distancia entre ambos.\n\nRango válido: -100 a 100\nFormato: x1,y1 | x2,y2\n\nEjemplo:\nEntrada: 3,4 | 6,8\nSalida: V1 Magnitud: 5.00, V2 Magnitud: 10.00, Distancia: 5.00",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "text"
+  },
+  {
+    "id": 17,
+    "title": "Resumen Carrito",
+    "description": "Para la clase CarritoDeCompras, implementa un método mostrarResumen que imprima el listado de items junto con el total. Simula la adición y eliminación de items (eliminando posiciones pares: 2º, 4º, 6º...) y observa cómo cambia el resumen.\n\nMínimo 2 items, máximo 20 diferentes, precio > 0\nFormato: item1:precio1, item2:precio2, ...\n\nEjemplo:\nEntrada: Manzanas:2.50, Leche:1.20, Pan:0.80, Huevos:3.00\nSalida: Carrito completo (7.50€) → Eliminados Leche, Huevos (3.30€)",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 18,
+    "title": "Actualizar Año Vehículo",
+    "description": "En la clase Vehiculo, añade un método actualizarAño que incremente la propiedad año en uno (simulando un \"año nuevo\" para el vehículo). Instancia un objeto y prueba este comportamiento.\n\nVehículos disponibles:\n1. Tesla Model S Plaid (2024)\n2. Tesla Model 3 Performance (2024)\n3. Tesla Model X Plaid (2023)\n4. Tesla Model Y Long Range (2024)\n5. Tesla Cybertruck (2024)\n\nIngresa un número del 1 al 5",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 19,
+    "title": "Suma Total Áreas Círculos",
+    "description": "Usa el struct Circulo del ejercicio 9 (con su propiedad calculada circunferencia) y crea una función que reciba un array de círculos y devuelva la suma total de sus áreas.\n\nEntre 2 y 10 radios, cada uno entre 1 y 100.\n\nEjemplo:\nEntrada: 2, 3, 5\nSalida: r=2 → c=12.57 → a=12.57, r=3 → c=18.85 → a=28.27, r=5 → c=31.42 → a=78.54, Total: 119.38",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "array"
+  },
+  {
+    "id": 20,
+    "title": "Sistema de Recomendación de Películas",
+    "description": "Crea una clase Usuario que tenga, al menos, las propiedades: nombre, edad, generos y directores. Añade el genero a la clase Pelicula. Crea una función recomendarPelicula que reciba dos parámetros: un objeto de tipo Pelicula y uno de tipo Usuario. Cargando datos de prueba crea una función recomendarPeliculas que devuelve un array con películas que podrían gustarle al usuario según sus preferencias. Crea varias instancias de Usuario y Pelicula con distintas combinaciones de géneros y directores para comprobar que la función recomendarPelicula retorna el mensaje esperado en cada caso.\n\nUsuarios disponibles: Ana, Carlos, María, Pedro\n\nEjemplo:\nEntrada: Carlos\nSalida:\nUSUARIO: Carlos (35 años)\nGéneros favoritos: drama\nDirectores favoritos: tarantino, coppola\n\nPELÍCULAS RECOMENDADAS (4/10):\n1. Pulp Fiction (1994) - Drama - Dir: Quentin Tarantino\n2. Kill Bill (2003) - Acción - Dir: Quentin Tarantino\n3. The Godfather (1972) - Drama - Dir: Francis Ford Coppola\n4. Forrest Gump (1994) - Drama - Dir: Robert Zemeckis",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 21,
+    "title": "Filtrar Vectores por Magnitud",
+    "description": "Define una función filtrarVectores que, dado un array de Vector y un valor límite de magnitud, retorne un array con aquellos vectores cuya magnitud sea menor o igual al límite.\n\nRango coordenadas: -100 a 100\nRango límite: 0 a 150\nVectores: 2-20\n\nFormato: x1,y1;x2,y2;x3,y3 | límite\n\nEjemplo:\nEntrada: 3,4;1,1;6,8 | 5\nSalida:\n(3,4) → magnitud: 5.00 ✓\n(1,1) → magnitud: 1.41 ✓\n(6,8) → magnitud: 10.00 ✗\n───────────────────────────────────────\nFiltrados (magnitud ≤ 5.00): (3, 4), (1, 1)\nTotal: 2 de 3",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "text"
+  },
+  {
+    "id": 22,
+    "title": "Aplicar Descuento Carrito",
+    "description": "En la clase CarritoDeCompras, implementa un método aplicarDescuento que reciba un porcentaje y reduzca el total en esa proporción. Realiza pruebas aplicando descuentos sucesivos.\n\nMínimo 2 items, máximo 20, precio > 0\nEntre 2 y 4 descuentos, cada uno entre 1% y 50%\nFormato: item1:precio1, item2:precio2 | descuento1, descuento2\n\nEjemplo:\nEntrada: Manzanas:2.50, Leche:1.20 | 10, 20\nSalida: Total 3.70€ → -10% = 3.33€ → -20% = 2.66€",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 23,
+    "title": "Frecuencia de Palabras",
+    "description": "Implementa una función que, dada una cadena de texto, retorne un diccionario donde cada clave sea una palabra (normalizada en minúsculas y sin puntuación) y el valor sea el número de ocurrencias de esa palabra en el texto.\n\nInput: Texto con palabras\nOutput: Frecuencia de cada palabra ordenada\nRango: Máximo 500 caracteres, mínimo 2 palabras\n\nEjemplo:\nEntrada: hola mundo hola swift mundo mundo\nSalida: mundo: 3, hola: 2, swift: 1",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 24,
+    "title": "Fábrica de Café con Clases",
+    "description": "Modela un sistema para una fábrica de café utilizando clases. La clase principal Cafetera debe preparar tazas de café con una cantidad aleatoria de cafeína. Cada taza puede ser de expreso, americano o capuchino, y en ocasiones incluirá una muestra de un nuevo sabor. Simula el proceso de preparación.\n\nFormato: tipo,cantidad;tipo,cantidad;...\nTipos: expreso, americano, capuchino\nMáximo: 10 tazas en total, 1 pedido por tipo\n\nEjemplo:\nEntrada: expreso,2;americano,1\nSalida:\nPreparando Expreso...\n  1. Expreso - 72 mg cafeína\nPreparando Expreso...\n  2. Expreso - 65 mg cafeína + muestra de vainilla\nPreparando Americano...\n  3. Americano - 95 mg cafeína\n\nTotal: 3 | Con muestra: 1 | Cafeína: 232 mg (media: 77 mg)",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 25,
+    "title": "Sistema Hospital (Structs)",
+    "description": "Crea la estructura de un hospital usando structs en lugar de clases. Define structs para Doctor (nombre, especialidad), Enfermero (nombre, turno), Paciente (nombre, edad, diagnóstico) y Sala (número, lista de pacientes). Luego, en un struct Hospital, almacena varias salas y desarrolla funciones para obtener listados por especialidad o contar pacientes críticos.\n\nEspecialidades: Cardiología, Pediatría, Traumatología",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "none"
+  },
+  {
+    "id": 26,
+    "title": "Juego de Personajes",
+    "description": "Modela un juego: define una clase Personaje con propiedades (nombre y salud) y métodos para morir() y saludar(). Crea subclases Arquero (con habilidad para disparar), Guerrero (con capacidad defensiva) y Hechicero (que puede curar). Cada uno debe implementar sus métodos de ataque o interacción, usando enumeraciones para definir tipos de acción.\n\nFormato: tipo1 | tipo2\n\nEjemplo: arquero | guerrero",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 27,
+    "title": "Indices de Palabras",
+    "description": "Implementa una función que, recibiendo una frase, retorne un diccionario donde las claves sean las palabras únicas y los valores sean arrays con los índices en que aparecen en la frase. Esto ayudará a comprender el mapeo de posiciones dentro del texto.\n\nRango: 2-50 palabras\n\nEjemplo: el gato y el perro\nel: [0, 3]\ngato: [1]\ny: [2]\nperro: [4]",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 28,
+    "title": "Número a Romano",
+    "description": "Desarrolla una función que convierta un número entero (de 1 a 3999) en números romanos. Asegúrate de manejar correctamente los casos especiales de sustracción (por ejemplo, 4 como IV, 9 como IX, etc.).\n\nEntrada: Un número entero (1-3999)\n\nEjemplo:\nEntrada: 1994\nSalida:\nCONVERSIÓN A ROMANO\n───────────────────\nNúmero: 1994\nRomano: MCMXCIV",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 29,
+    "title": "Lectura de Archivo Simulado",
+    "description": "Crea una función que intente leer el contenido de un archivo de texto (simulado) y retorne su contenido. Implementa el manejo de errores con una enumeración para capturar la situación en que el archivo no existe o se produce otro error.\n\nARCHIVOS DE PRUEBA\n─────────────────────────\nVálidos: holamundo.swift, datos.json, readme.md, vacio.txt\nNo existe: noexiste.txt (o cualquier otro)\nBinario: foto.jpeg, imagen.png\nPermisos: /private/etc/sudoers\nDirectorio: /Users, /Applications, Desktop/",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 30,
+    "title": "Closures como Parámetros",
+    "description": "Escribe una función que reciba un array de enteros y un closure que defina una condición (por ejemplo, que verifique si un número es par o impar). La función debe retornar un array con aquellos números que cumplan la condición. Prueba con distintas condiciones.\n\nFormato: números separados por coma\n\nEntrada: 3, 1, 2\nSalida: Input: [3, 1, 2], Ordenado: [1, 2, 3], Pares: [2], Impares: [1, 3], Media: 2.00 → Mayores: [3], Múltiplos de 3: [3]",
+    "difficulty": "intermediate",
+    "category": "arrays",
+    "inputType": "array"
+  },
+  {
+    "id": 31,
+    "title": "Intercambiar Valores (inout)",
+    "description": "Define una función llamada intercambiar que reciba dos variables (inout) y las intercambie. Crea una versión para datos Int y otra String.\n\nFormato: valor1,valor2|tipo (int o string)\n\nEjemplo: 5,10|int\nEjemplo: Juan,Pedro|string",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 32,
+    "title": "Contador con Closure",
+    "description": "Escribe una función que devuelva un closure. Este closure deberá capturar y mantener un contador interno que incremente su valor cada vez que se invoque. Llama al closure varias veces y observa la evolución del contador.\n\nRango válido: 1-10 llamadas\n\nEntrada: Número de llamadas a miContador\n\nEjemplo:\nEntrada: 5\nSalida: Evolución del contador: 1 → 2 → 3 → 4 → 5",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 33,
+    "title": "Configuración Lazy",
+    "description": "En la clase Vehiculo, añade una propiedad configuracionDetallada declarada como lazy, que realice una operación costosa y se inicialice solo al primer acceso.\n\nVehículos disponibles:\n1. Tesla Model S Plaid (2024)\n2. Tesla Model 3 Performance (2024)\n3. Tesla Model X Plaid (2023)\n4. Tesla Model Y Long Range (2024)\n5. Tesla Cybertruck (2024)\n\nIngresa un número del 1 al 5",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 34,
+    "title": "Resultado Éxito o Error",
+    "description": "Define una enumeración Resultado con dos casos: éxito (que tenga un valor asociado de tipo String) y error (con un valor asociado de tipo Error). Crea una función que retorne un Resultado y utiliza un switch para manejar cada caso.\n\nValidación de contraseña:\n- Mínimo 8 caracteres\n- Al menos una mayúscula (A-Z)\n- Al menos una minúscula (a-z)\n- Al menos un número (0-9)\n- Al menos un carácter especial\n\nEjemplos:\n\"abc\" -> muyCorta(8)\n\"abcdefgh\" -> sinMayuscula\n\"ABCDEFGH\" -> sinMinuscula\n\"Abcdefgh\" -> sinNumero\n\"Abcdefg1\" -> sinCaracterEspecial\n\"Abcdef1!\" -> EXITO",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 35,
+    "title": "Clase Contador con willSet/didSet",
+    "description": "Crea una clase Contador con una propiedad valor de tipo Int. Añade observadores (willSet y didSet) para imprimir un mensaje cada vez que el valor cambie, y simula varios cambios en el contador.\n\nJuego: El contador suma 1 hasta llegar a 10 (meta). Cuando el valor está en 3, 4 o 5, se lanza un random 1-10. Si cae en 3-5, reinicia a 0. Si no, continúa.\n\nRango válido: 10-100 pasos máximos\n\nEjemplo:\nEntrada: 50\nSalida: ¡META ALCANZADA en 18 pasos con 2 reinicios!",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "inputType": "singleNumber"
+  }
+]

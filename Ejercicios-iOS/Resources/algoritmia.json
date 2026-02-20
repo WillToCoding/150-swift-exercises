@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "title": "Suma de Array con Reduce",
+    "description": "Dado un array de números enteros, implementa una función que sume todos sus elementos utilizando la función reduce.\n\nLa función reduce aplica una operación acumulativa a todos los elementos de una colección.\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5\nSalida: 15\n\nLímites: máximo 20 números, cada uno entre -1000 y 1000",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 2,
+    "title": "Promedio de Pares con Filter y Reduce",
+    "description": "A partir de un array, filtra los números pares y calcula su promedio usando combinaciones de filter y reduce.\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5, 6\nPares: [2, 4, 6]\nPromedio: 4.0\n\nLímites: máximo 20 números, cada uno entre -1000 y 1000",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 3,
+    "title": "Map a Factoriales (Recursivo)",
+    "description": "Utiliza map para transformar un array de enteros en otro array en el que cada elemento es el factorial del número original. Implementa el factorial de forma recursiva.\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5\nSalida: [1, 2, 6, 24, 120]\n\nLímites: máximo 10 números, cada uno entre 0 y 20",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 4,
+    "title": "Frecuencia de Caracteres",
+    "description": "Dado un String, cuenta la frecuencia de cada carácter utilizando funciones de orden superior y presenta el resultado en un diccionario.\n\nSe ignoran espacios y se convierte a minúsculas.\n\nEjemplo:\nEntrada: \"Hola Mundo\"\nSalida: [\"o\": 2, \"h\": 1, \"l\": 1, \"a\": 1, \"m\": 1, \"u\": 1, \"n\": 1, \"d\": 1]\n\nLímites: máximo 100 caracteres",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 5,
+    "title": "Palíndromo Funcional",
+    "description": "Determina si una palabra es palíndroma sin usar el método de inversión de cadena, aplicando técnicas funcionales (filter, allSatisfy).\n\nSe ignoran espacios y mayúsculas.\n\nEjemplo:\nEntrada: \"Ana\"\nSalida: es palíndromo\n\nLímites: máximo 100 caracteres",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 6,
+    "title": "Fibonacci con Memoización",
+    "description": "Implementa la secuencia de Fibonacci de forma recursiva, incorporando memoización para optimizar el cálculo.\n\nLa memoización guarda resultados ya calculados en una cache para evitar recálculos.\n\nEjemplo:\nEntrada: 10\nSalida: Fibonacci(10) = 55\n\nLímites: número entre 0 y 50",
+    "difficulty": "basic",
+    "category": "algorithms",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 7,
+    "title": "Diccionario Número-Cuadrado",
+    "description": "Dado un array de enteros, genera un diccionario en el que cada clave sea el número y su valor el cuadrado del mismo, aprovechando map.\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5\nSalida: [1: 1, 2: 4, 3: 9, 4: 16, 5: 25]\n\nLímites: máximo 20 números, cada uno entre -100 y 100",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 8,
+    "title": "Primeros N Números Primos",
+    "description": "Desarrolla una función que, dada una cantidad N, devuelva un array con los primeros N números primos usando un enfoque funcional.\n\nSegún Leibniz, el 1 se considera primo.\n\nEjemplo:\nEntrada: 5\nSalida: [1, 2, 3, 5, 7]\n\nLímites: N entre 1 y 100",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 9,
+    "title": "Contar Vocales",
+    "description": "Implementa una función que cuente la cantidad de vocales en una cadena, utilizando filter y reduce.\n\nUsa .diacriticInsensitive para agrupar vocales con diacríticos (á, é, ë, ö, etc.) por su vocal base.\n\nEjemplo:\nEntrada: \"Héllo Wörld\"\nSalida: \"Vocales encontradas: 3 (e: 1, o: 2)\"\n\nLímites: máximo 500 caracteres",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 10,
+    "title": "Filtrar Palíndromos",
+    "description": "Dado un array de String, filtra aquellos que sean palíndromos y ordénalos por longitud, usando funciones de orden superior.\n\nReutiliza la lógica del ejercicio 5 (esPalindromo).\n\nEjemplo:\nEntrada: ana, hola, oso, radar, casa\nSalida: Palíndromos (por longitud): [ana, oso, radar]\n\nLímites: máximo 20 palabras",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 11,
+    "title": "Busqueda Binaria Recursiva",
+    "description": "Implementa una funcion de busqueda binaria recursiva que funcione sobre cualquier array ordenado.\n\nEl usuario ingresa numeros desordenados, el programa los ordena (eliminando duplicados) y busca el objetivo.\n\nFormato: numeros | objetivo\n\nEjemplo:\nEntrada: 5,1,9,3,7 | 7\nSalida:\nArray original: [5, 1, 9, 3, 7]\nArray ordenado: [1, 3, 5, 7, 9]\nBuscar: 7\nEncontrado en indice 3\n\nLimites: 2-20 numeros, cada uno entre -1000 y 1000",
+    "difficulty": "intermediate",
+    "category": "searching",
+    "inputType": "text"
+  },
+  {
+    "id": 12,
+    "title": "MCD Recursivo (Euclides)",
+    "description": "Crea una funcion recursiva que determine el maximo comun divisor de dos numeros, empleando el algoritmo de Euclides.\n\nFormula:\nMCD(a, b) = a, si b = 0\nMCD(a, b) = MCD(b, a mod b), si b != 0\n\nFormato: numero1, numero2\n\nEjemplo:\nEntrada: 48, 18\nSalida: MCD(48, 18) = 6\n\nLimites: numeros entre 0 y 10000 (ambos 0 no permitido)",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "text"
+  },
+  {
+    "id": 13,
+    "title": "Subsecuencia Creciente Mas Larga (LIS)",
+    "description": "Dado un array de enteros, encuentra la subsecuencia creciente mas larga.\n\nEjemplo:\nEntrada: 10, 22, 9, 33\nSalida:\nLongitud: 3\nSubsecuencia: 10, 22, 33\n\nLimites: 2-20 numeros, cada uno entre -1000 y 1000",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "multipleNumbers",
+    "explanation": "════════════════════════════════════════════\nNECESITAMOS\n════════════════════════════════════════════\n\nnumbers: array de entrada\nn:       cantidad de elementos\ndp:      longitud maxima de subsecuencia que termina en cada posicion\nparent:  de donde vengo para reconstruir el camino\n\n════════════════════════════════════════════\nCODIGO\n════════════════════════════════════════════\n\n...\n\nlet n = numbers.count\nvar dp = Array(repeating: 1, count: n)\nvar parent = Array(repeating: -1, count: n)\n\nfor i in 1..<n {\n    for j in 0..<i {\n        if numbers[j] < numbers[i] && dp[j] + 1 > dp[i] {\n            dp[i] = dp[j] + 1\n            parent[i] = j\n        }\n    }\n}\n\nlet maxLength = dp.max() ?? 0\nvar maxIndex = dp.firstIndex(of: maxLength) ?? 0\n\nvar sequence: [Int] = []\nwhile maxIndex != -1 {\n    sequence.append(numbers[maxIndex])\n    maxIndex = parent[maxIndex]\n}\nsequence.reverse()\n\n...\n\n════════════════════════════════════════════\nEJEMPLO: numbers = [10, 22, 9, 33]\n════════════════════════════════════════════\n\nPASO 1 - Inicializar:\n────────────────────────────────────────────\nposicion:    0    1    2    3\nnumbers:    10   22    9   33\ndp:          1    1    1    1\nparent:     -1   -1   -1   -1\n────────────────────────────────────────────\n\nPASO 2 - Comparar con anteriores:\n\ni=1 (mirando el 22):\n  j=0: ¿10 < 22? SI\n       ¿dp[0]+1 > dp[1]? ¿2 > 1? SI\n       -> dp[1] = 2\n       -> parent[1] = 0\n\n────────────────────────────────────────────\nposicion:    0    1    2    3\nnumbers:    10   22    9   33\ndp:          1    2    1    1\nparent:     -1    0   -1   -1\n────────────────────────────────────────────\n\ni=2 (mirando el 9):\n  j=0: ¿10 < 9? NO\n  j=1: ¿22 < 9? NO\n\n────────────────────────────────────────────\nposicion:    0    1    2    3\nnumbers:    10   22    9   33\ndp:          1    2    1    1\nparent:     -1    0   -1   -1\n────────────────────────────────────────────\n\ni=3 (mirando el 33):\n  j=0: ¿10 < 33? SI\n       ¿dp[0]+1 > dp[3]? ¿2 > 1? SI\n       -> dp[3] = 2\n       -> parent[3] = 0\n\n  j=1: ¿22 < 33? SI\n       ¿dp[1]+1 > dp[3]? ¿3 > 2? SI\n       -> dp[3] = 3\n       -> parent[3] = 1\n\n  j=2: ¿9 < 33? SI\n       ¿dp[2]+1 > dp[3]? ¿2 > 3? NO\n\n────────────────────────────────────────────\nposicion:    0    1    2    3\nnumbers:    10   22    9   33\ndp:          1    2    1    3\nparent:     -1    0   -1    1\n────────────────────────────────────────────\n\nPASO 3 - Encontrar maximo:\n\nmaxLength = 3\nmaxIndex = 3\n\nPASO 4 - Reconstruir:\n\npos 3 -> numbers[3] = 33 -> parent[3] = 1 -> voy a pos 1\npos 1 -> numbers[1] = 22 -> parent[1] = 0 -> voy a pos 0\npos 0 -> numbers[0] = 10 -> parent[0] = -1 -> FIN\n\nsequence = [33, 22, 10]\nsequence.reverse() = [10, 22, 33]\n\n════════════════════════════════════════════\nRESULTADO: Longitud 3, Subsecuencia [10, 22, 33]\n════════════════════════════════════════════"
+  },
+  {
+    "id": 14,
+    "title": "Merge Sort Recursivo",
+    "description": "Implementa el algoritmo Merge Sort de forma recursiva y utilizando metodos funcionales para la division y fusion de arrays.\n\nMergeSort(A) = A, si |A| <= 1\n             = Merge(MergeSort(A1), MergeSort(A2)), si |A| > 1\n\nFormato: numeros separados por coma\n\nInput: Array de numeros enteros\nOutput: Array ordenado de menor a mayor\nRango: 2-20 numeros, cada uno entre -1000 y 1000\n\nEntrada: 3, 1, 4, 2\nSalida: Original: [3, 1, 4, 2], Ordenado: [1, 2, 3, 4]",
+    "difficulty": "basic",
+    "category": "sorting",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 15,
+    "title": "Conjunto Potencia (Power Set)",
+    "description": "Escribe una función que dado un array, genere el conjunto potencia (power set) usando recursión.\n\nEl conjunto potencia de S P(S) es el conjunto de todos los subconjuntos de S.\n\nP(S) = { X | X ⊆ S }\n|P(S)| = 2^n\n\nFormato: números separados por coma\n\nInput: Array de números\nOutput: Todos los subconjuntos posibles\nRango: Máximo 10 elementos\n\nEjemplo:\nEntrada: 1, 2\nSalida:\nConjunto S: [1, 2]\nn = 2 elementos\n|P(S)| = 2^2 = 4 subconjuntos\n\nP(S) = {\n  []\n  [1]\n  [2]\n  [1, 2]\n}",
+    "difficulty": "basic",
+    "category": "recursion",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 16,
+    "title": "Triángulo de Pascal",
+    "description": "Desarrolla una funcion que genere el Triangulo de Pascal hasta N filas, haciendo uso de map y recursion. Cada elemento del triangulo esta dado por el coeficiente binomial de forma que la fila n se compone de todos los coeficientes.\n\nC(n,k) = n! / (k!(n-k)!), para 0 <= k <= n\n\nRango: 0-15\n\nEjemplo:\nEntrada: 4\nSalida:\nTRIANGULO DE PASCAL (filas 0 a 4)\n------------------------------------\n    1\n   1 1\n  1 2 1\n 1 3 3 1\n1 4 6 4 1",
+    "difficulty": "intermediate",
+    "category": "recursion",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 17,
+    "title": "Substring mas largo sin caracteres repetidos",
+    "description": "Dado un String, identifica el substring mas largo sin caracteres repetidos; explica el metodo utilizado.\n\nMetodo: Sliding Window (ventana deslizante con dos punteros)\nRango: 2-500 caracteres\n\nEjemplo: abcab\nLongitud maxima: 3\nEncontrados (3):\n  1. abc\n  2. bca\n  3. cab",
+    "difficulty": "intermediate",
+    "category": "searching",
+    "inputType": "text",
+    "explanation": "════════════════════════════════════════════\nMETODO: SLIDING WINDOW (Ventana Deslizante)\n════════════════════════════════════════════\n\nUsamos dos punteros (left y right) que definen una ventana.\nLa ventana crece o se contrae segun haya repetidos.\n\n════════════════════════════════════════════\nVARIABLES\n════════════════════════════════════════════\n\nleft:        Puntero izquierdo de la ventana\nright:       Puntero derecho (avanza con el for)\ncaracteres:  Set con caracteres en la ventana actual\nmaxLongitud: Longitud maxima encontrada\nmaxInicios:  Indices donde empiezan los substrings maximos\n\n════════════════════════════════════════════\nCODIGO\n════════════════════════════════════════════\n\nfor right in 0..<chars.count {\n    while caracteres.contains(chars[right]) {\n        caracteres.remove(chars[left])\n        left += 1\n    }\n\n    caracteres.insert(chars[right])\n\n    let longitudActual = right - left + 1\n    if longitudActual > maxLongitud {\n        maxLongitud = longitudActual\n        maxInicios = [left]\n    } else if longitudActual == maxLongitud {\n        maxInicios.append(left)\n    }\n}\n\n════════════════════════════════════════════\nEJEMPLO: \"abcab\"\n════════════════════════════════════════════\n\nright=0, chars[right]='a'\n  ventana: \"a\"\n  caracteres: {a}\n  maxLongitud: 1, maxInicios: [0]\n\nright=1, chars[right]='b'\n  ventana: \"ab\"\n  caracteres: {a,b}\n  maxLongitud: 2, maxInicios: [0]\n\nright=2, chars[right]='c'\n  ventana: \"abc\"\n  caracteres: {a,b,c}\n  maxLongitud: 3, maxInicios: [0]\n\nright=3, chars[right]='a' (REPETIDA!)\n  caracteres.remove('a'), left=1\n  ventana: \"bca\"\n  caracteres: {b,c,a}\n  longitudActual=3, == maxLongitud -> maxInicios: [0,1]\n\nright=4, chars[right]='b' (REPETIDA!)\n  caracteres.remove('b'), left=2\n  ventana: \"cab\"\n  caracteres: {c,a,b}\n  longitudActual=3, == maxLongitud -> maxInicios: [0,1,2]\n\n════════════════════════════════════════════\nRESULTADO\n════════════════════════════════════════════\n\nmaxInicios = [0, 1, 2]\nmaxLongitud = 3\n\nSubstrings:\n  chars[0..<3] = \"abc\"\n  chars[1..<4] = \"bca\"\n  chars[2..<5] = \"cab\"\n\nComplejidad: O(n)"
+  },
+  {
+    "id": 18,
+    "title": "Criba de Eratóstenes",
+    "description": "Implementa el algoritmo de la criba de Eratóstenes de forma funcional para obtener todos los números primos hasta un límite dado.\n\nSea S = {2,3,4,...,N}. Para cada p ∈ S (en orden creciente), eliminar de S los números de la forma kp, con k ≥ 2.\n\nInput: Un número entero N (límite)\nOutput: Lista de primos hasta N\nRango: 2 - 10000\n\nEjemplo:\nEntrada: 30\nSalida: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]",
+    "difficulty": "intermediate",
+    "category": "algorithms",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 19,
+    "title": "Frecuencia de Palabras",
+    "description": "Crea una función que, dada una cadena de texto, devuelva un diccionario con la frecuencia de cada palabra, ordenado descendentemente por frecuencia.\n\nInput: Texto con palabras\nOutput: Frecuencia de cada palabra ordenada\nRango: Máximo 500 caracteres, mínimo 2 palabras\n\nEjemplo:\nEntrada: hola mundo hola swift mundo mundo\nSalida: mundo: 3, hola: 2, swift: 1",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 20,
+    "title": "Divisores (Recursivo)",
+    "description": "Diseña una función recursiva que, para un número dado, encuentre todos sus divisores.\n\nInput: Un número entero\nOutput: Lista de todos sus divisores\nRango: 1 - 100000\n\nEjemplo:\nEntrada: 12\nSalida: [1, 2, 3, 4, 6, 12]",
+    "difficulty": "intermediate",
+    "category": "recursion",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 21,
+    "title": "Potencia x^n (Recursion)",
+    "description": "Implementa una función recursiva (divide y vencerás) para calcular x^n.\n\nx^n = 1, si n = 0\nx^n = x * x^(n-1), si n > 0\n\nEntrada: base,exponente\nRangos: base [-15, 15], exponente [0, 15]\n\nEjemplo: 2,4 -> 2^4 = 16",
+    "difficulty": "intermediate",
+    "category": "recursion",
+    "inputType": "text"
+  },
+  {
+    "id": 22,
+    "title": "Dos Números que Suman Objetivo",
+    "description": "Dado un array de enteros, encuentra dos números cuya suma sea igual a un valor objetivo, utilizando un enfoque funcional.\n\nInput: números|objetivo\nRango: 2-20 números, cada uno entre -100 y 100\n\nEjemplo:\nEntrada: 2,7,3,6,4,5|9\nSalida: Pares encontrados: (2, 7), (3, 6), (4, 5)",
+    "difficulty": "intermediate",
+    "category": "arrays",
+    "inputType": "text"
+  },
+  {
+    "id": 23,
+    "title": "Aplanar Array Anidado",
+    "description": "Crea una función que reciba un array anidado (arrays dentro de arrays) y lo aplane en un solo array.\n\nInput: Grupos de números separados por |\nOutput: Array aplanado\nRango: 2-10 grupos, 1-10 elementos por grupo\n\nEjemplo:\nEntrada: 1,2,3|4,5|6,7,8\nSalida: [1, 2, 3, 4, 5, 6, 7, 8]",
+    "difficulty": "intermediate",
+    "category": "arrays",
+    "inputType": "text"
+  },
+  {
+    "id": 24,
+    "title": "Permutaciones de Array",
+    "description": "Desarrolla una función recursiva que genere todas las permutaciones de los elementos de un array.\n\nInput: Números separados por coma\nOutput: Todas las permutaciones\nRango: Máximo 5 elementos (5! = 120), valores entre -100 y 100\n\nEjemplo:\nEntrada: 1, 2, 3\nSalida: [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1]",
+    "difficulty": "intermediate",
+    "category": "recursion",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 25,
+    "title": "Distancia de Levenshtein (DP Recursiva)",
+    "description": "Implementa el cálculo de la distancia de Levenshtein entre dos String utilizando programación dinámica recursiva.\n\nLa distancia de Levenshtein es el número mínimo de operaciones (inserción, eliminación, sustitución) para transformar una cadena en otra.\n\nFormato: palabra1|palabra2\n\nInput: Dos palabras separadas por |\nOutput: Distancia (número de operaciones)\nRango: 1-10 caracteres por palabra\n\nEjemplo:\nEntrada: logaritmo|algoritmo\nSalida:\nPalabra 1: \"logaritmo\"\nPalabra 2: \"algoritmo\"\nDistancia de Levenshtein: 3",
+    "difficulty": "intermediate",
+    "category": "algorithms",
+    "inputType": "text"
+  },
+  {
+    "id": 26,
+    "title": "Caminos Únicos en Cuadrícula",
+    "description": "Desarrolla una función que, dada una cuadrícula, calcule la cantidad de caminos únicos desde la esquina superior izquierda a la inferior derecha, aplicando memoización.\n\nSolo puedes moverte hacia abajo (↓) o hacia la derecha (→).\n\nFormato: filas,columnas\nRango: 1-20\n\nEjemplo: 3,3\n\nCAMINOS ÚNICOS EN CUADRÍCULA\n────────────────────────────\nDimensiones: 3 × 3\n\nS · ·\n· · ·\n· · E\n\nS = Start (inicio)\nE = End (destino)\nMovimientos: solo ↓ y →\n\nCaminos únicos: 6",
+    "difficulty": "intermediate",
+    "category": "algorithms",
+    "inputType": "text"
+  },
+  {
+    "id": 27,
+    "title": "Suma de Primos",
+    "description": "Dado un array de enteros, suma solamente los números primos utilizando filter y reduce.\n\nInput: Lista de números separados por coma\nOutput: Primos encontrados y su suma\nRango: Máximo 20 números, cada uno entre 1 y 10000\n\nEjemplo:\nEntrada: 2, 3, 4, 5, 6, 7\nSalida: Primos: [2, 3, 5, 7] → Suma = 17",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 28,
+    "title": "Rotación Array Izquierda",
+    "description": "Crea una función que rote un array k posiciones a la izquierda en un estilo funcional.\n\nInput: array|k\nOutput: Array rotado a la izquierda\nRango: Máximo 20 elementos (-1000 a 1000), k entre 0 y 100\n\nEjemplo:\nEntrada: 1,2,3,4,5|2\nSalida: [3, 4, 5, 1, 2]",
+    "difficulty": "intermediate",
+    "category": "arrays",
+    "inputType": "text"
+  },
+  {
+    "id": 29,
+    "title": "Eliminar Caracteres Duplicados",
+    "description": "Dado un String, retorna otro String en el que se eliminan los caracteres duplicados y se conserva el orden original.\n\nInput: Texto\nOutput: Texto sin caracteres repetidos\nRango: Máximo 100 caracteres\n\nEjemplo:\nEntrada: programming\nSalida: progamin",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 30,
+    "title": "Cifrado César",
+    "description": "Implementa un cifrado César (con desplazamiento definido) aplicando métodos de mapeo sobre los caracteres.\n\nCifrado: E(x) = (x + k) mod 26\nDescifrado: D(x) = (x - k) mod 26\n\nInput: mensaje | k\nOutput: Mensaje cifrado o descifrado\nRango: k entre -25 y 25 (positivo cifra, negativo descifra)\n\nEjemplo:\nCifrar: Hola | 3 → Krod\nDescifrar: Krod | -3 → Hola",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 31,
+    "title": "Número de Armstrong",
+    "description": "Diseña una función que verifique si un número es de Armstrong, utilizando reduce para sumar los dígitos elevados a la potencia correspondiente.\n\nSi el número es igual a la suma de sus dígitos elevados a la potencia del número de dígitos del número.\n\nInput: Un número entero\nOutput: Si es o no número de Armstrong\nRango: 0 - 999999\n\nEjemplo:\n153 = 1³ + 5³ + 3³ = 1 + 125 + 27 = 153",
+    "difficulty": "advanced",
+    "category": "math",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 32,
+    "title": "Prefijo Común Más Largo",
+    "description": "Dado un array de String, encuentra el prefijo común más largo entre ellos, utilizando métodos funcionales.\n\nInput: Palabras separadas por coma\nOutput: El prefijo común más largo\nRango: 2-20 palabras, 1-50 caracteres por palabra\n\nEjemplo:\nEntrada: flower, flow, flight\nSalida: \"fl\"",
+    "difficulty": "advanced",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 33,
+    "title": "Número Catalán (Recursivo)",
+    "description": "Escribe una función recursiva para calcular el enésimo número Catalán e ilustra su significado combinatorio.\n\nFórmula: Cn = (2n)! / ((n+1)! × n!)\n\nIlustramos el significado combinatorio mostrando las combinaciones válidas de n pares de paréntesis.\n\nEjemplo:\nEntrada: 3\nSalida:\nC3 = 5\n\nParéntesis válidos con 3 pares (5 total):\n  1. ((()))\n  2. (()())\n  3. (())()\n  4. ()(())\n  5. ()()()\n\nRango: 0 - 13",
+    "difficulty": "advanced",
+    "category": "recursion",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 34,
+    "title": "Apariciones Consecutivas",
+    "description": "Implementa una función que recorra un array de enteros y devuelva un diccionario donde cada clave sea un número y el valor la cantidad de apariciones consecutivas.\n\nInput: Números separados por coma\nOutput: Diccionario con todas las rachas consecutivas\nRango: 2-50 números\n\nEjemplo:\nEntrada: 1, 1, 1, 2, 2, 3, 1, 1\nSalida:\n• 1: [3, 2] (2 veces)\n• 2: [2] (1 vez)\n• 3: [1] (1 vez)",
+    "difficulty": "advanced",
+    "category": "arrays",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 35,
+    "title": "Inserción Binaria",
+    "description": "Dado un array ordenado y un número objetivo, determina el índice en el que el número debería insertarse para conservar el orden (inserción binaria).\n\nInput: array|objetivo\nOutput: Índice de inserción y array resultante\nRango: 1-50 números\n\nEjemplo:\nEntrada: 5,1,9,3,7|6\nSalida:\nArray ordenado: [1, 3, 5, 7, 9]\nÍndice de inserción: 3\nResultado: [1, 3, 5, 6, 7, 9]",
+    "difficulty": "advanced",
+    "category": "searching",
+    "inputType": "text"
+  },
+  {
+    "id": 36,
+    "title": "Combinaciones de k en k",
+    "description": "Crea una función recursiva que genere todas las combinaciones de los elementos de un array tomadas de k en k.\n\nFórmula: C(n,k) = n! / (k! × (n-k)!)\n\nEntrada: números|k (ej: 1,2,3,4|2)\n\nEjemplo:\nCOMBINACIONES (n=4, k=2)\nArray: [1, 2, 3, 4]\nFórmula: C(4,2) = 4! / (2! × 2!) = 6\nTotal generadas: 6 ✓\nCombinaciones: [1,2], [1,3], [1,4], [2,3], [2,4], [3,4]\n\nRango: n entre 1-10, k entre 1 y n",
+    "difficulty": "advanced",
+    "category": "recursion",
+    "inputType": "text"
+  },
+  {
+    "id": 37,
+    "title": "Lista Enlazada - Inversión",
+    "description": "Define una estructura simple de lista enlazada y escribe una función recursiva para invertirla.\n\nUna lista enlazada es una estructura de datos donde cada elemento (nodo) contiene un valor y un puntero (referencia) al siguiente nodo.\n\nInput: Números separados por coma (se convertirán en nodos)\nOutput: Lista original e invertida\nRango: 2-20 números, cada uno entre -1000 y 1000\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5\nSalida:\nLista original:  1 -> 2 -> 3 -> 4 -> 5 -> nil\nLista invertida: 5 -> 4 -> 3 -> 2 -> 1 -> nil",
+    "difficulty": "intermediate",
+    "category": "dataStructures",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 38,
+    "title": "QuickSort Funcional",
+    "description": "Implementa el algoritmo QuickSort utilizando un enfoque puramente funcional.\n\nEl algoritmo QuickSort divide un array seleccionando un elemento pivote y partiendo el array en dos subconjuntos: los elementos menores que el pivote y los elementos mayores o iguales al pivote. Luego, aplica recursivamente el mismo proceso a cada particion y finalmente los concatena.\n\nQuickSort(A) = A, si |A| <= 1\nQuickSort(A) = QuickSort({x ∈ A | x < p}) ∪ {p} ∪ QuickSort({x ∈ A | x >= p}), si |A| > 1\n\nFormato: numeros separados por coma\n\nInput: Array de numeros enteros\nOutput: Array ordenado de menor a mayor\nRango: 2-20 numeros, cada uno entre -1000 y 1000\n\nEntrada: 3, 6, 1, 8, 2, 5\nSalida: Original: [3, 6, 1, 8, 2, 5], Ordenado: [1, 2, 3, 5, 6, 8]",
+    "difficulty": "intermediate",
+    "category": "sorting",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 39,
+    "title": "Algoritmo de Kadane",
+    "description": "Desarrolla una función que encuentre el subarray contiguo con la suma máxima (Algoritmo de Kadane) y explica el razonamiento.\n\nFórmulas:\nmax_ending_here = max(aᵢ, max_ending_here + aᵢ)\nmax_so_far = max(max_so_far, max_ending_here)\n\nDonde max_ending_here es la suma máxima que se puede obtener terminando en el índice actual y max_so_far la máxima suma en el recorrido.\n\nRango: 2-50 números, cada uno entre -10000 y 10000\n\nEjemplo:\nEntrada: -3, 5, 2\nSalida:\nALGORITMO DE KADANE\n───────────────────\nArray: [-3, 5, 2]\n\nSubarray con suma máxima: [5, 2]\nSuma máxima: 7",
+    "explanation": "RAZONAMIENTO DEL ALGORITMO DE KADANE\n\nPregunta clave en cada posición: ¿Me conviene continuar el subarray anterior o empezar uno nuevo?\n\nFórmula 1: max_ending_here = max(aᵢ, max_ending_here + aᵢ)\n• Si max_ending_here + aᵢ > aᵢ → El pasado SUMA, continúo el subarray\n• Si max_ending_here + aᵢ < aᵢ → El pasado RESTA, empiezo nuevo\n\nFórmula 2: max_so_far = max(max_so_far, max_ending_here)\n• Guardo el mejor resultado visto hasta ahora\n\nEjemplo con [-3, 5, 2]:\n\ni=0: a₀=-3\n  max_ending_here = -3 (caso base)\n  max_so_far = -3\n\ni=1: a₁=5\n  max_ending_here = max(5, -3+5) = max(5, 2) = 5\n  → ¡Empezar nuevo! (5 > 2)\n  max_so_far = 5\n\ni=2: a₂=2\n  max_ending_here = max(2, 5+2) = max(2, 7) = 7\n  → ¡Continuar! (7 > 2)\n  max_so_far = 7\n\nResultado: Subarray [5, 2], Suma 7",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "array"
+  },
+  {
+    "id": 40,
+    "title": "Conversión a Base Arbitraria",
+    "description": "Escribe una función recursiva que convierta un número entero a su representación en una base arbitraria (entre 2 y 16), aplicando técnicas funcionales.\n\nN = d₀ + d₁×b + d₂×b² + ... + dₘ×bᵐ\n\nInput: número|base\nOutput: Número convertido a la base\nRango: base entre 2 y 16\n\nEjemplo:\nEntrada: 255|16\nSalida: FF\n\nEntrada: 13|2\nSalida: 1101",
+    "difficulty": "advanced",
+    "category": "recursion",
+    "inputType": "text"
+  },
+  {
+    "id": 41,
+    "title": "Mínimo de Monedas",
+    "description": "Implementa una función que determine el número mínimo de monedas necesarias para dar cambio de una cantidad dada (problema del cambio de monedas).\n\nFórmula:\nC(A) = 0, si A = 0\nC(A) = min{C(A - ci) + 1}, si A > 0\n\nInput: cantidad en céntimos\nOutput: mínimo de monedas y cuáles usar\n\nFormato: número entero\nRango: 1 - 10000 céntimos\n\nMonedas disponibles: 2€, 1€, 50c, 20c, 10c, 5c, 2c, 1c\n\nEjemplo:\nEntrada: 167\nSalida:\nMínimo de monedas: 5\nSolución: 1€ + 50c + 10c + 5c + 2c",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 42,
+    "title": "Paréntesis Válidos",
+    "description": "Crea una función que genere todas las combinaciones válidas de n pares de paréntesis, utilizando técnicas de backtracking recursivo.\n\nEs similar al número Catalán.\n\nEjemplo:\nEntrada: 3\nSalida:\nC₃ = 5\n\nParéntesis válidos con 3 pares (5 total):\n  1. ((()))\n  2. (()())\n  3. (())()\n  4. ()(())\n  5. ()()()\n\nRango: 1 - 13",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 43,
+    "title": "Mediana",
+    "description": "Diseña una función que, a partir de un array de números, calcule la mediana utilizando métodos funcionales para el procesamiento de datos.\n\nFórmula:\nMediana(X) = X[(n+1)/2],                  si n es impar\nMediana(X) = (X[n/2] + X[n/2+1]) / 2,     si n es par\n\nEjemplo:\nEntrada: 3, 1, 4, 1, 5\nSalida:\nArray ordenado: [1, 1, 3, 4, 5]\nn = 5 (impar)\nMediana = 3\n\nRango: 1-50 números, valores entre -10000 y 10000",
+    "difficulty": "advanced",
+    "category": "math",
+    "inputType": "multipleNumbers"
+  },
+  {
+    "id": 44,
+    "title": "Distancia de Levenshtein (Memoización)",
+    "description": "Implementa una función que, dada dos cadenas, calcule la distancia de edición (de Levenshtein) utilizando recursión con memoización.\n\nLa distancia de Levenshtein es el número mínimo de operaciones (inserción, eliminación, sustitución) para transformar una cadena en otra.\n\nFormato: palabra1|palabra2\n\nInput: Dos palabras separadas por |\nOutput: Distancia (número de operaciones)\nRango: 1-100 caracteres por palabra\n\nEjemplo:\nEntrada: logaritmo|algoritmo\nSalida:\nPalabra 1: \"logaritmo\"\nPalabra 2: \"algoritmo\"\nDistancia de Levenshtein: 3\n(recursión con memoización)",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "text"
+  },
+  {
+    "id": 45,
+    "title": "Mini Interprete Aritmetico",
+    "description": "Diseña un mini intérprete que reciba una expresión aritmética en forma de string (por ejemplo, \"3+5*2-4/2\") y la evalúe utilizando técnicas de análisis recursivo (recursive descent parsing), explicando la estrategia de separación de tokens y análisis sintáctico.\n\nUn token sería cada carácter de la cadena, procesado y traducido a una expresión o valor según el caso.\n\nPrecedencia de operadores:\n1º Agrupación: (), [], {}\n2º Potencias y raíces: ^, sqrt()\n3º Multiplicación y división: *, /\n4º Suma y resta: +, -\n\nFormato: expresión aritmética\nRango: max 100 caracteres\n\nEjemplo: {[sqrt(16)+2]^2}*3-6/2\n\nMINI INTÉRPRETE ARITMÉTICO\n──────────────────────────\nExpresión: {[sqrt(16)+2]^2}*3-6/2\n\nTokens: [{] [[] [sqrt] [(] [16] [)] [+] [2] []] [^] [2] [}] [*] [3] [-] [6] [/] [2]\n\nAnálisis sintáctico:\n  sqrt(16) = 4\n  4 + 2 = 6\n  6 ^ 2 = 36\n  36 * 3 = 108\n  6 / 2 = 3\n  108 - 3 = 105\n\nPrecedencia aplicada:\n  1º ()[]{}  Agrupación\n  2º ^ sqrt  Potencias y raíces\n  3º * /     Multiplicación y división\n  4º + -     Suma y resta\n\nResultado: 105",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "text",
+    "explanation": "════════════════════════════════════════════\nESTRATEGIA DE SEPARACIÓN DE TOKENS\n════════════════════════════════════════════\n\nUn TOKEN es cada elemento significativo de la expresión.\n\nEntrada: \"{[sqrt(16)+2]^2}*3-6/2\"\n         ↓ tokenización\nTokens:  [{] [[] [sqrt] [(] [16] [)] [+] [2] []] [^] [2] [}] [*] [3] [-] [6] [/] [2]\n\nTipos de tokens:\n  • number(n)   → números: 16, 2, 3, 6\n  • op(c)       → operadores: +, -, *, /, ^\n  • lparen(c)   → abre grupo: (, [, {\n  • rparen(c)   → cierra grupo: ), ], }\n  • sqrt        → raíz cuadrada: sqrt\n\n════════════════════════════════════════════\nESTRATEGIA DE ANÁLISIS SINTÁCTICO\n════════════════════════════════════════════\n\nTécnica: Recursive Descent Parsing\n\nCada REGLA de la gramática = una FUNCIÓN\n\nExpresión → parseExpression()  maneja + -\nTérmino   → parseTerm()        maneja * /\nPotencia  → parsePower()       maneja ^\nFactor    → parseFactor()      maneja números, sqrt y agrupación\n\nLas funciones se llaman recursivamente:\nparseExpression() → parseTerm() → parsePower() → parseFactor()\n\nAsí se respeta la precedencia:\n  1º ()[]{}   → parseFactor() evalúa grupos primero\n  2º ^ sqrt   → parsePower() \n  3º * /      → parseTerm()\n  4º + -      → parseExpression() evalúa último"
+  }
+]

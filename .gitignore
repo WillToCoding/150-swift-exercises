@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Xcode - configuración personal
+xcuserdata/
+*.xcuserstate
+
+# Xcode - archivos generados (se recrean al compilar)
+build/
+DerivedData/
+
+# Documentación
+Docs/

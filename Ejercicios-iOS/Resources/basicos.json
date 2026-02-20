@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Número Primo",
+    "description": "Realiza un programa que determine si un número entero positivo es un número primo o no.\n\nUn número primo solo es divisible por 1 y por sí mismo.\n\nRango válido: 1-1.000.000.000\n\nEjemplo:\nEntrada: 17\nSalida: \"17 es primo\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 2,
+    "title": "Contar Primos en Array",
+    "description": "Realiza un programa que cuente el total de números primos en un array de números enteros.\n\nRango válido: máximo 50 elementos\n\nEjemplo:\nEntrada: 2, 4, 7, 10, 11, 15\nSalida: 3 (los primos son 2, 7 y 11)",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "array"
+  },
+  {
+    "id": 3,
+    "title": "Secuencia Fibonacci",
+    "description": "Devuelve los primeros N números de la secuencia de Fibonacci.\n\nLa secuencia se obtiene sumando los dos números anteriores: 1, 1, 2, 3, 5, 8, 13...\n\nRango válido: 1-50\n\nEjemplo:\nEntrada: 7\nSalida: 1, 1, 2, 3, 5, 8, 13",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 4,
+    "title": "Verificar Palíndromo",
+    "description": "Determina si una palabra es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda).\n\nRechaza entradas con más de una palabra.\n\nRango válido: máximo 100 caracteres\n\nEjemplo:\nEntrada: reconocer\nSalida: \"Es palíndromo\"",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 5,
+    "title": "Suma Cifras del Factorial",
+    "description": "Calcula el factorial de un número y luego suma sus cifras.\n\nRango válido: 0-20\n\nEjemplo:\nEntrada: 5\n5! = 120\nSuma: 1 + 2 + 0 = 3",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 6,
+    "title": "Conjuntos con Elementos Comunes",
+    "description": "Genera un conjunto de N números primos aleatorios (del 1 al 100) y luego crea otro conjunto de números aleatorios que tenga al menos 3 elementos en común.\n\nRango válido: 3-20\n\nEjemplo:\nEntrada: 5\nSalida:\nConjunto primos: {7, 29, 43, 61, 97}\nConjunto generado: {29, 35, 43, 61, 88}\nElementos comunes (3): {29, 43, 61}",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 7,
+    "title": "Suma de Array",
+    "description": "Suma todos los números de un array de enteros.\n\nRango válido: máximo 20 elementos, cada número entre -1000 y 1000\n\nEjemplo:\nEntrada: 1, 2, 3, 4, 5\nSalida:\nArray: [1, 2, 3, 4, 5]\nSuma: 15",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "array"
+  },
+  {
+    "id": 8,
+    "title": "Filtrar Primos de Array Aleatorio",
+    "description": "Construye un array con 100 números aleatorios de entre 1 y 100 y luego filtra este para obtener solo los números primos.\n\nEjemplo:\nSalida:\nArray generado: 1, 2, 3, 5, 7, 12, 23, 45, 67, 89...\nTotal de primos: 28\nPrimos: 1, 2, 3, 5, 7, 23, 67, 89...",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "none"
+  },
+  {
+    "id": 9,
+    "title": "Media Aritmética",
+    "description": "Calcula la media aritmética de un array de números.\n\nRango válido: máximo 20 elementos, cada número entre -1000 y 1000\n\nEjemplo:\nEntrada: 10, 20, 30, 40\nSalida: Media: 25.00",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "array"
+  },
+  {
+    "id": 10,
+    "title": "Diccionario Alimentos",
+    "description": "Genera un ticket de compra indicando productos y kilos. El programa calcula el subtotal de cada producto y el total final.\n\nRango válido: kilos entre 0.01 y 50 por producto\n\nFormato: producto, kilos; producto, kilos\nProductos: manzana, naranja, plátano, uva, pera, melón, sandía, fresa, kiwi, piña, mango\n\nEjemplo:\nEntrada: manzana, 2; naranja, 1.5\nSalida:\n--- TICKET ---\nManzana    2.00 kg x 2.50€ = 5.00€\nNaranja    1.50 kg x 1.80€ = 2.70€\n--------------\nTOTAL: 7.70€",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "text"
+  },
+  {
+    "id": 11,
+    "title": "Máximo Común Divisor",
+    "description": "Calcula el MCD de dos números enteros positivos usando el algoritmo de Euclides.\n\nEl MCD es el número más grande que divide a ambos números sin dejar resto.\n\nRango válido: 1-100\n\nEjemplo:\nEntrada: 48, 18\nSalida: MCD(48, 18) = 6",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "twoNumbers"
+  },
+  {
+    "id": 12,
+    "title": "Decimal a Binario",
+    "description": "Convierte un número decimal (base 10) a binario (base 2).\n\nAlgoritmo: Divide repetidamente entre 2 y anota los restos. El binario es la secuencia de restos leída de abajo hacia arriba.\n\nRango válido: 0-65535 (16 bits)\n\nEjemplo:\nEntrada: 25\nSalida: 00000000 00011001",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 13,
+    "title": "Frecuencia de Letras",
+    "description": "Cuenta la frecuencia de cada letra en un texto y muestra las 3 más frecuentes.\n\nMuestra primero todas las frecuencias ordenadas de mayor a menor, y luego el Top 3.\n\nEjemplo:\nEntrada: \"programacion\"\nSalida:\nFrecuencias: a: 2, o: 2, r: 2, p: 1, g: 1, m: 1, c: 1, i: 1, n: 1\nTop 3 letras: a: 2, o: 2, r: 2",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 14,
+    "title": "Área y Perímetro Triángulo",
+    "description": "Calcula el área y perímetro de un triángulo dados sus tres lados usando la fórmula de Herón.\n\nÁrea = √(s(s-a)(s-b)(s-c)) donde s = (a+b+c)/2\n\nEjemplo:\nEntrada: 3, 4, 5\nSalida: Perímetro: 12, Área: 6",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "array"
+  },
+  {
+    "id": 15,
+    "title": "Bubble Sort",
+    "description": "Ordena un array de números usando el algoritmo de burbuja.\n\nCompara elementos adyacentes e intercámbialos si están en orden incorrecto. Repite hasta que no haya intercambios.\n\nRango válido: máximo 20 elementos, cada número entre -1000 y 1000\n\nEjemplo:\nEntrada: 5, 2, 8, 1, 9\nSalida: 1, 2, 5, 8, 9",
+    "difficulty": "basic",
+    "category": "sorting",
+    "inputType": "array"
+  },
+  {
+    "id": 16,
+    "title": "Verificar Anagrama",
+    "description": "Determina si dos palabras son anagramas (tienen las mismas letras en diferente orden).\n\nMayúsculas y acentos son intercambiables (A=a=á).\n\nRango válido: máximo 50 caracteres por palabra, solo letras.\n\nEjemplo:\nEntrada: roma, amor\nSalida: \"Son anagramas\"",
+    "difficulty": "basic",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 17,
+    "title": "Segundo Mayor",
+    "description": "Encuentra el segundo número más grande en un array (sin contar duplicados).\n\nRango válido: máximo 20 elementos, cada número entre -1000 y 1000. Debe haber al menos 2 valores distintos.\n\nEjemplo:\nEntrada: 5, 2, 8, 1, 9, 3\nSalida: Segundo mayor: 8",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "array"
+  },
+  {
+    "id": 18,
+    "title": "Números Triangulares",
+    "description": "Genera la serie de números triangulares hasta un límite N.\n\nEl n-ésimo triangular: Tn = n(n+1)/2\nSerie: 1, 3, 6, 10, 15, 21...\n\nRango válido: 1-50\n\nEjemplo:\nEntrada: 6\nSalida: 1, 3, 6, 10, 15, 21",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 19,
+    "title": "Rotación Array Derecha",
+    "description": "Rota los elementos de un array K posiciones a la derecha. Los elementos del final pasan al principio.\n\nRango válido:\n- Máximo 20 elementos\n- Cada número entre -1000 y 1000\n- K entre 0 y 100\n\nFormato: elementos | posiciones\n\nEjemplo:\nEntrada: 1,2,3,4,5 | 2\nSalida:\nOriginal: [1, 2, 3, 4, 5]\nRotado 2 posiciones: [4, 5, 1, 2, 3]",
+    "difficulty": "basic",
+    "category": "arrays",
+    "inputType": "text"
+  },
+  {
+    "id": 20,
+    "title": "Año Bisiesto",
+    "description": "Determina si un año es bisiesto.\n\nReglas:\n- Divisible por 4 → candidato\n- Excepto si divisible por 100 → no bisiesto\n- A menos que divisible por 400 → bisiesto\n\nRango válido: 1-9999\n\nEjemplo:\nEntrada: 2000\nSalida: \"2000 ES bisiesto\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 21,
+    "title": "Búsqueda Binaria",
+    "description": "Implementa búsqueda binaria en un array ordenado. Divide el array en 2 en cada paso, comparando el elemento central con el buscado.\n\nRango válido:\n- Máximo 20 elementos\n- Cada número entre -1000 y 1000\n- Valor a buscar entre -1000 y 1000\n- El valor a buscar debe existir en el array\n- Se eliminan duplicados y se ordena automáticamente\n\nFormato: elementos | valor\n\nEjemplo:\nEntrada: 9,3,7,1,5,7 | 7\nSalida:\nArray ordenado: [1, 3, 5, 7, 9]\nValor 7 encontrado en índice 3",
+    "difficulty": "intermediate",
+    "category": "searching",
+    "inputType": "text"
+  },
+  {
+    "id": 22,
+    "title": "Números Perfectos",
+    "description": "Encuentra todos los números perfectos hasta un límite N.\n\nUn número perfecto es igual a la suma de sus divisores propios (excluyendo el número mismo).\nEjemplo: 6 = 1 + 2 + 3\n\nRango válido: 2-1000\n\nEjemplo:\nEntrada: 30\nSalida: Números perfectos hasta 30: 6, 28",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 23,
+    "title": "Número de Armstrong",
+    "description": "Verifica si un número es de Armstrong.\n\nUn número de Armstrong es igual a la suma de sus dígitos elevados a la potencia del número de dígitos.\n\nRango válido: 0-999999\n\nEjemplo:\n153 = 1³ + 5³ + 3³ = 1 + 125 + 27 = 153\n\nEntrada: 153\nSalida: \"153 es número de Armstrong\"",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 24,
+    "title": "Producto Escalar Vectores",
+    "description": "Calcula el producto escalar de dos vectores.\n\nEl producto escalar multiplica componentes correspondientes y suma los resultados:\na·b = a₁×b₁ + a₂×b₂ + ... + aₙ×bₙ\n\nRango válido:\n- 2 a 10 elementos por vector\n- Cada número entre -1000 y 1000\n\nFormato: vector1 | vector2\n\nEjemplo:\nEntrada: 1,2,3 | 4,5,6\nSalida:\nPosición 1: 1 × 4 = 4\nPosición 2: 2 × 5 = 10\nPosición 3: 3 × 6 = 18\nSuma total: 4 + 10 + 18 = 32",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "text"
+  },
+  {
+    "id": 25,
+    "title": "Criba de Eratóstenes",
+    "description": "Encuentra todos los números primos hasta N usando la criba de Eratóstenes.\n\nAlgoritmo: Tacha los múltiplos de cada primo. Los que quedan sin tachar son primos.\n\nRango válido: 1-1000\n\nEjemplo:\nEntrada: 10\nSalida: Primos hasta 10 (5 encontrados): 1, 2, 3, 5, 7",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 26,
+    "title": "Romano a Decimal",
+    "description": "Convierte un número romano a decimal.\n\nSímbolos: I=1, V=5, X=10, L=50, C=100, D=500, M=1000\n\nReglas:\n- V, L, D no se repiten\n- I, X, C, M máximo 3 veces seguidas\n- I resta solo antes de V o X\n- X resta solo antes de L o C\n- C resta solo antes de D o M\n\nRango válido: I-MMMCMXCIX (1-3999)\n\nEjemplo:\nEntrada: XIV\nSalida: XIV = 14",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 27,
+    "title": "Formas de Dar Cambio",
+    "description": "Crea un programa que calcule el número de formas distintas de dar cambio de una cantidad usando monedas específicas.\n\nRango válido: 1-2000 céntimos (0.01€ - 20€)\n\nEjemplo:\nEntrada: 10\nSalida:\nCantidad: 10 céntimos\nMonedas: [2€, 1€, 50c, 20c, 10c, 5c, 2c, 1c]\n─────────────────────────────\nTotal: 11 formas de dar el cambio\n\nLas 10 más eficientes:\n1. 1×10c → 1 moneda\n2. 2×5c → 2 monedas\n3. 1×5c + 2×2c + 1×1c → 4 monedas\n4. 1×5c + 1×2c + 3×1c → 5 monedas\n5. 5×2c → 5 monedas\n6. 1×5c + 5×1c → 6 monedas\n7. 4×2c + 2×1c → 6 monedas\n8. 3×2c + 4×1c → 7 monedas\n9. 2×2c + 6×1c → 8 monedas\n10. 1×2c + 8×1c → 9 monedas",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "singleNumber"
+  },
+  {
+    "id": 28,
+    "title": "Subsecuencia Creciente Más Larga",
+    "description": "Desarrolla un algoritmo que encuentre la subsecuencia creciente más larga en un array.\n\nRangos: 2-20 elementos, cada número entre -1000 y 1000\n\nEjemplo:\nEntrada: 10, 22, 9, 33, 21, 50, 41, 60\nSalida: Longitud 5 (10, 22, 33, 50, 60)",
+    "difficulty": "advanced",
+    "category": "algorithms",
+    "inputType": "array"
+  },
+  {
+    "id": 29,
+    "title": "Cifrado César",
+    "description": "Implementa un algoritmo de cifrado César para encriptar un mensaje.\n\nEl cifrado César desplaza cada letra del alfabeto un número fijo de posiciones.\n\nFormato: mensaje | k\n\nEjemplo: Con k=3, 'A' → 'D', 'B' → 'E'\nEntrada: Hola Mundo | 3\nSalida: Krod Pxqgr",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "text"
+  },
+  {
+    "id": 30,
+    "title": "Distancia de Levenshtein",
+    "description": "Calcula la distancia de Levenshtein entre dos cadenas.\n\nLa distancia de Levenshtein es el número mínimo de operaciones (inserción, eliminación, sustitución) para transformar una cadena en otra.\n\nFormato: palabra1|palabra2\n\nInput: Dos palabras separadas por |\nOutput: Distancia (número de operaciones)\nRango: 1-100 caracteres por palabra\n\nEjemplo:\nEntrada: algoritmo|logaritmo\nSalida: Distancia = 3",
+    "difficulty": "advanced",
+    "category": "strings",
+    "inputType": "text"
+  }
+]

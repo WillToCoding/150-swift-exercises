@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Suma de Dos Números",
+    "description": "Crea un algoritmo que solicite dos números al usuario y muestre su suma.\n\nRango válido: 1-99 para cada número\n\nEjemplo:\nEntrada: 5, 3\nSalida: 8",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "twoNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el primer número?\"\n3. Variable firstNumber = Respuesta Paso 2\n4. Si (firstNumber > 0 y firstNumber <= 99)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es el segundo número?\"\n6. Variable secondNumber = Respuesta Paso 5\n7. Si (secondNumber > 0 y secondNumber <= 99)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. CÁLCULO resultado = firstNumber + secondNumber\n9. MOSTRAR \"firstNumber + secondNumber = resultado\"\n10. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos el primer número y validamos que esté entre 1-99\n2. Solicitamos el segundo número con la misma validación\n3. Calculamos la suma\n4. Mostramos el resultado\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex01"
+  },
+  {
+    "id": 2,
+    "title": "Celsius a Fahrenheit",
+    "description": "Diseñar un algoritmo que convierta grados Celsius a Fahrenheit.\n\nFórmula: F = C × (9/5) + 32\nRango válido: 1-100°C\n\nEjemplo:\nEntrada: 25\nSalida: 77°F",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Qué grados quieres convertir?\"\n3. Variable celsius = Respuesta Paso 2\n4. Si (celsius > 0 y celsius <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable fahrenheit\n6. CÁLCULO fahrenheit = celsius × 9/5 + 32\n7. MOSTRAR \"celsius × 9/5 + 32 = fahrenheit\"\n8. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos los grados Celsius a convertir\n2. Validamos que esté en un rango razonable (0-100)\n3. Aplicamos la fórmula de conversión: F = C × 9/5 + 32\n4. Mostramos el resultado\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex02"
+  },
+  {
+    "id": 3,
+    "title": "Área de Triángulo",
+    "description": "Crea un algoritmo que calcule el área de un triángulo dadas su base y altura.\n\nFórmula: Área = (base × altura) / 2\nRango válido: 1-10 para base y altura\n\nEjemplo:\nEntrada: 6, 4\nSalida: 12",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "twoNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es la base del triángulo?\"\n3. Variable base = Respuesta Paso 2\n4. Si (base > 0 y base <= 10)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es la altura del triángulo?\"\n6. Variable altura = Respuesta Paso 5\n7. Si (altura > 0 y altura <= 10)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. Variable area\n9. CÁLCULO area = (base × altura) / 2\n10. MOSTRAR \"(base × altura) / 2 = area\"\n11. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos la base del triángulo y validamos\n2. Solicitamos la altura del triángulo y validamos\n3. Aplicamos la fórmula: Área = (base × altura) / 2\n4. Mostramos el resultado\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex03"
+  },
+  {
+    "id": 4,
+    "title": "Par o Impar",
+    "description": "Diseña un algoritmo que determine si un número es par o impar.\n\nRango válido: 1-99\n\nEjemplo:\nEntrada: 7\nSalida: \"7 es impar\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el number?\"\n3. Variable number = Respuesta Paso 2\n4. Si (number > 0 y number <= 99)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable resultado\n6. CÁLCULO resultado = number % 2\n7. Si (resultado == 0)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 9\n8. MOSTRAR \"Es par\"\n   Voy a 10\n9. MOSTRAR \"Es impar\"\n10. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos un número y validamos\n2. Calculamos el resto de dividir entre 2 (módulo)\n3. Si el resto es 0, el número es par\n4. Si el resto no es 0, el número es impar\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex04"
+  },
+  {
+    "id": 5.1,
+    "title": "Aprobado o Suspenso (Básico)",
+    "description": "Crea un algoritmo que clasifique una calificación escolar en 'Aprobado' o 'Suspenso'. El aprobado es a partir de 5.\n\nRango válido: 0-10\n\nEjemplo:\nEntrada: 6.5\nSalida: \"Aprobado\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es la nota?\"\n3. Variable nota = Respuesta Paso 2\n4. Si (nota >= 0 y nota <= 10)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (nota >= 5)\n   ○ Si es SÍ voy a 6\n   ○ Si es NO voy a 7\n6. MOSTRAR \"Aprobado\"\n   Voy a 8\n7. MOSTRAR \"Suspenso\"\n8. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos la nota y validamos que esté entre 0-10\n2. Comparamos si la nota es mayor o igual a 5\n3. Si es >= 5, mostramos \"Aprobado\"\n4. Si es < 5, mostramos \"Suspenso\"\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex05.1"
+  },
+  {
+    "id": 5.2,
+    "title": "Aprobado o Suspenso (Nota de Corte)",
+    "description": "Crea una versión que permita especificar la nota de corte para aprobar o no.\n\nRango válido: nota (0-10), corte (5-10)\n\nEjemplo:\nEntrada: 6.5, 7\nSalida: \"Suspenso\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "twoNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es la nota?\"\n3. Variable nota = Respuesta Paso 2\n4. Si (nota >= 0 y nota <= 10)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es la nota de corte?\"\n6. Variable corte = Respuesta Paso 5\n7. Si (corte >= 5 y corte <= 10)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. Si (nota >= corte)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 10\n9. MOSTRAR \"Aprobado\"\n   Voy a 11\n10. MOSTRAR \"Suspenso\"\n11. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos la nota y validamos que esté entre 0-10\n2. Solicitamos la nota de corte y validamos que esté entre 5-10\n3. Comparamos si la nota es mayor o igual a la nota de corte\n4. Mostramos \"Aprobado\" o \"Suspenso\" según corresponda\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex05.2"
+  },
+  {
+    "id": 6,
+    "title": "Positivo, Negativo o Cero",
+    "description": "Diseña un algoritmo que dado un número, indique si es positivo, negativo o cero.\n\nEjemplo:\nEntrada: -5\nSalida: \"El número es negativo\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el number?\"\n3. Variable number = Respuesta Paso 2\n4. Si (number > 0)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 6\n5. MOSTRAR \"Es positivo\"\n   Voy a 9\n6. Si (number == 0)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 8\n7. MOSTRAR \"Es cero\"\n   Voy a 9\n8. MOSTRAR \"Es negativo\"\n9. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos un número al usuario\n2. Comprobamos si es mayor que 0 (positivo)\n3. Si no, comprobamos si es igual a 0 (cero)\n4. Si no es ninguno, es negativo\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex06"
+  },
+  {
+    "id": 7,
+    "title": "Primeros 10 Números Naturales",
+    "description": "Crea un algoritmo que imprima los primeros 10 números naturales.\n\nSalida esperada: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "none",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. Variable number = 1\n3. Si (number <= 10)\n   ○ Si es SÍ voy a 4\n   ○ Si es NO voy a 6\n4. MOSTRAR \"number\"\n5. CÁLCULO number = number + 1\n   Volver a 3\n6. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Inicializamos la variable number en 1\n2. Mientras number sea menor o igual a 10, entramos al bucle\n3. Mostramos el valor actual de number\n4. Incrementamos number en 1\n5. Volvemos a evaluar la condición\n6. Cuando number > 10, el bucle termina\n\nComplejidad: O(n) - Donde n es 10 iteraciones fijas",
+    "diagramImage": "B1_Ex07"
+  },
+  {
+    "id": 8,
+    "title": "Suma de Primeros N Números",
+    "description": "Diseña un algoritmo que calcule la suma de los primeros N números naturales, donde N es especificado por el usuario.\n\nRango válido: 1-100\n\nEjemplo:\nEntrada: 5\nSalida: 15 (1+2+3+4+5=15)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es number?\"\n3. Variable number = Respuesta Paso 2\n4. Si (number >= 1 y number <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable contador = 1\n6. Variable suma = 0\n7. Si (contador <= number)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 11\n8. CÁLCULO suma = suma + contador\n9. CÁLCULO contador = contador + 1\n10. Volver a 7\n11. MOSTRAR \"suma\"\n12. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nEntrada: number = 5\nSalida: 15 (1+2+3+4+5)\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos N (number) al usuario y validamos que esté entre 1-100\n2. Inicializamos contador en 1 y suma (acumulador) en 0\n3. Mientras contador <= N, sumamos contador al acumulador\n4. Incrementamos contador en cada iteración\n5. Al terminar el bucle, mostramos la suma total\n\nComplejidad: O(n) - Donde n es el valor introducido por el usuario",
+    "diagramImage": "B1_Ex08"
+  },
+  {
+    "id": 9,
+    "title": "Fibonacci (10 términos)",
+    "description": "Crea un algoritmo que imprima la serie de Fibonacci hasta el décimo término.\n\nLa serie de Fibonacci es: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...\nCada número es la suma de los dos anteriores.",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "none",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. Variable anterior = 0\n3. Variable actual = 1\n4. Variable contador = 1\n5. Variable siguiente = 0\n6. Si (contador <= 10)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 13\n7. MOSTRAR \"anterior\"\n8. CÁLCULO siguiente = anterior + actual\n9. anterior = actual\n10. actual = siguiente\n11. CÁLCULO contador = contador + 1\n12. Volver a 6\n13. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nIteración 1: anterior=0 → Muestra 0\nIteración 2: anterior=1 → Muestra 1\nIteración 3: anterior=1 → Muestra 1\nIteración 4: anterior=2 → Muestra 2\nIteración 5: anterior=3 → Muestra 3\nIteración 6: anterior=5 → Muestra 5\nIteración 7: anterior=8 → Muestra 8\nIteración 8: anterior=13 → Muestra 13\nIteración 9: anterior=21 → Muestra 21\nIteración 10: anterior=34 → Muestra 34\n\nSalida: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Inicializamos anterior=0 y actual=1 (los dos primeros Fibonacci)\n2. El contador controla que mostremos exactamente 10 términos\n3. Mostramos \"anterior\" que contiene el término actual de la serie\n4. Calculamos siguiente = anterior + actual (suma de los dos anteriores)\n5. Desplazamos: anterior toma el valor de actual\n6. actual toma el valor de siguiente\n7. Repetimos hasta completar 10 términos\n\nComplejidad: O(n) - Donde n es 10 iteraciones fijas",
+    "diagramImage": "B1_Ex09"
+  },
+  {
+    "id": 10,
+    "title": "Factorial",
+    "description": "Diseña un algoritmo que calcule el factorial de un número que el usuario introduzca.\n\nFórmula: n! = n × (n-1) × (n-2) × ... × 1\nRango válido: 0-20\n\nEjemplo:\nEntrada: 5\nSalida: 120 (5! = 5×4×3×2×1)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número introducido?\"\n3. Variable numeroIntroducido = Respuesta Paso 2\n4. Si (numeroIntroducido >= 0 y numeroIntroducido <= 20)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable acumuladorProducto = 1\n6. Variable siguienteNumero = numeroIntroducido\n7. Si (siguienteNumero >= 1)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 11\n8. CÁLCULO acumuladorProducto = acumuladorProducto × siguienteNumero\n9. CÁLCULO siguienteNumero = siguienteNumero - 1\n10. Volver a 7\n11. MOSTRAR \"acumuladorProducto\"\n12. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nEntrada: numeroIntroducido = 5\n\nIteración 1: acumuladorProducto = 1 × 5 = 5\nIteración 2: acumuladorProducto = 5 × 4 = 20\nIteración 3: acumuladorProducto = 20 × 3 = 60\nIteración 4: acumuladorProducto = 60 × 2 = 120\nIteración 5: acumuladorProducto = 120 × 1 = 120\n\nSalida: 120 (5! = 5×4×3×2×1)\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos un número y validamos que esté entre 0-20\n2. Inicializamos acumuladorProducto en 1 (elemento neutro)\n3. siguienteNumero comienza con el valor introducido\n4. Mientras siguienteNumero >= 1, multiplicamos y decrementamos\n5. Cuando siguienteNumero llega a 0, mostramos el resultado\n6. Caso especial: 0! = 1 (el bucle no se ejecuta)\n\nComplejidad: O(n) - Donde n es el número introducido",
+    "diagramImage": "B1_Ex10"
+  },
+  {
+    "id": 11,
+    "title": "Suma de Pares",
+    "description": "Crea un algoritmo que sume todos los números pares entre 1 y N.\n\nRango válido: 1-100\n\nEjemplo:\nEntrada: 10\nSalida: 30 (2+4+6+8+10)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el límite superior?\"\n3. Variable limiteSuperiorN = Respuesta Paso 2\n4. Si (limiteSuperiorN >= 1 y limiteSuperiorN <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable sumaDePares = 0\n6. Variable numeroEnCurso = 1\n7. Si (numeroEnCurso <= limiteSuperiorN)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 14\n8. Si (numeroEnCurso MOD 2 == 0)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 12\n9. CÁLCULO sumaDePares = sumaDePares + numeroEnCurso\n10. CÁLCULO numeroEnCurso = numeroEnCurso + 1\n11. Volver a 7\n12. CÁLCULO numeroEnCurso = numeroEnCurso + 1\n13. Volver a 7\n14. MOSTRAR \"sumaDePares\"\n15. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nEntrada: limiteSuperiorN = 10\n\nnumeroEnCurso=1 → impar → NO suma\nnumeroEnCurso=2 → par → sumaDePares = 2\nnumeroEnCurso=3 → impar → NO suma\nnumeroEnCurso=4 → par → sumaDePares = 6\nnumeroEnCurso=5 → impar → NO suma\nnumeroEnCurso=6 → par → sumaDePares = 12\nnumeroEnCurso=7 → impar → NO suma\nnumeroEnCurso=8 → par → sumaDePares = 20\nnumeroEnCurso=9 → impar → NO suma\nnumeroEnCurso=10 → par → sumaDePares = 30\n\nSalida: 30 (2+4+6+8+10)\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos el límite superior N y validamos entre 1-100\n2. Inicializamos sumaDePares en 0 (acumulador)\n3. numeroEnCurso recorre de 1 hasta N\n4. Si numeroEnCurso es par (MOD 2 = 0), lo sumamos\n5. Si es impar, solo incrementamos sin sumar\n6. Al terminar, mostramos la suma de todos los pares\n\nComplejidad: O(n) - Donde n es el límite superior",
+    "diagramImage": "B1_Ex11"
+  },
+  {
+    "id": 12,
+    "title": "Suma de Impares",
+    "description": "Crea un algoritmo que sume todos los números impares entre 1 y N.\n\nRango válido: 1-100\n\nEjemplo:\nEntrada: 9\nSalida: 25 (1+3+5+7+9)",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el límite superior?\"\n3. Variable limiteSuperiorN = Respuesta Paso 2\n4. Si (limiteSuperiorN >= 1 y limiteSuperiorN <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable sumaDeImpares = 0\n6. Variable numeroEnCurso = 1\n7. Si (numeroEnCurso <= limiteSuperiorN)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 14\n8. Si (numeroEnCurso MOD 2 == 1)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 12\n9. CÁLCULO sumaDeImpares = sumaDeImpares + numeroEnCurso\n10. CÁLCULO numeroEnCurso = numeroEnCurso + 1\n11. Volver a 7\n12. CÁLCULO numeroEnCurso = numeroEnCurso + 1\n13. Volver a 7\n14. MOSTRAR \"sumaDeImpares\"\n15. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nEntrada: limiteSuperiorN = 9\n\nnumeroEnCurso=1 → impar → sumaDeImpares = 1\nnumeroEnCurso=2 → par → NO suma\nnumeroEnCurso=3 → impar → sumaDeImpares = 4\nnumeroEnCurso=4 → par → NO suma\nnumeroEnCurso=5 → impar → sumaDeImpares = 9\nnumeroEnCurso=6 → par → NO suma\nnumeroEnCurso=7 → impar → sumaDeImpares = 16\nnumeroEnCurso=8 → par → NO suma\nnumeroEnCurso=9 → impar → sumaDeImpares = 25\n\nSalida: 25 (1+3+5+7+9)\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos el límite superior N y validamos entre 1-100\n2. Inicializamos sumaDeImpares en 0 (acumulador)\n3. numeroEnCurso recorre de 1 hasta N\n4. Si numeroEnCurso es impar (MOD 2 = 1), lo sumamos\n5. Si es par, solo incrementamos sin sumar\n6. Al terminar, mostramos la suma de todos los impares\n\nComplejidad: O(n) - Donde n es el límite superior",
+    "diagramImage": "B1_Ex12"
+  },
+  {
+    "id": 13,
+    "title": "Número en Rango",
+    "description": "Diseña un algoritmo capaz de determinar si un número está en el rango entre A y B (inclusive).\n\nEntrada: cotaInferior, cotaSuperior, valorObjetivo (separados por comas)\nRango válido: 1-100 para cada valor\n\nEjemplo:\nEntrada: 1, 10, 5\nSalida: \"5 está dentro del rango [1, 10]\"",
+    "difficulty": "basic",
+    "category": "logic",
+    "inputType": "multipleNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es la cota inferior?\"\n3. Variable cotaInferior = Respuesta Paso 2\n4. PREGUNTAR \"¿Cuál es la cota superior?\"\n5. Variable cotaSuperior = Respuesta Paso 4\n6. PREGUNTAR \"¿Cuál es el valor objetivo?\"\n7. Variable valorObjetivo = Respuesta Paso 6\n8. Si (cotaInferior > 0 y cotaInferior <= 100)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 2\n9. Si (cotaSuperior > 0 y cotaSuperior <= 100)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 4\n10. Si (valorObjetivo > 0 y valorObjetivo <= 100)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 6\n11. Si (cotaInferior > cotaSuperior)\n    ○ Si es SÍ voy a 12\n    ○ Si es NO voy a 16\n12. Variable auxiliar\n13. auxiliar = cotaInferior\n14. cotaInferior = cotaSuperior\n15. cotaSuperior = auxiliar\n16. Si (cotaInferior <= valorObjetivo y valorObjetivo <= cotaSuperior)\n    ○ Si es SÍ voy a 17\n    ○ Si es NO voy a 18\n17. MOSTRAR \"Dentro del rango\"\n    Voy a 19\n18. MOSTRAR \"Fuera del rango\"\n19. FIN\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos tres valores: cota inferior, cota superior y valor objetivo\n2. Validamos que cada valor esté entre 1-100\n3. Si la cota inferior es mayor que la superior, las intercambiamos\n4. Verificamos si el valor objetivo está dentro del rango [cotaInferior, cotaSuperior]\n5. Mostramos el resultado correspondiente\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex13"
+  },
+  {
+    "id": 14,
+    "title": "Número Primo",
+    "description": "Diseña un algoritmo que determine si un número es primo o no.\n\nUn número primo solo tiene dos divisores: 1 y él mismo.\n\nEntrada: número entero positivo\nRango válido: 1 - 1.000.000.000\n\nEjemplo:\nEntrada: 7\nSalida: \"7 es primo\"",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable num = Respuesta Paso 2\n4. Si (num > 0 y num <= 1.000.000.000)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Si (num <= 3)\n   ○ Si es SÍ voy a 12\n   ○ Si es NO voy a 6\n6. Si (num % 2 == 0 o num % 3 == 0)\n   ○ Si es SÍ voy a 13\n   ○ Si es NO voy a 7\n7. Variable i = 5\n8. Si ((i × i) <= num)\n   ○ Si es SÍ voy a 9\n   ○ Si es NO voy a 12\n9. Si (num % i == 0 o num % (i + 2) == 0)\n   ○ Si es SÍ voy a 13\n   ○ Si es NO voy a 10\n10. CÁLCULO i = i + 6\n11. Volver a 8\n12. MOSTRAR \"num es primo\"\n    Voy a 14\n13. MOSTRAR \"num no es primo\"\n14. FIN\n\n─────────────────────────────\n\nEJEMPLOS:\n\nnum = 29 (primo):\n• Paso 5: 29 <= 3 → NO\n• Paso 6: 29 % 2 = 1, 29 % 3 = 2 → NO\n• Paso 8: 25 <= 29 → SÍ\n• Paso 9: 29 % 5 = 4, 29 % 7 = 1 → NO\n• Paso 10: i = 11\n• Paso 8: 121 <= 29 → NO → voy a 12\n• MOSTRAR \"29 es primo\"\n\nnum = 49 (no primo):\n• Paso 6: 49 % 2 = 1, 49 % 3 = 1 → NO\n• Paso 8: 25 <= 49 → SÍ\n• Paso 9: 49 % 5 = 4, 49 % 7 = 0 → SÍ\n• MOSTRAR \"49 no es primo\"\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Optimización 6k±1: todos los primos > 3 son de la forma 6k±1\n2. Casos base: números <= 3 son primos (según Leibniz, incluye 1)\n3. Si divisible por 2 o 3, no es primo\n4. Loop: verificamos divisores i e i+2 (5,7 → 11,13 → 17,19...)\n5. Si (i×i) > num sin encontrar divisor, es primo\n\nComplejidad: O(√n)",
+    "diagramImage": "B1_Ex14"
+  },
+  {
+    "id": 15,
+    "title": "Primos Menores que N",
+    "description": "Crea un algoritmo que imprima todos los números primos menores que N.\n\nRango válido: 1 - 1.000.000\n\nEjemplo:\nEntrada: 20\nSalida: 1, 2, 3, 5, 7, 11, 13, 17, 19",
+    "difficulty": "basic",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el límite superior?\"\n3. Variable limiteSuperior = Respuesta Paso 2\n4. Si (limiteSuperior >= 1 y limiteSuperior <= 1.000.000)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable candidatoActual = 1\n6. Variable esPrimoActual = false\n7. Si (candidatoActual < limiteSuperior)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 13\n8. esPrimoActual = DeterminarSiEsPrimo(candidatoActual)\n9. Si (esPrimoActual == true)\n   ○ Si es SÍ voy a 10\n   ○ Si es NO voy a 12\n10. MOSTRAR \"candidatoActual\"\n11. CÁLCULO candidatoActual = candidatoActual + 1\n    Volver a 7\n12. CÁLCULO candidatoActual = candidatoActual + 1\n    Volver a 7\n13. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nlimiteSuperior = 10\n\n• candidatoActual=1 → esPrimo=true → MOSTRAR 1\n• candidatoActual=2 → esPrimo=true → MOSTRAR 2\n• candidatoActual=3 → esPrimo=true → MOSTRAR 3\n• candidatoActual=4 → esPrimo=false\n• candidatoActual=5 → esPrimo=true → MOSTRAR 5\n• candidatoActual=6 → esPrimo=false\n• candidatoActual=7 → esPrimo=true → MOSTRAR 7\n• candidatoActual=8 → esPrimo=false\n• candidatoActual=9 → esPrimo=false\n• candidatoActual=10 → 10 < 10 = NO → FIN\n\nSalida: 1, 2, 3, 5, 7\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Usamos el algoritmo DeterminarSiEsPrimo (Ejercicio 14) como subrutina\n2. Iteramos desde 1 hasta limiteSuperior-1 (Leibniz considera 1 primo)\n3. Para cada candidato, llamamos a la subrutina\n4. Si es primo, lo mostramos\n5. Incrementamos y repetimos\n\nComplejidad: O(n × √n)",
+    "diagramImage": "B1_Ex15"
+  },
+  {
+    "id": 16,
+    "title": "Mínimo Común Múltiplo (MCM)",
+    "description": "Diseña un algoritmo que encuentre el mínimo común múltiplo de dos números A y B.\n\nEl MCM es el menor número que es múltiplo de ambos.\nRango válido: 1 - 100 para cada número\n\nEjemplo:\nEntrada: 12, 18\nSalida: 36",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "twoNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el primer número?\"\n3. Variable primerNumero = Respuesta Paso 2\n4. PREGUNTAR \"¿Cuál es el segundo número?\"\n5. Variable segundoNumero = Respuesta Paso 4\n6. Si (primerNumero >= 1 y primerNumero <= 100)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 2\n7. Si (segundoNumero >= 1 y segundoNumero <= 100)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 4\n8. Variable a = primerNumero\n9. Variable b = segundoNumero\n10. Si (b != 0)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 14\n11. Variable resto = a MOD b\n12. a = b\n13. b = resto\n    Volver a 10\n14. Variable mcd = a\n15. Variable mcm = (primerNumero × segundoNumero) / mcd\n16. MOSTRAR \"mcm\"\n17. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nprimerNumero = 72, segundoNumero = 50\n\nAlgoritmo de Euclides (MCD):\n• b=50 != 0 → resto = 72 MOD 50 = 22, a=50, b=22\n• b=22 != 0 → resto = 50 MOD 22 = 6, a=22, b=6\n• b=6 != 0 → resto = 22 MOD 6 = 4, a=6, b=4\n• b=4 != 0 → resto = 6 MOD 4 = 2, a=4, b=2\n• b=2 != 0 → resto = 4 MOD 2 = 0, a=2, b=0\n• b=0 → FIN loop\n\nmcd = 2\nmcm = (72 × 50) / 2 = 1800\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Usamos el Algoritmo de Euclides para calcular el MCD\n2. Mientras b != 0: resto = a MOD b, a = b, b = resto\n3. Cuando b = 0, el MCD está en a\n4. MCM = (primerNumero × segundoNumero) / MCD\n\nComplejidad: O(log(min(a,b)))",
+    "diagramImage": "B1_Ex16"
+  },
+  {
+    "id": 17,
+    "title": "Máximo Común Divisor (MCD)",
+    "description": "Crea un algoritmo que encuentre el máximo común divisor de dos números usando el algoritmo de Euclides.\n\nEl MCD es el mayor número que divide a ambos sin resto.\nRango válido: 1 - 100 para cada número\n\nEjemplo:\nEntrada: 48, 18\nSalida: 6",
+    "difficulty": "intermediate",
+    "category": "math",
+    "inputType": "twoNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el primer número?\"\n3. Variable primerNumero = Respuesta Paso 2\n4. PREGUNTAR \"¿Cuál es el segundo número?\"\n5. Variable segundoNumero = Respuesta Paso 4\n6. Si (primerNumero >= 1 y primerNumero <= 100)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 2\n7. Si (segundoNumero >= 1 y segundoNumero <= 100)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 4\n8. Variable a = primerNumero\n9. Variable b = segundoNumero\n10. Si (b != 0)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 14\n11. Variable resto = a MOD b\n12. a = b\n13. b = resto\n    Volver a 10\n14. Variable mcd = a\n15. MOSTRAR \"mcd\"\n16. FIN\n\n─────────────────────────────\n\nEJEMPLO:\n\nprimerNumero = 48, segundoNumero = 18\n\nAlgoritmo de Euclides:\n• b=18 != 0 → resto = 48 MOD 18 = 12, a=18, b=12\n• b=12 != 0 → resto = 18 MOD 12 = 6, a=12, b=6\n• b=6 != 0 → resto = 12 MOD 6 = 0, a=6, b=0\n• b=0 → FIN loop\n\nmcd = 6\n\nVerificación: 48÷6=8 ✓, 18÷6=3 ✓\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. El MCD es el mayor número que divide a ambos exactamente\n2. Algoritmo de Euclides: mientras b != 0, resto = a MOD b, a = b, b = resto\n3. Cuando b = 0, el MCD está en a\n\nComplejidad: O(log(min(a,b)))",
+    "diagramImage": "B1_Ex17"
+  },
+  {
+    "id": 18,
+    "title": "Pirámide de Asteriscos",
+    "description": "Diseña un algoritmo que imprima una pirámide de asteriscos de altura N.\n\nRango válido: 1 - 20\n\nEjemplo para N=4:\n   *\n  ***\n *****\n*******",
+    "difficulty": "intermediate",
+    "category": "strings",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. Pedir altura de la pirámide\n3. Variable altura = Respuesta Paso 2\n4. Si (altura >= 1 y altura <= 20)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable filaActual = 1\n6. Si (filaActual <= altura)\n   ○ Si es SÍ voy a 7\n   ○ Si es NO voy a 11\n7. Variable numEspacios = altura - filaActual\n8. Variable cantidadAsteriscos = (filaActual × 2) - 1\n9. MOSTRAR RepetirCaracter(\" \", numEspacios) + RepetirCaracter(\"*\", cantidadAsteriscos) + ImprimirNuevaLinea()\n10. filaActual = filaActual + 1\n    Volver a 6\n11. FIN\n\n─────────────────────────────\n\nEJEMPLO con altura = 4:\n\nFila 1: numEspacios = 4-1 = 3, asteriscos = (1×2)-1 = 1  → \"   *\"\nFila 2: numEspacios = 4-2 = 2, asteriscos = (2×2)-1 = 3  → \"  ***\"\nFila 3: numEspacios = 4-3 = 1, asteriscos = (3×2)-1 = 5  → \" *****\"\nFila 4: numEspacios = 4-4 = 0, asteriscos = (4×2)-1 = 7  → \"*******\"\n\nResultado:\n   *\n  ***\n *****\n*******\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Validamos que la altura esté entre 1 y 20\n2. Para cada fila calculamos espacios = altura - filaActual\n3. Los asteriscos siguen la fórmula (fila × 2) - 1\n4. Combinamos espacios + asteriscos + salto de línea\n5. Incrementamos fila y repetimos hasta completar\n\nComplejidad: O(n²) - Donde n es la altura",
+    "diagramImage": "B1_Ex18"
+  },
+  {
+    "id": 19,
+    "title": "Número Palíndromo",
+    "description": "Crea un algoritmo que determine si un número es un palíndromo.\n\nUn palíndromo se lee igual de izquierda a derecha que de derecha a izquierda.\n\nEjemplo:\nEntrada: 12321\nSalida: \"12321 es palíndromo\"",
+    "difficulty": "intermediate",
+    "category": "numbers",
+    "inputType": "singleNumber",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es el número?\"\n3. Variable num = Respuesta Paso 2\n4. Si (num >= 0 y num <= 999999999)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. Variable numOriginal = num\n6. Variable numInvertido = 0\n7. Si (num > 0)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 12\n8. Variable ultimoDigito = num MOD 10\n9. CÁLCULO numInvertido = (numInvertido × 10) + ultimoDigito\n10. CÁLCULO num = num / 10\n11. Volver a 7\n12. Si (numOriginal == numInvertido)\n   ○ Si es SÍ voy a 13\n   ○ Si es NO voy a 14\n13. MOSTRAR \"Es palíndromo\"\n    Voy a 15\n14. MOSTRAR \"No es palíndromo\"\n15. FIN\n\n─────────────────────────────\n\nEJEMPLO con num = 121:\n\nIteración 1:\n• ultimoDigito = 121 MOD 10 = 1\n• numInvertido = (0 × 10) + 1 = 1\n• num = 121 / 10 = 12\n\nIteración 2:\n• ultimoDigito = 12 MOD 10 = 2\n• numInvertido = (1 × 10) + 2 = 12\n• num = 12 / 10 = 1\n\nIteración 3:\n• ultimoDigito = 1 MOD 10 = 1\n• numInvertido = (12 × 10) + 1 = 121\n• num = 1 / 10 = 0\n\nnum = 0 → Sale del bucle\nnumOriginal (121) == numInvertido (121) → SÍ\nMOSTRAR \"Es palíndromo\"\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Guardamos el número original para comparar después\n2. Extraemos el último dígito con MOD 10\n3. Construimos numInvertido añadiendo dígitos a la derecha\n4. Eliminamos el último dígito con división entera / 10\n5. Repetimos hasta que num = 0\n6. Comparamos original con invertido\n\nComplejidad: O(log₁₀(n)) - Donde n es el número de dígitos",
+    "diagramImage": "B1_Ex19"
+  },
+  {
+    "id": 20,
+    "title": "Distancia entre Puntos",
+    "description": "Crea un algoritmo que calcule la distancia entre dos puntos en un plano cartesiano.\n\nFórmula: d = √((x₂-x₁)² + (y₂-y₁)²)\n\nEntrada: x1, y1, x2, y2 (separados por comas)\nRango válido: -100 a 100 para cada coordenada\n\nEjemplo:\nEntrada: 0, 0, 3, 4\nSalida: 5",
+    "difficulty": "basic",
+    "category": "math",
+    "inputType": "multipleNumbers",
+    "explanation": "PSEUDOCÓDIGO:\n\n1. INICIO\n2. PREGUNTAR \"¿Cuál es x₁?\"\n3. Variable x₁ = Respuesta Paso 2\n4. Si (x₁ >= -100 y x₁ <= 100)\n   ○ Si es SÍ voy a 5\n   ○ Si es NO voy a 2\n5. PREGUNTAR \"¿Cuál es y₁?\"\n6. Variable y₁ = Respuesta Paso 5\n7. Si (y₁ >= -100 y y₁ <= 100)\n   ○ Si es SÍ voy a 8\n   ○ Si es NO voy a 5\n8. PREGUNTAR \"¿Cuál es x₂?\"\n9. Variable x₂ = Respuesta Paso 8\n10. Si (x₂ >= -100 y x₂ <= 100)\n    ○ Si es SÍ voy a 11\n    ○ Si es NO voy a 8\n11. PREGUNTAR \"¿Cuál es y₂?\"\n12. Variable y₂ = Respuesta Paso 11\n13. Si (y₂ >= -100 y y₂ <= 100)\n    ○ Si es SÍ voy a 14\n    ○ Si es NO voy a 11\n14. Variable deltaX = x₂ - x₁\n15. Variable deltaY = y₂ - y₁\n16. Variable distancia = sqrt((deltaX × deltaX) + (deltaY × deltaY))\n17. MOSTRAR \"distancia\"\n18. FIN\n\n─────────────────────────────\n\nEJEMPLO con puntos (0,0) y (3,4):\n\nx₁ = 0, y₁ = 0\nx₂ = 3, y₂ = 4\n\ndeltaX = 3 - 0 = 3\ndeltaY = 4 - 0 = 4\ndistancia = sqrt((3 × 3) + (4 × 4))\ndistancia = sqrt(9 + 16)\ndistancia = sqrt(25) = 5\n\nMOSTRAR \"5\"\n\n─────────────────────────────\n\nEXPLICACIÓN:\n\n1. Solicitamos las 4 coordenadas validando rango -100 a 100\n2. Calculamos la diferencia en X (deltaX) y en Y (deltaY)\n3. Aplicamos el teorema de Pitágoras: d² = Δx² + Δy²\n4. Usamos sqrt (proceso predefinido) para la raíz cuadrada\n5. Mostramos el resultado\n\nNota: El ejemplo (0,0) a (3,4) es el triángulo 3-4-5 de Pitágoras\n\nComplejidad: O(1) - Tiempo constante",
+    "diagramImage": "B1_Ex20"
+  }
+]
