@@ -1,11 +1,13 @@
 {
   "fill" : {
-    "automatic-gradient" : "extended-gray:1.00000,1.00000"
+    "automatic-gradient" : "display-p3:0.05338,0.76943,0.04651,1.00000"
   },
   "groups" : [
     {
       "layers" : [
         {
+          "blend-mode" : "normal",
+          "fill" : "automatic",
           "image-name" : "ExercisesBird.png",
           "name" : "ExercisesBird",
           "position" : {
@@ -30,8 +32,10 @@
     {
       "layers" : [
         {
+          "glass" : true,
           "image-name" : "ExercisesLaptop.png",
           "name" : "ExercisesLaptop",
+          "opacity" : 0.8,
           "position" : {
             "scale" : 1,
             "translation-in-points" : [

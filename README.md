@@ -3,15 +3,13 @@
 Aplicación iOS y macOS con **150 ejercicios interactivos** de algoritmia y programación en Swift 6, diseñada como herramienta de aprendizaje y práctica.
 
 <p align="center">
-  <img src="Screenshots/150-swift-exercises.png" width="800" alt="150 Swift Exercises"/>
+  <img src="Screenshots/150-swift-exercises.png" width="500" alt="150 Swift Exercises"/>
 </p>
 
 <p align="center">
-  <img src="Screenshots/ios.png" width="400" alt="iOS App"/>
-</p>
-
-<p align="center">
-  <img src="Screenshots/mac.png" width="400" alt="macOS App"/>
+  <img src="Screenshots/ios.png" height="300" alt="iOS App"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="Screenshots/mac.png" height="300" alt="macOS App"/>
 </p>
 
 ## Descripción
