@@ -7,8 +7,11 @@ Aplicación iOS y macOS con **150 ejercicios interactivos** de algoritmia y prog
 </p>
 
 <p align="center">
-  <img src="Screenshots/ios.png" width="300" alt="iOS App"/>
-  <img src="Screenshots/mac.png" width="500" alt="macOS App"/>
+  <img src="Screenshots/ios.png" width="400" alt="iOS App"/>
+</p>
+
+<p align="center">
+  <img src="Screenshots/mac.png" width="400" alt="macOS App"/>
 </p>
 
 ## Descripción
