@@ -1,15 +1,17 @@
 # Swift 6 - 150 Ejercicios de Programación
 
-Aplicación iOS y macOS con **150 ejercicios interactivos** de algoritmia y programación en Swift 6, diseñada como herramienta de aprendizaje y práctica.
+Aplicación **iOS, iPadOS y macOS** con **150 ejercicios interactivos** de algoritmia y programación en Swift 6, diseñada como herramienta de aprendizaje y práctica.
 
 <p align="center">
   <img src="Screenshots/150-swift-exercises.png" width="500" alt="150 Swift Exercises"/>
 </p>
 
 <p align="center">
-  <img src="Screenshots/ios.png" height="300" alt="iOS App"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="Screenshots/mac.png" height="300" alt="macOS App"/>
+  <img src="Screenshots/ios.png" height="280" alt="iOS App"/>
+  &nbsp;&nbsp;
+  <img src="Screenshots/ipad.png" height="280" alt="iPadOS App"/>
+  &nbsp;&nbsp;
+  <img src="Screenshots/mac.png" height="280" alt="macOS App"/>
 </p>
 
 ## Descripción
@@ -188,7 +190,7 @@ Algoritmos y estructuras de datos avanzadas:
 ## Requisitos
 
 - Xcode 15+
-- iOS 17.0+ / macOS 14.0+
+- iOS 17.0+ / iPadOS 17.0+ / macOS 14.0+
 - Swift 6
 
 ## Instalación
@@ -216,7 +218,11 @@ Ejercicios-iOS/
 ├── Views/
 │   ├── BlockSelectionView.swift
 │   ├── ExerciseListView.swift
-│   └── ExerciseDetailView.swift
+│   ├── ExerciseDetailView.swift
+│   ├── MainTabView.swift
+│   └── iPad/              # Vistas optimizadas para iPad
+│       ├── BlockSelectionViewiPad.swift
+│       └── AllExercisesListViewiPad.swift
 ├── Components/
 │   ├── Badges/
 │   ├── Cards/
@@ -233,7 +239,14 @@ Ejercicios-iOS/
 - Ejecución interactiva de cada ejercicio
 - Explicaciones con pseudocódigo
 - Diagramas de flujo visuales
-- Soporte para iOS y macOS
+- Soporte nativo para iOS, iPadOS y macOS
+
+### Experiencia iPad
+
+- **NavigationSplitView** con sidebar de bloques
+- **TabView adaptable** que se convierte en sidebar
+- Interfaz optimizada para pantalla grande
+- Navegación fluida entre bloques y ejercicios
 
 ## Autor
 

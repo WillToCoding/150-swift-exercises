@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 /// Nivel de dificultad de los ejercicios
 enum Difficulty: String, CaseIterable, Codable {
@@ -34,6 +35,18 @@ enum Difficulty: String, CaseIterable, Codable {
              "orange"
         case .advanced:
              "red"
+        }
+    }
+
+    /// Color SwiftUI asociado al nivel de dificultad
+    var color: Color {
+        switch self {
+        case .basic:
+            .green
+        case .intermediate:
+            .orange
+        case .advanced:
+            .red
         }
     }
 }

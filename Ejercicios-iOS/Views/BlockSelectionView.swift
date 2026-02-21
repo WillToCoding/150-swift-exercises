@@ -75,12 +75,12 @@ private struct HeaderSection: View {
             Image("logoWhite")
                 .resizable()
                 .scaledToFit()
-                .frame(height: 60)
+                .frame(height: 90)
                 .accessibilityLabel("Logo WillToCoding")
 
             VStack(spacing: 8) {
                 Text("Swift 6")
-                    .font(.system(size: 42, weight: .bold, design: .rounded))
+                    .font(.system(size: 32, weight: .bold, design: .rounded))
                     .foregroundStyle(
                         LinearGradient(
                             colors: [.white, Color(white: 0.8)],

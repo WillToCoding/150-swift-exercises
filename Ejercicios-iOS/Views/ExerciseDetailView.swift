@@ -69,7 +69,7 @@ struct ExerciseDetailView: View {
 
                 Spacer()
             }
-            .padding()
+            .safeAreaPadding()
         }
         .navigationTitle("Ejercicio #\(viewModel.exercise.id.formattedId)")
         #if os(iOS)

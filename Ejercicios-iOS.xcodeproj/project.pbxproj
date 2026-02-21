@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E80323772F0898F9009EA6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BCB0332EE399BA009DC709 /* Assets.xcassets */; };
+		E803FE932F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE902F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift */; };
+		E803FE942F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE912F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift */; };
+		E803FE952F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE902F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift */; };
+		E803FE962F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE912F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift */; };
+		E803FE982F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE972F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift */; };
+		E803FE992F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE972F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift */; };
+		E803FE9B2F4A1BC700B20AE6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE9A2F4A1BC700B20AE6 /* MainTabView.swift */; };
+		E803FE9C2F4A1BC700B20AE6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE9A2F4A1BC700B20AE6 /* MainTabView.swift */; };
+		E803FE9E2F4A1BD200B20AE6 /* SearchExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE9D2F4A1BD200B20AE6 /* SearchExercisesView.swift */; };
+		E803FE9F2F4A1BD200B20AE6 /* SearchExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803FE9D2F4A1BD200B20AE6 /* SearchExercisesView.swift */; };
 		E80E03332F352529002ADCCD /* RepasoAdvancedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */; };
 		E80E03342F352529002ADCCD /* RepasoBasicExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */; };
 		E80E03352F352529002ADCCD /* RepasoIntermediateExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */; };
@@ -94,6 +104,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E803FE902F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesListViewiPad.swift; sourceTree = "<group>"; };
+		E803FE912F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSelectionViewiPad.swift; sourceTree = "<group>"; };
+		E803FE972F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchExercisesViewiPad.swift; sourceTree = "<group>"; };
+		E803FE9A2F4A1BC700B20AE6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E803FE9D2F4A1BD200B20AE6 /* SearchExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchExercisesView.swift; sourceTree = "<group>"; };
 		E80E03302F352529002ADCCD /* RepasoAdvancedExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoAdvancedExercises.swift; sourceTree = "<group>"; };
 		E80E03312F352529002ADCCD /* RepasoBasicExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoBasicExercises.swift; sourceTree = "<group>"; };
 		E80E03322F352529002ADCCD /* RepasoIntermediateExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasoIntermediateExercises.swift; sourceTree = "<group>"; };
@@ -159,6 +174,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E803FE922F4A1AD900B20AE6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				E803FE972F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift */,
+				E803FE902F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift */,
+				E803FE912F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
 		E8205D7D2EF4F4D100BE7966 /* Introduccion */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,10 +339,13 @@
 		E8BCB0442EE39FEE009DC709 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E803FE9D2F4A1BD200B20AE6 /* SearchExercisesView.swift */,
+				E803FE9A2F4A1BC700B20AE6 /* MainTabView.swift */,
 				E83D031E2EF9D9120091E178 /* AllExercisesListView.swift */,
 				E8205D782EF4EB8500BE7966 /* BlockSelectionView.swift */,
 				E8BCB0522EE3A30F009DC709 /* ExerciseDetailView.swift */,
 				E8BCB0532EE3A30F009DC709 /* ExerciseListView.swift */,
+				E803FE922F4A1AD900B20AE6 /* iPad */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -497,21 +525,26 @@
 				E83D02F22EF9CAC70091E178 /* Exercise.swift in Sources */,
 				E83D02F42EF9CAC70091E178 /* InputType.swift in Sources */,
 				E83D03182EF9D2490091E178 /* IntermediateExercises.swift in Sources */,
+				E803FE9B2F4A1BC700B20AE6 /* MainTabView.swift in Sources */,
 				E83D03192EF9D2490091E178 /* BasicExercises.swift in Sources */,
 				E83D03202EF9D9120091E178 /* AllExercisesListView.swift in Sources */,
 				E83D031A2EF9D2490091E178 /* AdvancedExercises.swift in Sources */,
 				E83D03032EF9CBE00091E178 /* Intro2Exercises.swift in Sources */,
 				E83D03042EF9CBE00091E178 /* Intro1Exercises.swift in Sources */,
 				E83D02F72EF9CAC70091E178 /* ExerciseBlock.swift in Sources */,
+				E803FE982F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift in Sources */,
 				E83D02EF2EF9CAC20091E178 /* DataRepository.swift in Sources */,
 				E83D02E72EF9CAB30091E178 /* BlockSelectionView.swift in Sources */,
 				E80E033C2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */,
 				E80E033D2F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */,
+				E803FE9E2F4A1BD200B20AE6 /* SearchExercisesView.swift in Sources */,
 				E80E033E2F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */,
 				E83D02EB2EF9CABD0091E178 /* ExerciseListViewModel.swift in Sources */,
 				E83D02EC2EF9CABD0091E178 /* ExerciseDetailViewModel.swift in Sources */,
 				E83D02E82EF9CAB30091E178 /* ExerciseDetailView.swift in Sources */,
 				E83D02E92EF9CAB30091E178 /* ExerciseListView.swift in Sources */,
+				E803FE932F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift in Sources */,
+				E803FE942F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,21 +572,26 @@
 				E8BCB06A2EE3BD32009DC709 /* JSONLoader.swift in Sources */,
 				E8BCB04D2EE3A28B009DC709 /* Exercise.swift in Sources */,
 				E83D031B2EF9D2490091E178 /* IntermediateExercises.swift in Sources */,
+				E803FE9C2F4A1BC700B20AE6 /* MainTabView.swift in Sources */,
 				E83D031C2EF9D2490091E178 /* BasicExercises.swift in Sources */,
 				E83D031F2EF9D9120091E178 /* AllExercisesListView.swift in Sources */,
 				E83D031D2EF9D2490091E178 /* AdvancedExercises.swift in Sources */,
 				E8BCB04E2EE3A28B009DC709 /* InputType.swift in Sources */,
 				E8BCB05A2EE3A458009DC709 /* ExerciseListViewModel.swift in Sources */,
 				E8205D7F2EF4F4D100BE7966 /* Intro1Exercises.swift in Sources */,
+				E803FE992F4A1B4400B20AE6 /* SearchExercisesViewiPad.swift in Sources */,
 				E8BCB05B2EE3A458009DC709 /* ExerciseDetailViewModel.swift in Sources */,
 				E80E033F2F355C89002ADCCD /* BasicosBasicExercises.swift in Sources */,
 				E80E03402F355C89002ADCCD /* BasicosAdvancedExercises.swift in Sources */,
 				E80E03412F355C89002ADCCD /* BasicosIntermediateExercises.swift in Sources */,
+				E803FE9F2F4A1BD200B20AE6 /* SearchExercisesView.swift in Sources */,
 				E8205D772EF4EB5D00BE7966 /* ExerciseBlock.swift in Sources */,
 				E8205D792EF4EB8500BE7966 /* BlockSelectionView.swift in Sources */,
 				E8241B322EF9BBC800AA9B63 /* Intro2Exercises.swift in Sources */,
 				E83D02D62EF9C96F0091E178 /* Ejercicios_iOSApp.swift in Sources */,
 				E8BCB05D2EE3A63E009DC709 /* ExerciseRepository.swift in Sources */,
+				E803FE952F4A1AD900B20AE6 /* AllExercisesListViewiPad.swift in Sources */,
+				E803FE962F4A1AD900B20AE6 /* BlockSelectionViewiPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
