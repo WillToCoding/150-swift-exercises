@@ -1,17 +1,15 @@
-# Swift 6 - 150 Ejercicios de Programación
+# <img src="Screenshots/150-swift-exercises.png" width="45" align="center" alt="Icon"/> Swift 6 - 150 Ejercicios de Programación
 
 Aplicación **iOS, iPadOS y macOS** con **150 ejercicios interactivos** de algoritmia y programación en Swift 6, diseñada como herramienta de aprendizaje y práctica.
 
 <p align="center">
-  <img src="Screenshots/150-swift-exercises.png" width="500" alt="150 Swift Exercises"/>
+  <img src="Screenshots/ipad.png" width="55%" alt="iPadOS App"/>
 </p>
 
 <p align="center">
-  <img src="Screenshots/ios.png" height="280" alt="iOS App"/>
-  &nbsp;&nbsp;
-  <img src="Screenshots/ipad.png" height="280" alt="iPadOS App"/>
-  &nbsp;&nbsp;
-  <img src="Screenshots/mac.png" height="280" alt="macOS App"/>
+  <img src="Screenshots/ios.png" width="22%" alt="iOS App"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="Screenshots/mac.png" width="35%" alt="macOS App"/>
 </p>
 
 ## Descripción
