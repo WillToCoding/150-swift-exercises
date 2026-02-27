@@ -67,7 +67,7 @@ struct AllExercisesListViewiPad: View {
         }
     }
 
-    private var groupedExercises: [(String, [any ExerciseProtocol])] {
+    private var groupedExercises: [(String, [ExerciseWrapper])] {
         let grouped = Dictionary(grouping: viewModel.filteredExercises) { $0.blockId }
         let orderedBlockIds = ["intro1", "intro2", "basicos", "repaso", "algoritmia"]
 

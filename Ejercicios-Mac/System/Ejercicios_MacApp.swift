@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Ejercicios_MacApp: App {
+    @State private var statsVM = StatsViewModel()
+
     var body: some Scene {
         WindowGroup {
             BlockSelectionView()
+                .environment(statsVM)
+                .onAppear {
+                    statsVM.loadStats()
+                }
         }
     }
 }

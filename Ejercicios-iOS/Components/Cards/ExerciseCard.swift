@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ExerciseCard: View {
-    let exercise: any ExerciseProtocol
+    let exercise: ExerciseWrapper
     var showBlock: Bool = true
 
     private var blockInfo: (name: String, color: Color) {

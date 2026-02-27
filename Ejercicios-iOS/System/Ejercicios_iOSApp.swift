@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Ejercicios_iOSApp: App {
+    @State private var statsVM = StatsViewModel()
+
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .environment(statsVM)
+                .onAppear {
+                    statsVM.loadStats()
+                }
         }
     }
 }

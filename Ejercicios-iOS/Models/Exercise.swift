@@ -13,9 +13,9 @@ extension Double {
     /// Formatea el ID sin decimales innecesarios (5.0 → "5", 5.1 → "5.1")
     var formattedId: String {
         if self == floor(self) {
-            return String(format: "%.0f", self)
+            return self.formatted(.number.precision(.fractionLength(0)))
         } else {
-            return String(format: "%.1f", self)
+            return self.formatted(.number.precision(.fractionLength(1)))
         }
     }
 }

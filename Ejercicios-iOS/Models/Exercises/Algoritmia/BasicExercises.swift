@@ -207,7 +207,7 @@ struct Exercise06: ExecutableExercise {
         }
 
         let resultado = fibonacciMemoize(n)
-        return "Fibonacci(\(n)) = \(String(format: "%.0f", resultado))"
+        return "Fibonacci(\(n)) = \(resultado.formatted(.number.precision(.fractionLength(0))))"
     }
 }
 

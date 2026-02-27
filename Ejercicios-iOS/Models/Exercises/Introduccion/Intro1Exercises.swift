@@ -73,7 +73,7 @@ struct IntroI_Exercise02: ExecutableExercise {
         fahrenheit = celsius * (9.0 / 5.0) + 32.0
 
         // Paso 7: Mostrar resultado
-        return "\(formatNumber(celsius))°C × 9/5 + 32 = \(String(format: "%.2f", fahrenheit))°F"
+        return "\(formatNumber(celsius))°C × 9/5 + 32 = \(fahrenheit.formatted(.number.precision(.fractionLength(2))))°F"
     }
 
     private func formatNumber(_ n: Double) -> String {
@@ -911,7 +911,7 @@ struct IntroI_Exercise20: ExecutableExercise {
         return """
         Punto 1: (\(formatNumber(x1)), \(formatNumber(y1)))
         Punto 2: (\(formatNumber(x2)), \(formatNumber(y2)))
-        Distancia: \(String(format: "%.2f", distancia))
+        Distancia: \(distancia.formatted(.number.precision(.fractionLength(2))))
         """
         // Paso 18: FIN
     }

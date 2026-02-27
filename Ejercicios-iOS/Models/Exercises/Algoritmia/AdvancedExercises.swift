@@ -1170,7 +1170,9 @@ struct Exercise45: ExecutableExercise {
 
         // Formatear resultado
         func formatNum(_ n: Double) -> String {
-            n.truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", n) : String(format: "%.4g", n)
+            n.truncatingRemainder(dividingBy: 1) == 0
+                ? n.formatted(.number.precision(.fractionLength(0)))
+                : n.formatted(.number.precision(.significantDigits(1...4)))
         }
         let resultadoStr = formatNum(resultado)
 

@@ -24,7 +24,7 @@ extension Color {
 struct ExerciseDetailView: View {
     @State private var viewModel: ExerciseDetailViewModel
 
-    init(exercise: any ExerciseProtocol) {
+    init(exercise: ExerciseWrapper) {
         _viewModel = State(initialValue: ExerciseDetailViewModel(exercise: exercise))
     }
 

@@ -12,7 +12,7 @@ final class ExerciseDetailViewModel {
 
     // MARK: - Properties
 
-    let exercise: any ExerciseProtocol
+    let exercise: ExerciseWrapper
 
     var inputText: String = ""
     var result: String = ""
@@ -21,7 +21,7 @@ final class ExerciseDetailViewModel {
 
     // MARK: - Initialization
 
-    init(exercise: any ExerciseProtocol) {
+    init(exercise: ExerciseWrapper) {
         self.exercise = exercise
     }
 

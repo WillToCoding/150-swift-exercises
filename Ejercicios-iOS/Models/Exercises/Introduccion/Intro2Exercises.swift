@@ -441,7 +441,7 @@ struct IntroII_Exercise10: ExecutableExercise {
         } while true
 
         // Paso 10: MOSTRAR resultado
-        return "Raíz cuadrada: \(String(format: "%.4f", x1))"
+        return "Raíz cuadrada: \(x1.formatted(.number.precision(.fractionLength(4))))"
     }
 }
 
@@ -476,7 +476,7 @@ struct IntroII_Exercise11: ExecutableExercise {
         }
 
         // Paso 11: Mostrar resultado
-        return "El mínimo es: \(String(format: "%.0f", minimo))"
+        return "El mínimo es: \(minimo.formatted(.number.precision(.fractionLength(0))))"
     }
 }
 
@@ -535,7 +535,7 @@ struct IntroII_Exercise13: ExecutableExercise {
         }
 
         // Paso 6: Mostrar resultado
-        return "Valor absoluto: \(String(format: "%.0f", num))"
+        return "Valor absoluto: \(num.formatted(.number.precision(.fractionLength(0))))"
     }
 }
 
@@ -618,8 +618,8 @@ struct IntroII_Exercise15: ExecutableExercise {
             return """
             Ecuación: \(a)x² + \(b)x + \(c) = 0
             Discriminante: \(discriminante)
-            x₁ = \(String(format: "%.2f", x1))
-            x₂ = \(String(format: "%.2f", x2))
+            x₁ = \(x1.formatted(.number.precision(.fractionLength(2))))
+            x₂ = \(x2.formatted(.number.precision(.fractionLength(2))))
             """
         // Paso 16: Si (discriminante == 0)
         } else if discriminante == 0 {
@@ -629,7 +629,7 @@ struct IntroII_Exercise15: ExecutableExercise {
             return """
             Ecuación: \(a)x² + \(b)x + \(c) = 0
             Discriminante: \(discriminante)
-            Solución única: x = \(String(format: "%.2f", x))
+            Solución única: x = \(x.formatted(.number.precision(.fractionLength(2))))
             """
         } else {
             // Paso 19: MOSTRAR "No hay soluciones reales"

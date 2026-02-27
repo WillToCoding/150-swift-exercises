@@ -14,8 +14,8 @@ final class ExerciseListViewModel {
 
     // MARK: - Properties
 
-    var exercises: [any ExerciseProtocol] = []
-    var filteredExercises: [any ExerciseProtocol] = []
+    var exercises: [ExerciseWrapper] = []
+    var filteredExercises: [ExerciseWrapper] = []
     var searchText: String = "" {
         didSet {
             filterExercises()
@@ -32,13 +32,13 @@ final class ExerciseListViewModel {
         }
     }
 
-    private let repository: ExerciseRepository
+    private let repository: ExerciseRepositoryProtocol
     private var blockId: String?
 
     // MARK: - Initialization
 
-    init(repository: ExerciseRepository? = nil) {
-        self.repository = repository ?? ExerciseRepository()
+    init(repository: ExerciseRepositoryProtocol = ExerciseRepository()) {
+        self.repository = repository
     }
 
     // MARK: - Methods

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ExerciseHeader: View {
-    let exercise: any ExerciseProtocol
+    let exercise: ExerciseWrapper
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {

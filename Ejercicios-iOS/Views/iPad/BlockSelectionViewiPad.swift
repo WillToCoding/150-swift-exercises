@@ -121,7 +121,7 @@ struct ExerciseListContentiPad: View {
 // MARK: - Exercise Row for iPad
 
 struct ExerciseRowiPad: View {
-    let exercise: any ExerciseProtocol
+    let exercise: ExerciseWrapper
 
     var body: some View {
         HStack(spacing: 12) {

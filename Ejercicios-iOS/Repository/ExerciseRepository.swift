@@ -9,11 +9,11 @@ import Foundation
 
 /// Repositorio que gestiona todos los ejercicios de algoritmia
 @MainActor
-struct ExerciseRepository: DataRepository {
+struct ExerciseRepository: ExerciseRepositoryProtocol, DataRepository {
 
     // MARK: - Cache
 
-    private static var cachedExercises: [any ExerciseProtocol]?
+    private static var cachedExercises: [ExerciseWrapper]?
     private static var cachedStats: (total: Int, basic: Int, intermediate: Int, advanced: Int)?
 
     // MARK: - DataRepository Properties
@@ -41,13 +41,13 @@ struct ExerciseRepository: DataRepository {
     // MARK: - Exercises Collection
 
     /// Colección de todos los ejercicios disponibles
-    func getAllExercises() -> [any ExerciseProtocol] {
+    func getAllExercises() -> [ExerciseWrapper] {
         // Usar caché si existe
         if let cached = Self.cachedExercises {
             return cached
         }
 
-        var allExercises: [any ExerciseProtocol] = []
+        var allExercises: [ExerciseWrapper] = []
 
         // Cargar Introducción I
         let intro1Exercises = loadBlockExercises(blockId: "intro1", executablesMap: [
@@ -119,7 +119,7 @@ struct ExerciseRepository: DataRepository {
     }
 
     /// Carga ejercicios de un bloque específico
-    private func loadBlockExercises(blockId: String, executablesMap: [Int: any ExecutableExercise], decimalMap: [Double: any ExecutableExercise] = [:]) -> [any ExerciseProtocol] {
+    private func loadBlockExercises(blockId: String, executablesMap: [Int: any ExecutableExercise], decimalMap: [Double: any ExecutableExercise] = [:]) -> [ExerciseWrapper] {
         let metadataArray = loadExercises(from: blockId)
 
         return metadataArray.compactMap { metadata in
@@ -136,7 +136,7 @@ struct ExerciseRepository: DataRepository {
     }
 
     /// Obtiene ejercicios de un bloque específico
-    func getExercises(forBlock blockId: String) -> [any ExerciseProtocol] {
+    func getExercises(forBlock blockId: String) -> [ExerciseWrapper] {
         switch blockId {
         case "intro1":
             return loadBlockExercises(
@@ -203,28 +203,28 @@ struct ExerciseRepository: DataRepository {
     /// Obtiene un ejercicio por su ID
     /// - Parameter id: ID del ejercicio (1-45, puede ser decimal como 5.1)
     /// - Returns: El ejercicio correspondiente o nil si no existe
-    func getExercise(byId id: Double) -> (any ExerciseProtocol)? {
+    func getExercise(byId id: Double) -> ExerciseWrapper? {
         getAllExercises().first { $0.id == id }
     }
 
     /// Filtra ejercicios por dificultad
     /// - Parameter difficulty: Nivel de dificultad
     /// - Returns: Array de ejercicios que coinciden con la dificultad
-    func getExercises(byDifficulty difficulty: Difficulty) -> [any ExerciseProtocol] {
+    func getExercises(byDifficulty difficulty: Difficulty) -> [ExerciseWrapper] {
         getAllExercises().filter { $0.difficulty == difficulty }
     }
 
     /// Filtra ejercicios por categoría
     /// - Parameter category: Categoría del ejercicio
     /// - Returns: Array de ejercicios que coinciden con la categoría
-    func getExercises(byCategory category: Category) -> [any ExerciseProtocol] {
+    func getExercises(byCategory category: Category) -> [ExerciseWrapper] {
         getAllExercises().filter { $0.category == category }
     }
 
     /// Busca ejercicios por título
     /// - Parameter query: Texto a buscar en el título
     /// - Returns: Array de ejercicios que contienen el texto en su título
-    func searchExercises(query: String) -> [any ExerciseProtocol] {
+    func searchExercises(query: String) -> [ExerciseWrapper] {
         guard !query.isEmpty else {
             return getAllExercises()
         }
