@@ -1,7 +1,7 @@
 # Ejercicios
 
 <p align="center">
-  <img src="Ejercicios-iOS/ExercisesApp.icon/Assets/ExercisesBird.png" width="120" alt="Exercises App Icon">
+  <img src="snapshots/App.png" width="120" alt="Ejercicios App Icon">
 </p>
 
 <h3 align="center">150+ Swift algorithm exercises for all Apple platforms</h3>
