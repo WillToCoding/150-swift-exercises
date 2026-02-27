@@ -112,9 +112,9 @@
 <img src="https://img.shields.io/badge/📱_iPhone-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPhone">
 
 <p align="center">
-  <img src="snapshots/iOS/Ejercicios.png" width="200" alt="iPhone Exercises">
+  <img src="snapshots/iOS/Ejercicios.png" width="200" align="middle" alt="iPhone Exercises">
   &nbsp;&nbsp;&nbsp;
-  <img src="snapshots/iOS/Bloques.png" width="200" alt="iPhone Code Blocks">
+  <img src="snapshots/iOS/Bloques.png" width="200" align="middle" alt="iPhone Code Blocks">
 </p>
 
 - Exercise list organized by categories
@@ -126,9 +126,9 @@
 <img src="https://img.shields.io/badge/📱_iPad-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPad">
 
 <p align="center">
-  <img src="snapshots/iPad/DiagramaDeFlujo.png" width="320" alt="iPad Flow Diagram">
+  <img src="snapshots/iPad/DiagramaDeFlujo.png" width="320" align="middle" alt="iPad Flow Diagram">
   &nbsp;&nbsp;&nbsp;
-  <img src="snapshots/iPad/Ejecutar.png" width="320" alt="iPad Execute">
+  <img src="snapshots/iPad/Ejecutar.png" width="320" align="middle" alt="iPad Execute">
 </p>
 
 - Split view navigation for large screens
@@ -140,15 +140,15 @@
 <img src="https://img.shields.io/badge/🖥️_Mac-000000?style=for-the-badge&logo=macos&logoColor=white" alt="Mac">
 
 <p align="center">
-  <img src="snapshots/macOS/Filter.png" width="320" alt="Mac Filter">
+  <img src="snapshots/macOS/Filter.png" width="320" align="middle" alt="Mac Filter">
   &nbsp;&nbsp;&nbsp;
-  <img src="snapshots/macOS/Razonamiento.png" width="320" alt="Mac Reasoning">
+  <img src="snapshots/macOS/Razonamiento.png" width="320" align="middle" alt="Mac Reasoning">
 </p>
 
 <p align="center">
-  <img src="snapshots/macOS/DiagramaDeFlujo.png" width="320" alt="Mac Flow Diagram">
+  <img src="snapshots/macOS/DiagramaDeFlujo.png" width="320" align="middle" alt="Mac Flow Diagram">
   &nbsp;&nbsp;&nbsp;
-  <img src="snapshots/macOS/Pseudocódigo.png" width="320" alt="Mac Pseudocode">
+  <img src="snapshots/macOS/Pseudocódigo.png" width="320" align="middle" alt="Mac Pseudocode">
 </p>
 
 - 3-column NavigationSplitView
