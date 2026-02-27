@@ -1,255 +1,226 @@
-# <img src="Screenshots/150-swift-exercises.png" width="45" align="center" alt="Icon"/> Swift 6 - 150 Ejercicios de Programación
-
-Aplicación **iOS, iPadOS y macOS** con **150 ejercicios interactivos** de algoritmia y programación en Swift 6, diseñada como herramienta de aprendizaje y práctica.
+# Ejercicios
 
 <p align="center">
-  <img src="Screenshots/ipad.png" width="55%" alt="iPadOS App"/>
+  <img src="ExercisesBird.png" width="120" alt="Exercises App Icon">
+</p>
+
+<h3 align="center">150+ Swift algorithm exercises for all Apple platforms</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Swift-6.0-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
+  <img src="https://img.shields.io/badge/Platforms-3-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="Platforms">
+  <img src="https://img.shields.io/badge/Exercises-150+-9B59B6?style=for-the-badge" alt="Exercises">
+  <img src="https://img.shields.io/badge/License-MIT-2ECC71?style=for-the-badge" alt="License">
 </p>
 
 <p align="center">
-  <img src="Screenshots/ios.png" width="22%" alt="iOS App"/>
+  <b>Swift Developer Program 2025 — Apple Coding Academy</b><br>
+  <i>From basics to advanced algorithms with visual diagrams</i>
+</p>
+
+---
+
+<img src="https://img.shields.io/badge/FEATURES-2ECC71?style=for-the-badge" alt="Features">
+
+| | Feature | Description |
+|:--:|---------|-------------|
+| 📚 | **150+ Exercises** | Comprehensive algorithm collection |
+| 📱 | **Multi-platform** | iPhone, iPad, Mac native apps |
+| 📊 | **Flow Diagrams** | Visual algorithm representation |
+| 🧩 | **Code Blocks** | Structured pseudocode view |
+| ▶️ | **Live Execution** | Run and test solutions in-app |
+| 🔍 | **Filtering** | Search by category and difficulty |
+
+---
+
+<img src="https://img.shields.io/badge/📱_iPhone-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPhone">
+
+<p align="center">
+  <img src="Ejercicios-iOS/snapshots/iOS/Ejercicios.png" width="200" alt="iPhone Exercises">
   &nbsp;&nbsp;&nbsp;
-  <img src="Screenshots/mac.png" width="35%" alt="macOS App"/>
+  <img src="Ejercicios-iOS/snapshots/iOS/Bloques.png" width="200" alt="iPhone Code Blocks">
 </p>
 
-## Descripción
-
-Esta aplicación permite practicar y ejecutar ejercicios de programación directamente en el dispositivo. Cada ejercicio incluye:
-
-- Enunciado del problema
-- Campo de entrada para datos
-- Ejecución en tiempo real
-- Explicación del algoritmo (cuando aplica)
-- Diagramas de flujo visuales
-
-## Ejercicios Incluidos
-
-### Resumen por Bloque
-
-| Bloque | Ejercicios | Nivel |
-|--------|------------|-------|
-| Introducción I | 20 | Iniciación |
-| Introducción II | 20 | Intermedio |
-| Básicos | 30 | Básico |
-| Repaso | 35 | Básico - Intermedio |
-| Algoritmia | 45 | Intermedio - Avanzado |
-| **Total** | **150** | |
+- Compact exercise list with categories
+- Code blocks with syntax highlighting
+- Adaptive layout for all iPhone sizes
 
 ---
 
-### Introducción I - Iniciación (20 ejercicios)
+<img src="https://img.shields.io/badge/📱_iPad-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPad">
 
-Fundamentos de algoritmia y pensamiento lógico:
+<p align="center">
+  <img src="Ejercicios-iOS/snapshots/iPad/DiagramaDeFlujo.png" width="320" alt="iPad Flow Diagram">
+  &nbsp;&nbsp;&nbsp;
+  <img src="Ejercicios-iOS/snapshots/iPad/Ejecutar.png" width="320" alt="iPad Execute">
+</p>
 
-- **Operaciones básicas**: Suma, conversión Celsius/Fahrenheit, área de triángulo
-- **Condicionales**: Par/impar, positivo/negativo, aprobado/suspenso
-- **Bucles simples**: Números naturales, suma de N números, serie Fibonacci
-- **Factorial y primos**: Cálculo de factorial, detección de primos, primos menores que N
-- **MCM y MCD**: Mínimo común múltiplo, máximo común divisor
-- **Palíndromos**: Verificación de números palíndromos
-- **Geometría**: Distancia entre dos puntos, pirámide de asteriscos
-
----
-
-### Introducción II - Intermedio (20 ejercicios)
-
-Algoritmos con mayor complejidad:
-
-- **Clasificación**: Tipos de triángulos, calificaciones escolares (A-F), días por mes
-- **Patrones visuales**: Tablero de ajedrez, rombo de asteriscos, tablas de multiplicar
-- **Contadores**: Pares/impares en rango, divisibles por 3, suma de cuadrados
-- **Matemáticas**: Raíz cuadrada (Newton-Raphson), año bisiesto, valor absoluto
-- **Ecuaciones**: Ecuación de segundo grado, potencias
-- **Fechas**: Fórmula de Zeller (día de la semana), cálculo de edad
-- **Juegos**: Adivina el número
+- Split view navigation
+- Full-size flow diagrams
+- Side-by-side code and execution
 
 ---
 
-### Básicos (30 ejercicios)
+<img src="https://img.shields.io/badge/🖥️_Mac-000000?style=for-the-badge&logo=macos&logoColor=white" alt="Mac">
 
-Problemas clásicos de programación:
+<p align="center">
+  <img src="Ejercicios-iOS/snapshots/macOS/Filter.png" width="320" alt="Mac Filter">
+  &nbsp;&nbsp;&nbsp;
+  <img src="Ejercicios-iOS/snapshots/macOS/Pseudocódigo.png" width="320" alt="Mac Pseudocode">
+</p>
 
-- **Números primos**: Verificación, conteo en array, criba de Eratóstenes
-- **Secuencias**: Fibonacci, números triangulares, números perfectos
-- **Palíndromos**: Verificación de cadenas
-- **Factorial**: Cálculo y suma de dígitos del factorial
-- **Conjuntos**: Intersección, elementos comunes
-- **Arrays**: Suma, filtrado, media aritmética, rotación
-- **Diccionarios**: Almacenamiento clave-valor, frecuencia de letras
-- **MCD y MCM**: Algoritmo de Euclides
-- **Conversiones**: Decimal a binario, romanos a decimal
-- **Ordenamiento**: Bubble Sort
-- **Búsqueda**: Búsqueda binaria, segundo mayor elemento
-- **Geometría**: Área y perímetro con fórmula de Herón
-- **Criptografía**: Cifrado César
-- **Anagramas**: Verificación de anagramas
-- **Números de Armstrong**: Verificación
-- **Producto escalar**: Operaciones con vectores
-- **Distancia de Levenshtein**: Similitud entre cadenas
-- **Subsecuencia creciente**: Encontrar la más larga
+<p align="center">
+  <img src="Ejercicios-iOS/snapshots/macOS/DiagramaDeFlujo.png" width="400" alt="Mac Flow Diagram">
+</p>
+
+- 3-column NavigationSplitView
+- Advanced filtering by category
+- Keyboard shortcuts: `⌘F` search, `⌘R` run
 
 ---
 
-### Repaso - Básico a Intermedio (35 ejercicios)
+<img src="https://img.shields.io/badge/EXERCISE_CATEGORIES-9B59B6?style=for-the-badge" alt="Categories">
 
-Consolidación de conceptos con POO:
-
-- **Tipos de datos**: Primitivos, variables, constantes, conversiones
-- **Operadores**: Aritméticos, precedencia, módulo
-- **Bucles**: for-in, repeat-while, while
-- **Colecciones**: Arrays, diccionarios, conjuntos
-- **Enumeraciones**: Meses, estaciones, switch exhaustivo
-- **Clases y Structs**: Vehiculo, Circulo, Pelicula, Vector
-- **Herencia**: PeliculaDigital, PeliculaEnDVD
-- **Propiedades**: Calculadas, lazy, observadores (willSet/didSet)
-- **Métodos**: Instancia, parámetros inout
-- **Closures**: Captura de valores, funciones que retornan closures
-- **Modelado**: CarritoDeCompras, Hospital, Sistema de juego (RPG)
-- **Manejo de errores**: Enumeraciones de error, Result type
-- **Conversiones**: Entero a número romano
-- **Frecuencia de palabras**: Análisis de texto
+| Category | Count | Topics |
+|:--------:|:-----:|--------|
+| **Básicos** | 30+ | Variables, tipos, operadores |
+| **Condicionales** | 25+ | if, switch, guard |
+| **Bucles** | 30+ | for, while, repeat |
+| **Arrays** | 25+ | Colecciones, map, filter, reduce |
+| **Funciones** | 20+ | Parámetros, closures, recursión |
+| **Algoritmia** | 20+ | Ordenación, búsqueda, optimización |
 
 ---
 
-### Algoritmia - Avanzado (45 ejercicios)
+<img src="https://img.shields.io/badge/VISUALIZATION_MODES-E67E22?style=for-the-badge" alt="Modes">
 
-Algoritmos y estructuras de datos avanzadas:
+### Flow Diagrams
 
-#### Funciones de Orden Superior
-- `reduce`: Suma de elementos
-- `filter`: Filtrado de pares, primos
-- `map`: Transformación a factorial, cuadrados
+```
+┌─────────────┐
+│   START     │
+└──────┬──────┘
+       ▼
+┌─────────────┐
+│  Input N    │
+└──────┬──────┘
+       ▼
+   ┌───────┐
+  ╱ N > 0? ╲───No──▶ "Invalid"
+  ╲        ╱
+   └───┬───┘
+      Yes
+       ▼
+┌─────────────┐
+│ Calculate   │
+└──────┬──────┘
+       ▼
+┌─────────────┐
+│   Output    │
+└──────┬──────┘
+       ▼
+┌─────────────┐
+│    END      │
+└─────────────┘
+```
 
-#### Recursión
-- Factorial recursivo
-- Fibonacci con memoización
-- Búsqueda binaria recursiva
-- MCD (Euclides)
-- Potencia (divide y vencerás)
-- Conjunto potencia (power set)
+### Pseudocode Blocks
 
-#### Ordenamiento y Búsqueda
-- Merge Sort
-- Quick Sort
-- Búsqueda binaria
-- Inserción binaria
+```
+ALGORITHM CalculateFactorial
+    INPUT: n (integer)
+    OUTPUT: result (integer)
 
-#### Strings y Transformaciones
-- Palíndromos (funcional)
-- Frecuencia de caracteres
-- Substring más largo sin repetidos
-- Eliminación de duplicados
-- Cifrado César
-- Distancia de Levenshtein
+    IF n < 0 THEN
+        RETURN error
+    END IF
 
-#### Programación Dinámica
-- Fibonacci con memoización
-- Caminos únicos en cuadrícula
-- Problema del cambio de monedas
-- Algoritmo de Kadane (subarray suma máxima)
+    result ← 1
+    FOR i ← 1 TO n DO
+        result ← result × i
+    END FOR
 
-#### Matemáticas
-- Criba de Eratóstenes
-- Triángulo de Pascal
-- Números de Armstrong
-- Números Catalán
-- Mediana
-
-#### Estructuras de Datos
-- Listas enlazadas (inversión recursiva)
-- Diccionarios (frecuencia, mapeo)
-
-#### Problemas Clásicos
-- Two Sum
-- Aplanar arrays anidados
-- Permutaciones
-- Combinaciones (n en k)
-- Paréntesis balanceados (backtracking)
-- Prefijo común más largo
-- Conversión de base numérica
-
-#### Parsing
-- Mini intérprete aritmético (recursive descent)
-- Tokenización
-- Análisis sintáctico
+    RETURN result
+END ALGORITHM
+```
 
 ---
 
-## Tecnologías
+<img src="https://img.shields.io/badge/TECH_STACK-E74C3C?style=for-the-badge" alt="Tech Stack">
 
-| Tecnología | Versión |
-|------------|---------|
-| Swift | 6 |
-| SwiftUI | iOS 17+ / macOS 14+ |
-| Arquitectura | MVVM |
-| Concurrencia | async/await, @MainActor |
-| Observación | @Observable (iOS 17+) |
+| Category | Technologies |
+|:--------:|-------------|
+| **Language** | Swift 6 |
+| **UI** | SwiftUI |
+| **Architecture** | MVVM + Clean Architecture |
+| **Concurrency** | async/await, @MainActor |
+| **Observation** | @Observable (iOS 17+) |
+| **Data** | Codable JSON |
 
-## Requisitos
+---
 
-- Xcode 15+
-- iOS 17.0+ / iPadOS 17.0+ / macOS 14.0+
-- Swift 6
+<img src="https://img.shields.io/badge/REQUIREMENTS-7F8C8D?style=for-the-badge" alt="Requirements">
 
-## Instalación
+| Platform | Version |
+|:--------:|:-------:|
+| iOS | 17.0+ |
+| iPadOS | 17.0+ |
+| macOS | 14.0+ |
+| Xcode | 16+ |
+
+---
+
+<img src="https://img.shields.io/badge/INSTALLATION-2ECC71?style=for-the-badge" alt="Installation">
 
 ```bash
-git clone https://github.com/WillToCoding/Ejercicios-iOS.git
-cd Ejercicios-iOS
+git clone https://github.com/WillToCoding/Ejercicios.git
+cd Ejercicios/Ejercicios-iOS
 open Ejercicios-iOS.xcodeproj
 ```
 
-Selecciona el target (iOS o macOS) y ejecuta con `⌘R`.
+Select your target platform and run with `⌘R`.
 
-## Arquitectura
+---
+
+<img src="https://img.shields.io/badge/PROJECT_STRUCTURE-95A5A6?style=for-the-badge" alt="Structure">
 
 ```
-Ejercicios-iOS/
-├── Models/
-│   ├── Exercise.swift         # Protocolo y wrapper
-│   ├── Difficulty.swift       # Enum de dificultad
-│   ├── Category.swift         # Enum de categorías
-│   └── Exercises/             # Implementaciones por bloque
-├── ViewModels/
-│   ├── ExerciseListViewModel.swift
-│   └── ExerciseDetailViewModel.swift
-├── Views/
-│   ├── BlockSelectionView.swift
-│   ├── ExerciseListView.swift
-│   ├── ExerciseDetailView.swift
-│   ├── MainTabView.swift
-│   └── iPad/              # Vistas optimizadas para iPad
-│       ├── BlockSelectionViewiPad.swift
-│       └── AllExercisesListViewiPad.swift
-├── Components/
-│   ├── Badges/
-│   ├── Cards/
-│   └── Sections/
-└── Resources/
-    └── *.json                 # Metadata de ejercicios
+Ejercicios/
+├── 📱 Ejercicios-iOS/
+│   ├── Views/
+│   │   ├── ExerciseListView.swift
+│   │   ├── FlowDiagramView.swift
+│   │   ├── PseudocodeView.swift
+│   │   └── ExecutionView.swift
+│   ├── ViewModels/
+│   │   └── ExerciseViewModel.swift
+│   ├── Models/
+│   │   └── Exercise.swift
+│   └── Resources/
+│       └── exercises.json
+├── 🖼️ snapshots/
+│   ├── iOS/
+│   ├── iPad/
+│   └── macOS/
+└── 📄 README.md
 ```
 
-## Características
+---
 
-- Filtrado por dificultad (Básico, Intermedio, Avanzado)
-- Filtrado por categoría (Matemáticas, Arrays, Strings, etc.)
-- Búsqueda por título
-- Ejecución interactiva de cada ejercicio
-- Explicaciones con pseudocódigo
-- Diagramas de flujo visuales
-- Soporte nativo para iOS, iPadOS y macOS
+<img src="https://img.shields.io/badge/RELATED_PROJECTS-F1C40F?style=for-the-badge" alt="Related">
 
-### Experiencia iPad
+| Project | Description |
+|:-------:|-------------|
+| [**EjerciciosUIs**](https://github.com/WillToCoding/EjerciciosUIs) | 5 SwiftUI interface exercises |
+| [**MisMangas**](https://github.com/WillToCoding/MisMangas) | Multi-platform manga collection manager |
+| [**NetworkAPI**](https://github.com/WillToCoding/NetworkAPI) | Async/await networking layer |
 
-- **NavigationSplitView** con sidebar de bloques
-- **TabView adaptable** que se convierte en sidebar
-- Interfaz optimizada para pantalla grande
-- Navegación fluida entre bloques y ejercicios
+---
 
-## Autor
+<p align="center">
+  <b>MIT License</b> · Made with ❤️ by <b>Juan Carlos</b>
+</p>
 
-**Juan Carlos Morán Martín**
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+<p align="center">
+  <i>Swift Developer Program 2025 — Apple Coding Academy</i>
+</p>
