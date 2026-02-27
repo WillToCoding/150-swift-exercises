@@ -1,7 +1,7 @@
 # Ejercicios
 
 <p align="center">
-  <img src="ExercisesBird.png" width="120" alt="Exercises App Icon">
+  <img src="Ejercicios-iOS/ExercisesApp.icon/Assets/ExercisesBird.png" width="120" alt="Exercises App Icon">
 </p>
 
 <h3 align="center">150+ Swift algorithm exercises for all Apple platforms</h3>
@@ -36,9 +36,9 @@
 <img src="https://img.shields.io/badge/📱_iPhone-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPhone">
 
 <p align="center">
-  <img src="Ejercicios-iOS/snapshots/iOS/Ejercicios.png" width="200" alt="iPhone Exercises">
+  <img src="snapshots/iOS/Ejercicios.png" width="200" alt="iPhone Exercises">
   &nbsp;&nbsp;&nbsp;
-  <img src="Ejercicios-iOS/snapshots/iOS/Bloques.png" width="200" alt="iPhone Code Blocks">
+  <img src="snapshots/iOS/Bloques.png" width="200" alt="iPhone Code Blocks">
 </p>
 
 - Compact exercise list with categories
@@ -50,9 +50,9 @@
 <img src="https://img.shields.io/badge/📱_iPad-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iPad">
 
 <p align="center">
-  <img src="Ejercicios-iOS/snapshots/iPad/DiagramaDeFlujo.png" width="320" alt="iPad Flow Diagram">
+  <img src="snapshots/iPad/DiagramaDeFlujo.png" width="320" alt="iPad Flow Diagram">
   &nbsp;&nbsp;&nbsp;
-  <img src="Ejercicios-iOS/snapshots/iPad/Ejecutar.png" width="320" alt="iPad Execute">
+  <img src="snapshots/iPad/Ejecutar.png" width="320" alt="iPad Execute">
 </p>
 
 - Split view navigation
@@ -64,13 +64,13 @@
 <img src="https://img.shields.io/badge/🖥️_Mac-000000?style=for-the-badge&logo=macos&logoColor=white" alt="Mac">
 
 <p align="center">
-  <img src="Ejercicios-iOS/snapshots/macOS/Filter.png" width="320" alt="Mac Filter">
+  <img src="snapshots/macOS/Filter.png" width="320" alt="Mac Filter">
   &nbsp;&nbsp;&nbsp;
-  <img src="Ejercicios-iOS/snapshots/macOS/Pseudocódigo.png" width="320" alt="Mac Pseudocode">
+  <img src="snapshots/macOS/Pseudocódigo.png" width="320" alt="Mac Pseudocode">
 </p>
 
 <p align="center">
-  <img src="Ejercicios-iOS/snapshots/macOS/DiagramaDeFlujo.png" width="400" alt="Mac Flow Diagram">
+  <img src="snapshots/macOS/DiagramaDeFlujo.png" width="400" alt="Mac Flow Diagram">
 </p>
 
 - 3-column NavigationSplitView
