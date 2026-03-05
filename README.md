@@ -118,7 +118,6 @@
 </p>
 
 - Exercise list organized by categories
-- Pseudocode blocks with syntax highlighting
 - Adaptive layout for all iPhone sizes
 
 ---
@@ -151,7 +150,6 @@
   <img src="snapshots/macOS/Pseudocódigo.png" width="320" align="middle" alt="Mac Pseudocode">
 </p>
 
-- 3-column NavigationSplitView
 - Filtering by category
 - Detailed reasoning explanations
 
